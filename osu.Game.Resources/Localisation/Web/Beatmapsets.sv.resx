@@ -154,6 +154,9 @@
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Visa omslagsbilden i full storlek</value>
   </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Visa administratörssida</value>
+  </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Denna beatmap har blivit borttagen.</value>
   </data>
@@ -288,6 +291,18 @@
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Denna beatmap innehåller video</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Endast Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>På grund av specifik mekanik kan denna beatmap endast spelas på osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} för att visa poäng satta på denna beatmap.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Aktivera lazer-läge</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Denna beatmap innehåller explicit, kränkande eller störande innehåll. Vill du se den ändå?</value>
@@ -435,6 +450,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Antal gånger spelad</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Favoriter</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Inga favoriter än</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Rankad</value>

@@ -88,6 +88,9 @@
   <data name="edit.email.locked._" xml:space="preserve">
     <value>Prašome susisiekti su {0} jei tau reikia atnaujinti el. paštą.</value>
   </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>paskyros pagalbos komanda</value>
+  </data>
   <data name="edit.legacy_api.api" xml:space="preserve">
     <value>api</value>
   </data>
@@ -139,14 +142,26 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>išsaugoti</value>
   </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Jei prisidedate prie osu! atvirojo kodo saugyklų, susiejant jūsų GitHub paskyrą galite pririšti jūsų pakeitimų pateiktis prie jūsų osu! paskyros. GitHub paskyros be jokios prisidėjimų prie osu! istorijos negali būti susietos.</value>
+  </data>
   <data name="github_user.link" xml:space="preserve">
     <value>Susieti GitHub paskyrą</value>
   </data>
   <data name="github_user.title" xml:space="preserve">
     <value>GitHub</value>
   </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>Atsieti GitHub paskyrą</value>
+  </data>
   <data name="github_user.error.already_linked" xml:space="preserve">
     <value>Ši GitHub paskyra jau yra susieta su kitu naudotuju.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>Negalima susieti GitHub paskyros be įnašų istorijos osu! saugyklose.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Prašome patvirtinti jūsų pagrindinį el. pašto adresą GitHub platformoje, tada vėl bandyti susieti su savo paskyra.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>gauti pranešimus dėl naujų problemų kvalifikuotuose beatmap'uose šiuose režimuose </value>
@@ -156,6 +171,9 @@
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>gauti pranešimus apie atsakymus ant jūsų komentarų</value>
+  </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>gauti pranešimus apie naujienų įrašus</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Pranešimai</value>
@@ -170,10 +188,16 @@
     <value>svečio sunkumas</value>
   </data>
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
-    <value>beatmap'ų modifikacijos</value>
+    <value>beatmap'ų taisymai</value>
+  </data>
+  <data name="notifications.options.channel_mention" xml:space="preserve">
+    <value>pokalbio paminėjimo</value>
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>privatūs susirašinėjimai</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>komandos žinutės</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>nauji komentarai</value>
@@ -187,6 +211,9 @@
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>beatmap'o kūrėjas</value>
   </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>naujienos įrašų</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
   </data>
@@ -198,6 +225,9 @@
   </data>
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
+    <value>rodyti anime stiliaus beatmap'ų viršelius</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>slėpti perspėjimus dėl eksplicitinio turinio beatmap'uose</value>
@@ -220,6 +250,9 @@
   </data>
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>be vaizdo įrašo</value>
+  </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>pagrindinis žaidimo režimas</value>
   </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>klaviatūra</value>
@@ -268,6 +301,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>atnaujinti</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>Autentifikavimo programa</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>Naudoti autentifikavimo programa vietoje el. pašto dėl patvirtinimo. Patvirtinimas el. paštu vis tiek bus galimas kaip atsarginis būdas.</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>Pašalinti</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>Pridėti Autentifikatorius Programėlė</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>būsena</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>Nesukonfigūruota</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>Sukonfigūruota</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>Galite uždaryti šį skirtuką/langą dabar</value>

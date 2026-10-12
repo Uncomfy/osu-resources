@@ -58,11 +58,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="empty._" xml:space="preserve">
-    <value>Không có game {0} osu!(lazer) đã chơi!</value>
+  <data name="empty.active" xml:space="preserve">
+    <value>Hiện không tham gia ván osu!(lazer) {0} nào!</value>
+  </data>
+  <data name="empty.ended" xml:space="preserve">
+    <value>Chưa hoàn thành ván osu!(lazer) {0} nào!</value>
   </data>
   <data name="empty.playlists" xml:space="preserve">
     <value>danh sách phát</value>
+  </data>
+  <data name="empty.ranked-play" xml:space="preserve">
+    <value>chơi xếp hạng</value>
   </data>
   <data name="empty.realtime" xml:space="preserve">
     <value>nhiều người chơi</value>
@@ -74,13 +80,19 @@
     <value>Mật khẩu phòng không đúng</value>
   </data>
   <data name="room.map_count" xml:space="preserve">
-    <value>{0} map</value>
+    <value>{0} map|{0} map</value>
   </data>
   <data name="room.player_count" xml:space="preserve">
-    <value>{0} người_chơi|{0} người chơi</value>
+    <value>{0} người chơi|{0} người chơi</value>
   </data>
   <data name="room.time_left" xml:space="preserve">
     <value>{0} thời gian còn lại</value>
+  </data>
+  <data name="room.view_history" xml:space="preserve">
+    <value>Xem Lịch Sử</value>
+  </data>
+  <data name="room.view_summary" xml:space="preserve">
+    <value>Xem Thống Kê</value>
   </data>
   <data name="room.errors.duration_too_long" xml:space="preserve">
     <value>Thời lượng quá dài. </value>
@@ -88,11 +100,14 @@
   <data name="room.errors.name_too_long" xml:space="preserve">
     <value>Tên phòng quá dài.</value>
   </data>
+  <data name="room.errors.too_many_playlist_items" xml:space="preserve">
+    <value>Quá nhiều mục trong danh sách phát.</value>
+  </data>
   <data name="room.status.active" xml:space="preserve">
-    <value>đang Hoạt Động</value>
+    <value>đang hoạt động</value>
   </data>
   <data name="room.status.ended" xml:space="preserve">
-    <value>đã dừng</value>
+    <value>đã kết thúc</value>
   </data>
   <data name="room.status.soon" xml:space="preserve">
     <value>sớm kết thúc</value>

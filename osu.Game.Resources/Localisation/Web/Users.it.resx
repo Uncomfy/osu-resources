@@ -167,7 +167,7 @@
     <value>Il tuo account sembra essere stato compromesso. Potrebbe essere disattivato temporaneamente mentre la sua identità viene confermata.</value>
   </data>
   <data name="disabled.reasons.opening" xml:space="preserve">
-    <value>Ci sono una serie di motivi che possono causare la disabilitazione del tuo account:</value>
+    <value>Ci sono una serie di motivi che possono causare la disattivazione del tuo account:</value>
   </data>
   <data name="disabled.reasons.tos._" xml:space="preserve">
     <value>Hai violato una o più delle nostre {0}, oppure uno o più {1}.</value>
@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(gli osu!supporter lo avranno a breve)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>In corso</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Terminate</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmap: {0}</value>
   </data>
@@ -292,8 +298,20 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Annulla</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Segnala le violazioni del copyright attraverso un reclamo DMCA a {0}, come da {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>normativa sulla privacy di osu!</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Questo vale per i casi in cui le tracce audio, il contenuto visivo o il contenuto del livello beatmap vengono utilizzati senza il corretto permesso.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Gioco scorretto / Cheating</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Violazione del copyright</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>Comportamento inappropriato in chat</value>
@@ -409,6 +427,12 @@
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
   </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Mostra meno dettagli</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Mostra più dettagli</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Cambia copertina del profilo</value>
   </data>
@@ -494,7 +518,7 @@
     <value>Beatmap Abbandonate</value>
   </data>
   <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
-    <value>Beatmap Partecipazione Ospite</value>
+    <value>Beatmap Ospitate</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Beatmap Amate</value>
@@ -533,7 +557,7 @@
     <value>Cronologia Partite</value>
   </data>
   <data name="show.extra.historical.monthly_playcounts.count_label" xml:space="preserve">
-    <value>Giocate</value>
+    <value>Partite</value>
   </data>
   <data name="show.extra.historical.most_played.count" xml:space="preserve">
     <value>volte giocata</value>
@@ -552,6 +576,9 @@
   </data>
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Replay guardati</value>
+  </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Replay Più Guardati</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Cronologia Kudosu Recenti</value>
@@ -631,6 +658,9 @@
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>guarda più post</value>
   </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Partite Ranked Play</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Recenti</value>
   </data>
@@ -644,19 +674,19 @@
     <value>Solo le beatmap classificate conferiscono pp</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
-    <value>valutata {0}</value>
+    <value>valutata al {0}</value>
   </data>
   <data name="show.extra.top_ranks.view_details" xml:space="preserve">
     <value>Visualizza dettagli</value>
   </data>
   <data name="show.extra.top_ranks.title" xml:space="preserve">
-    <value>Rank</value>
+    <value>Punteggi</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
     <value>Migliore Performance</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
-    <value>Primi Posti</value>
+    <value>Punteggi in Prima Posizione</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
     <value>Rimuovi</value>
@@ -742,6 +772,24 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Sito</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Sconfitte</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Punteggio</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Grado</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Ranked Play</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Vittorie</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Potrebbero aver cambiato il loro nome utente.</value>
   </data>
@@ -796,14 +844,29 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Posizione più alta: {0} il {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>È {0} un nuovo algoritmo di Valutazione in Stelle / PP.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>in arrivo</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>I punteggi recenti potrebbero non riflettersi subito sui profili utente.</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>Spotlight</value>
   </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>Punteggio totale</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Precisione dei Colpi</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Colpi Per Partita</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Livello {0}</value>

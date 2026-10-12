@@ -70,6 +70,9 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>Petició per unir-se a l'equip.</value>
   </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} membre|{0} membres</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
     <value>Crear equip</value>
   </data>
@@ -84,6 +87,9 @@
   </data>
   <data name="create.intro.description" xml:space="preserve">
     <value>Juga amb els teus amics; veterans o principiants. Actualment no pertanys a cap equip. Uneix-te a un visitant la nostra pàgina d'equips, o crea el teu propi des d'aquesta pàgina.</value>
+  </data>
+  <data name="create.intro.search_link" xml:space="preserve">
+    <value>equip existent</value>
   </data>
   <data name="create.intro.title" xml:space="preserve">
     <value>Equip!</value>
@@ -244,11 +250,20 @@
   <data name="show.sections.members" xml:space="preserve">
     <value>Membres</value>
   </data>
-  <data name="show.statistics.rank" xml:space="preserve">
-    <value>Posició</value>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>{0} ranura disponible|{0} ranures disponibles</value>
+  </data>
+  <data name="show.statistics.first_places" xml:space="preserve">
+    <value>Primeres posicions</value>
   </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>Líder de l'equip</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Posició</value>
+  </data>
+  <data name="show.statistics.ranked_beatmapsets" xml:space="preserve">
+    <value>Mapes classificats</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Equip creat.</value>

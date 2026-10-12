@@ -59,13 +59,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="play_more" xml:space="preserve">
-    <value>Què tal si en comptes d'això juguem una mica d'osu!?</value>
+    <value>Què et sembla si en comptes juguem una mica d'osu!?</value>
   </data>
   <data name="require_login" xml:space="preserve">
     <value>Si us plau, inicia sessió per continuar.</value>
   </data>
   <data name="require_verification" xml:space="preserve">
-    <value>Si us plau, verifiqueu per continuar.</value>
+    <value>Si us plau, verifiqueu-vos per continuar.</value>
   </data>
   <data name="restricted" xml:space="preserve">
     <value>No es pot fer mentre estigui restringit.</value>
@@ -86,19 +86,19 @@
     <value>Has assolit el teu límit de nominacions diàries, si us plau torna-ho a intentar demà.</value>
   </data>
   <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
-    <value>Error en realitzar aquesta acció, intenteu actualitzar la pàgina.</value>
+    <value>Error en realitzar aquesta acció. Intenteu actualitzar la pàgina.</value>
   </data>
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
-    <value>No pots nominar el teu propi beatmap.</value>
+    <value>No pots nominar el teu propi mapa.</value>
   </data>
   <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
     <value>Heu d'establir el gènere i l'idioma abans de nominar.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Només el creador del tema i el propietari del beatmap poden resoldre una discussió.</value>
+    <value>Només el creador del tema i el propietari del mapa poden resoldre una discussió.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Només el propietari del beatmap o el nominador/membre del grup NAT pot publicar notes de mapatge.</value>
+    <value>Només el propietari del mapa o el nominador/membre del grup NAT pot publicar notes de mapatge.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
     <value>No podeu votar en una discussió feta per un bot</value>
@@ -107,7 +107,7 @@
     <value>Espera una mica abans de continuar votant</value>
   </data>
   <data name="beatmap_discussion.vote.owner" xml:space="preserve">
-    <value>No pots votar les teves discussions.</value>
+    <value>No pots votar les teves pròpies discussions.</value>
   </data>
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
     <value>Només podeu votar en discussions de mapes pendents.</value>
@@ -131,13 +131,13 @@
     <value>No es pot editar una publicació generada automàticament.</value>
   </data>
   <data name="beatmapset.discussion_locked" xml:space="preserve">
-    <value>La discussió d'aquest beatmap està bloquejada.</value>
+    <value>La discussió d'aquest mapa està blocada.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>No podeu canviar les metadades d'un beatmap nominat. Contacta amb un membre dels BN o del NAT si creus que estan establerts incorrectament.</value>
+    <value>No podeu canviar les metadades d'un mapa nominat. Contacteu amb un membre dels BN o del NAT si creieu que són incorrectes.</value>
   </data>
   <data name="beatmap_tag.store.no_score" xml:space="preserve">
-    <value>Has de tenir una puntuació al beatmap per afegir una etiqueta.</value>
+    <value>Has de tenir una puntuació al mapa per afegir una etiqueta.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>No es pot enviar un missatge a un usuari que us està bloquejant o que heu bloquejat.</value>
@@ -205,6 +205,9 @@
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>Cal accés al fòrum sol·licitat.</value>
   </data>
+  <data name="forum.post.edit.no_permission" xml:space="preserve">
+    <value>No tens permís per editar.</value>
+  </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
     <value>Només el creador pot suprimir la publicació.</value>
   </data>
@@ -236,7 +239,7 @@
     <value>No podeu respondre mentre estigui restringit.</value>
   </data>
   <data name="forum.topic.reply.user.silenced" xml:space="preserve">
-    <value>No podeu respondre mentre estigui silenciat.</value>
+    <value>No podeu respondre mentre estigueu silenciat.</value>
   </data>
   <data name="forum.topic.store.no_forum_access" xml:space="preserve">
     <value>Cal accés al fòrum sol·licitat.</value>
@@ -248,7 +251,7 @@
     <value>Aquest fòrum està tancat i no hi pots publicar.</value>
   </data>
   <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
-    <value>Cal accés al fòrum sol·licitat.</value>
+    <value>Requereixes d'accés al fòrum sol·licitat.</value>
   </data>
   <data name="forum.topic.vote.over" xml:space="preserve">
     <value>L'enquesta va acabar i ja no es pot votar.</value>

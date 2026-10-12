@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supporters will get in soon)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Ended</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmaps: {0}</value>
   </data>
@@ -292,8 +298,20 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Cancel</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Please report copyright infringement through a DMCA claim to {0} as per {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>the osu! copyright policy</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>This applies to cases where audio tracks, visual content or beatmap level content is used without correct permission.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Cheating</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Copyright infringement</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>Inappropriate chat behaviour</value>
@@ -408,6 +426,12 @@
   </data>
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
+  </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Show less details</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Show more details</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Change Profile Cover</value>
@@ -553,6 +577,9 @@
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Replays Watched</value>
   </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Most Watched Replays</value>
+  </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Recent Kudosu History</value>
   </data>
@@ -631,6 +658,9 @@
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>see more posts</value>
   </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Ranked Play Matches</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Recent</value>
   </data>
@@ -650,13 +680,13 @@
     <value>View Details</value>
   </data>
   <data name="show.extra.top_ranks.title" xml:space="preserve">
-    <value>Ranks</value>
+    <value>Scores</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
     <value>Best Performance</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
-    <value>First Place Ranks</value>
+    <value>First Place Scores</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
     <value>Unpin</value>
@@ -748,6 +778,30 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Website</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Losses</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>Total Matches</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>Latest Match History</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Tier</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Ranked Play</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Wins</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>They may have changed their username.</value>
   </data>
@@ -802,14 +856,32 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Highest rank: {0} on {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>A new Star Rating / PP algorithm is {0}.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>being deployed</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>Recent scores may not be immediately reflected in user profiles.</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>Spotlights</value>
   </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>Total score</value>
   </data>
+  <data name="show.solo.title" xml:space="preserve">
+    <value>Solo Play</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Hit Accuracy</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Hits Per Play</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Level {0}</value>

@@ -224,10 +224,10 @@
     <value>Inserisci un URL valido.</value>
   </data>
   <data name="oauth.client.attributes.name" xml:space="preserve">
-    <value>Nome Applicazione</value>
+    <value>Nome applicazione</value>
   </data>
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
-    <value>URL di richiamo dell'applicazione</value>
+    <value>URL di callback dell'applicazione</value>
   </data>
   <data name="team.invalid_characters" xml:space="preserve">
     <value>{0} non valido.</value>
@@ -239,7 +239,7 @@
     <value>{0} non utilizzabile.</value>
   </data>
   <data name="team.attributes.default_ruleset_id" xml:space="preserve">
-    <value>Modalità di gioco principale</value>
+    <value>Modalità principale</value>
   </data>
   <data name="team.attributes.is_open" xml:space="preserve">
     <value>Richieste di partecipazione</value>

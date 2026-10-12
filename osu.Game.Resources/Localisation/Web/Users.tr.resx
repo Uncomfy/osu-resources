@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supporterlar yakında erişebilecekler)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Sona Erdi</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmapler: {0}</value>
   </data>
@@ -292,8 +298,20 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>İptal</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Lütfen telif hakkı ihlallerini {0}'ne göre {1} adresine DMCA talebi göndererek bildiriniz.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>osu! telif hakkı yönergesi</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Bu, ses parçalarının, görsel içeriklerin ve beatmap seviye içeriği doğru izin olmadan kullanıldığında geçerlidir.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Kuraldışı oyun / Hile</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Telif hakkı ihlali</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>Uygunsuz sohbet davranışı</value>
@@ -408,6 +426,12 @@
   </data>
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
+  </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Daha az detay göster</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Daha fazla detay göster</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Kapak Fotoğrafını Değiştir</value>
@@ -553,6 +577,9 @@
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Tekrar İzlendi</value>
   </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>En Çok İzlenen Tekrarlar</value>
+  </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Son Kudosu Geçmişi</value>
   </data>
@@ -630,6 +657,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>daha fazla gönderi gör</value>
+  </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Dereceli Oynanan Maçlar</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Son</value>
@@ -742,6 +772,30 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Web sitesi</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Yenilgiler</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>Toplam Maç</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Rütbe</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Derecelendirme</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>Son Maç Geçmişi</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Seviye</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Quick Play</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Galibiyetler</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Kullanıcı adını değiştirmiş olabilir.</value>
   </data>
@@ -796,14 +850,32 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>{0} tarihinde en yüksek rank: {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>Yeni Yıldız Sıralaması / PP algoritması {0}.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>sunucuya aktarılıyor</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>Yeni skorlar kullanıcı profilinde hemen görünmeyebilir.</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>İlk {0}</value>
+  </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>Öne Çıkanlar</value>
   </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>Toplam skor</value>
   </data>
+  <data name="show.solo.title" xml:space="preserve">
+    <value>Tek Kişilik Oyun</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Vuruş İsabeti</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Oyun Başı Vuruşlar</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>{0} Seviye</value>

@@ -70,6 +70,9 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>Takıma girmek için istek gönderildi.</value>
   </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} üye|{0} üye</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
     <value>Takım Oluştur</value>
   </data>
@@ -84,6 +87,9 @@
   </data>
   <data name="create.intro.description" xml:space="preserve">
     <value>Mevcut ya da yeni arkadaşlarınla birlikte oyna. Şu anda bir takımda değilsiniz. Takım sayfalarını ziyaret ederek mevcut bir takıma katılın veya bu sayfadan kendi takımınızı oluşturun.</value>
+  </data>
+  <data name="create.intro.search_link" xml:space="preserve">
+    <value>var olan takım</value>
   </data>
   <data name="create.intro.title" xml:space="preserve">
     <value>Takım!</value>
@@ -246,11 +252,20 @@
   <data name="show.sections.members" xml:space="preserve">
     <value>Üyeler</value>
   </data>
-  <data name="show.statistics.rank" xml:space="preserve">
-    <value>Sıralama</value>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>{0} yer mevcut|{0} yer mevcut</value>
+  </data>
+  <data name="show.statistics.first_places" xml:space="preserve">
+    <value>İlk sıralar</value>
   </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>Takım Lideri</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Sıralama</value>
+  </data>
+  <data name="show.statistics.ranked_beatmapsets" xml:space="preserve">
+    <value>Derecelendirilmiş beatmapler</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Takım oluşturuldu.</value>

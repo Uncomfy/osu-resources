@@ -10,6 +10,11 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.BeatmapDiscussions";
 
         /// <summary>
+        /// "{0} reply is hidden.|{0} replies are hidden."
+        /// </summary>
+        public static LocalisableString HiddenReplies(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"hidden_replies"), @"{0} reply is hidden.|{0} replies are hidden.", countDelimited), countDelimited, '|');
+
+        /// <summary>
         /// "Must be signed in to edit."
         /// </summary>
         public static LocalisableString AuthorizationsUpdateNullUser => new TranslatableString(getKey(@"authorizations.update.null_user"), @"Must be signed in to edit.");
@@ -247,7 +252,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "review must contain a minimum of {0} issue|review must contain a minimum of {0} issues"
         /// </summary>
-        public static LocalisableString ReviewValidationMinimumIssues(LocalisableString count) => new TranslatableString(getKey(@"review.validation.minimum_issues"), @"review must contain a minimum of {0} issue|review must contain a minimum of {0} issues", count);
+        public static LocalisableString ReviewValidationMinimumIssues(int count) => new PluralisableString(new TranslatableString(getKey(@"review.validation.minimum_issues"), @"review must contain a minimum of {0} issue|review must contain a minimum of {0} issues", count), count, '|');
 
         /// <summary>
         /// "block is missing text"
@@ -257,7 +262,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "reviews may only contain {0} paragraph/issue|reviews may only contain up to {0} paragraphs/issues"
         /// </summary>
-        public static LocalisableString ReviewValidationTooManyBlocks(LocalisableString count) => new TranslatableString(getKey(@"review.validation.too_many_blocks"), @"reviews may only contain {0} paragraph/issue|reviews may only contain up to {0} paragraphs/issues", count);
+        public static LocalisableString ReviewValidationTooManyBlocks(int count) => new PluralisableString(new TranslatableString(getKey(@"review.validation.too_many_blocks"), @"reviews may only contain {0} paragraph/issue|reviews may only contain up to {0} paragraphs/issues", count), count, '|');
 
         /// <summary>
         /// "Marked as resolved by {0}"
@@ -288,6 +293,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Filter by user"
         /// </summary>
         public static LocalisableString UserFilterLabel => new TranslatableString(getKey(@"user_filter.label"), @"Filter by user");
+
+        /// <summary>
+        /// "{0} user selected|{0} users selected"
+        /// </summary>
+        public static LocalisableString UserFilterMultiple(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"user_filter.multiple"), @"{0} user selected|{0} users selected", countDelimited), countDelimited, '|');
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>a carregar utilizadores...</value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>procurando por usuários...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>a falar em {0}</value>
   </data>
@@ -68,19 +71,19 @@
     <value>a falar com {0}</value>
   </data>
   <data name="title_compact" xml:space="preserve">
-    <value>chat</value>
+    <value>conversa</value>
   </data>
   <data name="unread_messages" xml:space="preserve">
     <value>mensagens não lidas</value>
   </data>
   <data name="cannot_send.channel" xml:space="preserve">
-    <value>Não podes mandar mensagens neste canal de momento. Isto poderá ser devido a uma das razões:</value>
+    <value>Não pode enviar mensagens para este canal neste momento.</value>
   </data>
   <data name="cannot_send.user" xml:space="preserve">
-    <value>Não podes enviar mensagens a este utilizador de momento. Isto poderá ser devido a uma das razões:</value>
+    <value>Não pode enviar mensagens a este utilizador neste momento.</value>
   </data>
   <data name="channels.confirm_part" xml:space="preserve">
-    <value>Queres ocultar este canal? Ainda vais receber mensagens deste canal.</value>
+    <value>Deseja ocultar este canal? Continuará a receber mensagens deste canal.</value>
   </data>
   <data name="channels.create" xml:space="preserve">
     <value>criar notícia</value>
@@ -107,7 +110,7 @@
     <value>Equipa</value>
   </data>
   <data name="form.title.announcement" xml:space="preserve">
-    <value>Criar nova notícia</value>
+    <value>Criar notícia</value>
   </data>
   <data name="form.labels.description" xml:space="preserve">
     <value>descrição</value>
@@ -122,19 +125,25 @@
     <value>jogadores a adicionar</value>
   </data>
   <data name="not_found.message" xml:space="preserve">
-    <value>Não há nada aqui, talvez tenhas saído do canal ou ele não existe...</value>
+    <value>Não há nada aqui. Talvez tenha saído do canal ou ele não existe...</value>
   </data>
   <data name="not_found.title" xml:space="preserve">
-    <value>canal não escontrado</value>
+    <value>canal não encontrado</value>
+  </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>Junte‑se ao canal para ver as mensagens.</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>Entrar no canal</value>
   </data>
   <data name="input.create" xml:space="preserve">
     <value>Criar</value>
   </data>
   <data name="input.disabled" xml:space="preserve">
-    <value>incapacitado de enviar mensagem...</value>
+    <value>não foi possível enviar a mensagem...</value>
   </data>
   <data name="input.disconnected" xml:space="preserve">
-    <value>Desligado</value>
+    <value>Desconectado</value>
   </data>
   <data name="input.placeholder" xml:space="preserve">
     <value>escrever mensagem...</value>
@@ -142,16 +151,7 @@
   <data name="input.send" xml:space="preserve">
     <value>Enviar</value>
   </data>
-  <data name="no-conversations.howto" xml:space="preserve">
-    <value>Começa a conversar a partir do perfil dum utilizador ou dum popup cartão de utilizador.</value>
-  </data>
-  <data name="no-conversations.lazer" xml:space="preserve">
-    <value>Canais públicos que te juntes via &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; também serão visíveis aqui.</value>
-  </data>
-  <data name="no-conversations.title" xml:space="preserve">
-    <value>ainda sem conversações</value>
-  </data>
   <data name="join_channels.loading" xml:space="preserve">
-    <value>A carregar lista de canais...</value>
+    <value>A carregar a lista de canais...</value>
   </data>
 </root>

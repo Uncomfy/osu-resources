@@ -172,6 +172,9 @@
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>vastaanota ilmoituksia vastauksista kommentteihisi</value>
   </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>vastaanota ilmoituksia uutisilmoituksista</value>
+  </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Ilmoitukset</value>
   </data>
@@ -187,8 +190,14 @@
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
     <value>beatmapin modaus</value>
   </data>
+  <data name="notifications.options.channel_mention" xml:space="preserve">
+    <value>maininta keskustelussa</value>
+  </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>yksityisviestit</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>tiimin yksityisviestit</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>uudet kommentit</value>
@@ -202,8 +211,17 @@
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>mappaaja</value>
   </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>uutisetilmoitukset</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
+  </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>kun sinut on lisätty vieraskartoittajana rytmikartan vaikeustasoon</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>kun saat uuden yksityisviestin</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>valtuutetut clientit</value>
@@ -213,6 +231,9 @@
   </data>
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
+    <value>näytä rytmikarttojen anime-tyyliset kansikuvat</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>piilota varoitukset sopimattomasta sisällöstä beatmapeissa</value>
@@ -235,6 +256,9 @@
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>ilman videota</value>
   </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>oletuspelimuoto</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>näppäimistö</value>
   </data>
@@ -255,6 +279,9 @@
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>piilota paikallaolotilasi</value>
+  </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>tämä vastaa osu!lazerin ”näy offline-tilassa” -tilaa</value>
   </data>
   <data name="privacy.title" xml:space="preserve">
     <value>Yksityisyys</value>
@@ -282,6 +309,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>päivitä</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>Todennussovellus</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>Käytä todennussovellusta vahvistamiseen sähköpostin sijaan. Sähköpostivahvistus säilyy yhä käytettävissä varakeinona.</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>Poista</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>Lisää todennussovellus</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>tila</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>Ei määritelty</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>Määritetty</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>Tämän välilehden/ikkunan voi nyt sulkea</value>

@@ -163,6 +163,9 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Bitte verifiziere deine primäre E-Mail-Adresse auf GitHub und versuche dann, dein Konto erneut zu verknüpfen.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>Benachrichtigungen über Antworten in Beatmap-Diskussionen erhalten, an denen du teilnimmst</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>Erhalte Benachrichtigungen für neue Probleme auf qualifizierten Beatmaps von folgenden Modi</value>
   </data>
@@ -171,6 +174,9 @@
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>Erhalte Benachrichtigungen für Antworten auf deine Kommentare</value>
+  </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>Erhalte Benachrichtigungen bei Neuigkeiten</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Benachrichtigungen</value>
@@ -187,8 +193,14 @@
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
     <value>Beatmap-Modding</value>
   </data>
+  <data name="notifications.options.channel_mention" xml:space="preserve">
+    <value>Erwähnung im Chat</value>
+  </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>Private Chat-Nachrichten</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>Nachrichten im Team-Chat</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>Neue Kommentare</value>
@@ -202,8 +214,38 @@
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>Beatmap-Mapper</value>
   </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>Neuigkeiten</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>Push</value>
+  </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>wenn du als Gastmapper auf einem Schwierigkeitsgrad hinzugefügt wirst</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>wenn gemerkte Beatmapdiskussionen Updates bekommen, oder es ein Problem oder Vorschlag für deine Beatmap gibt</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>wenn du in einem öffentlichen Channel erwähnt wurdest</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>wenn du eine neue private Nachricht erhältst</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>wenn es in deinem Teamchat eine neue Nachricht gibt</value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>wenn ein neuer Kommentar auf einem gefolgten Beitrag erscheint</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>wenn gemerkte Forenposts neue Antworten erhalten</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>wenn ein Mapper, dem du folgst, eine Beatmap hochlädt</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>wenn es Neuigkeiten gibt</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>Autorisierte Anwendungen</value>
@@ -213,6 +255,9 @@
   </data>
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
+    <value>Beatmap-Cover mit Anime-Stil anzeigen</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>Warnungen für expliziten Inhalt in Beatmaps ausblenden</value>
@@ -235,6 +280,9 @@
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>ohne Video</value>
   </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>Standardspielmodus</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>Tastatur</value>
   </data>
@@ -255,6 +303,9 @@
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>Online-Status verbergen</value>
+  </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>Dies entspricht dem "Offline"-Modus in osu!lazer</value>
   </data>
   <data name="privacy.title" xml:space="preserve">
     <value>Privatsphäre</value>
@@ -282,6 +333,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>speichern</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>Zwei-Faktor-Authentifizierung</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>Nutze die Authentifizierungs-App anstatt der E-Mail zur Authentifizierung. Die Authentifizierung per E-Mail wird weiterhin als Alternative zur Verfügung stehen.</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>Zwei-Faktor-Authentifizierung hinzufügen</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>Aktiviert</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>Du kannst diesen Tab/dieses Fenster nun schließen</value>

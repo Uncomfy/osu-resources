@@ -237,6 +237,12 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!サポーターはすぐ手に入ります)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>アクティブ</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>終了済み</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>ビートマップ: {0}</value>
   </data>
@@ -294,8 +300,20 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="report.actions.cancel" xml:space="preserve">
     <value>キャンセル</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>著作権侵害については、 {0} に従い、DMCA申請を通じて {1} までご報告ください。</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>osu!の著作権ポリシー</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>これは、オーディオトラック、ビジュアルコンテンツ、または譜面データが適切な許可なく使用されている場合に適用されます。</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>チート</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>著作権侵害</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>不適切なチャット行為</value>
@@ -412,6 +430,12 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
   </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>詳細を非表示</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>詳細を表示</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>カバー画像の変更</value>
   </data>
@@ -506,10 +530,10 @@ CAPTCHA認証を成功させてから再試行してください。
     <value>ノミネートしたRankedビートマップ</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
-    <value>Pendingビートマップ</value>
+    <value>Pendingのビートマップ</value>
   </data>
   <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
-    <value>Ranked &amp; Approvedのビートマップ</value>
+    <value>Rankedされたビートマップ</value>
   </data>
   <data name="show.extra.discussions.title" xml:space="preserve">
     <value>ディスカッション</value>
@@ -555,6 +579,9 @@ CAPTCHA認証を成功させてから再試行してください。
   </data>
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>リプレイ再生回数</value>
+  </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>最も視聴されたリプレイ</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>最近のKudosu履歴</value>
@@ -634,6 +661,9 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>他の投稿を見る</value>
   </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>ランクマッチ</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>最近のアクティビティ</value>
   </data>
@@ -653,7 +683,7 @@ CAPTCHA認証を成功させてから再試行してください。
     <value>詳細を表示</value>
   </data>
   <data name="show.extra.top_ranks.title" xml:space="preserve">
-    <value>ランク</value>
+    <value>スコア</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
     <value>ベストパフォーマンス</value>
@@ -745,6 +775,30 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="show.info.website" xml:space="preserve">
     <value>ウェブサイト</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>敗北数</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>総試合数</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>ランク</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>レーティング</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>最新の対戦履歴</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>ティア</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>ランクマッチ</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>勝利数</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>ユーザー名を変更した可能性があります。</value>
   </data>
@@ -799,14 +853,32 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="show.rank.highest" xml:space="preserve">
     <value>最高ランク: {0} ({1}に取得)</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>スターレーティングとPPの新しい計算アルゴリズムが、{0}。</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>順次導入されます</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>最新のスコアがユーザープロフィールに反映されるまで、時間がかかる場合があります。</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>トップ {0}</value>
+  </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>スポットライト</value>
   </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>合計スコア</value>
   </data>
+  <data name="show.solo.title" xml:space="preserve">
+    <value>ソロプレイ</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>精度</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>1回プレイの平均ヒット数</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>レベル {0}</value>
@@ -848,10 +920,10 @@ CAPTCHA認証を成功させてから再試行してください。
     <value>Lovedされたビートマップ</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
-    <value>Pendingビートマップ</value>
+    <value>Pendingのビートマップ</value>
   </data>
   <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
-    <value>Ranked &amp; Approvedのビートマップ</value>
+    <value>Rankedされたビートマップ</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
     <value>あなたは現在サイレンス中です。</value>

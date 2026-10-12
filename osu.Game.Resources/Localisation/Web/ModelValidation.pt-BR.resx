@@ -104,7 +104,7 @@
     <value>Esse beatmap está bloqueado para discussão e não pode ser hypado</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
-    <value>Precisa estar conectado para hypar.</value>
+    <value>Você precisa entrar para hypar.</value>
   </data>
   <data name="beatmapset_discussion.hype.hyped" xml:space="preserve">
     <value>Você já hypou este beatmap.</value>
@@ -239,7 +239,7 @@
     <value>Essa escolha de {0} não é permitida.</value>
   </data>
   <data name="team.attributes.default_ruleset_id" xml:space="preserve">
-    <value>Regras padrão</value>
+    <value>Modalidade padrão</value>
   </data>
   <data name="team.attributes.is_open" xml:space="preserve">
     <value>Aplicação para equipe</value>
@@ -341,7 +341,7 @@
     <value>Você precisa ser um {0} para mudar seu nome de usuário!</value>
   </data>
   <data name="user.change_username.supporter_required.link_text" xml:space="preserve">
-    <value>osu!supporter</value>
+    <value>ajudou o osu!</value>
   </data>
   <data name="user.change_username.username_is_same" xml:space="preserve">
     <value>Este já é seu nome de usuário, bobinho!</value>

@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>Colours</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Accent colours from beatmap background:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>Hit circle / Slider Combos</value>
   </data>
@@ -160,8 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Audio Track</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>The video will be used instead of the static background, if present. Beatmap downloads are offered both with and without video, so if adding a video, a matching background should also be provided.</value>
+  </data>
+  <data name="custom_sample_sets" xml:space="preserve">
+    <value>Custom sample sets</value>
+  </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Click to select a track</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Click to select a video</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Click to select a background image</value>
@@ -174,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Only apply to this difficulty</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Sync metadata with all difficulties</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Copies artist, title, source, and tags to all difficulties.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Ruleset ({0})</value>
@@ -192,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>Drag image here to set beatmap background!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Drag video here to set beatmap video!</value>
   </data>
 </root>

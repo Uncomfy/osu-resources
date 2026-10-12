@@ -62,7 +62,7 @@
     <value>Modalità specificata non valida.</value>
   </data>
   <data name="change_owner.too_many" xml:space="preserve">
-    <value>Troppi mapper guest.</value>
+    <value>Troppi mapper ospiti.</value>
   </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>Errore durante l'aggiornamento del voto</value>
@@ -89,10 +89,13 @@
     <value>Ultima modifica di {0} {1}</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
-    <value>Difficoltà guest di {0}</value>
+    <value>Difficoltà ospite di {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Negato dall'ottenimento di kudosu.</value>
+  </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Includi risposte</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Questa difficoltà è stata eliminata, quindi non può più essere discussa.</value>
@@ -110,13 +113,13 @@
     <value>Premi invio per rispondere.</value>
   </data>
   <data name="discussions.reply_resolve_notice" xml:space="preserve">
-    <value>Premi Invio per rispondere. Premi ctrl+invio per rispondere e risolvere.</value>
+    <value>Premi invio per rispondere. Premi ctrl+invio per rispondere e risolvere.</value>
   </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
     <value>Scrivi la tua risposta qui</value>
   </data>
   <data name="discussions.require-login" xml:space="preserve">
-    <value>Effettua il login per poter postare o rispondere</value>
+    <value>Accedi per postare o rispondere</value>
   </data>
   <data name="discussions.resolved" xml:space="preserve">
     <value>Risolto</value>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Mostra eliminati</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Mostra risposte di altri</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Discussioni</value>
@@ -283,6 +289,9 @@
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Se questo post inizia con un timestamp, verrà mostrato sotto Cronologia.</value>
   </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>inserisci nota</value>
+  </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>inserisci paragrafo</value>
   </data>
@@ -365,7 +374,7 @@
     <value>Sei sicuro? Questo utilizzerà uno dei tuoi {0} hype rimanenti e non può essere annullato.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
-    <value>Metti hype a questa beatmap per renderla più visibile per la nomina e il ranking!</value>
+    <value>Metti hype a questa beatmap per renderla più visibile per la nomina e la classificazione!</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
     <value>Effettua l'accesso e metti hype a questa beatmap per renderla più visibile per la nomina e la classificazione!</value>
@@ -470,7 +479,7 @@
     <value>il giorno {0}</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
-    <value>coda per la classifica</value>
+    <value>coda di classificazione</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>molto vicina</value>
@@ -497,7 +506,10 @@
     <value>Accedi per effettuare una ricerca.</value>
   </data>
   <data name="listing.search.options" xml:space="preserve">
-    <value>Più Opzioni di Ricerca</value>
+    <value>Più opzioni di ricerca</value>
+  </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>I conteggi e i risultati migliori del profilo mostrati in questa pagina sono basati sui migliori punteggi "standardizzati" (noti come di "lazer") nelle beatmap.</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>Filtrare per {0} necessita di un tag osu!supporter attivo</value>
@@ -570,6 +582,12 @@
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>tag osu!supporter</value>
+  </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>sfoglia etichette degli utenti</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>scrivi per cercare</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Includi beatmap convertite</value>
@@ -650,7 +668,7 @@
     <value>Altro</value>
   </data>
   <data name="genre.novelty" xml:space="preserve">
-    <value>Novità</value>
+    <value>Novelty</value>
   </data>
   <data name="genre.hip-hop" xml:space="preserve">
     <value>Hip Hop</value>

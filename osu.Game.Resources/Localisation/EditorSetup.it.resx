@@ -67,8 +67,11 @@
   <data name="colours_header" xml:space="preserve">
     <value>Colori</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Colori principali dallo sfondo della beatmap:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
-    <value>Combo per Cerchi / Slider</value>
+    <value>Combo per cerchi/slider</value>
   </data>
   <data name="design_header" xml:space="preserve">
     <value>Aspetto</value>
@@ -77,13 +80,13 @@
     <value>Abilita conto alla rovescia</value>
   </data>
   <data name="countdown_description" xml:space="preserve">
-    <value>Se abilitato, ci sarà "Sei pronto? 3, 2, 1, VIA!" come conto alla rovescia all'inizio della beatmap, supponendo che ci sia abbastanza tempo per farlo.</value>
+    <value>Se abilitato, ci sarà un conto alla rovescia "Sei pronto? 3, 2, 1, VIA!" all'inizio della beatmap, supponendo che ci sia abbastanza tempo per farlo.</value>
   </data>
   <data name="countdown_speed" xml:space="preserve">
     <value>Velocità conto alla rovescia</value>
   </data>
   <data name="countdown_offset_description" xml:space="preserve">
-    <value>Se il conto alla rovescia suona fuori tempo, utilizza questo per farlo apparire di una o più pulsazioni in anticipo.</value>
+    <value>Se il conto alla rovescia suona fuori tempo, utilizza questo per farlo apparire di una o più battute in anticipo.</value>
   </data>
   <data name="countdown_offset" xml:space="preserve">
     <value>Offset conto alla rovescia</value>
@@ -95,7 +98,7 @@
     <value>Consente alle storyboard di utilizzare l'intera area dello schermo invece di essere limitate a un'area in 4:3.</value>
   </data>
   <data name="epilepsy_warning" xml:space="preserve">
-    <value>Avviso epilessia</value>
+    <value>Avviso di epilessia</value>
   </data>
   <data name="epilepsy_warning_description" xml:space="preserve">
     <value>Consigliato se sono presenti scene, nella storyboard o nel video, con luci e colori che cambiano rapidamente.</value>
@@ -107,16 +110,16 @@
     <value>Aggiunge delle bande nere per dare un aspetto cinematografico durante le pause.</value>
   </data>
   <data name="samples_match_playback_rate" xml:space="preserve">
-    <value>Fai corrispondere i suoni alla velocità di riproduzione</value>
+    <value>Intona i suoni alla velocità in gioco</value>
   </data>
   <data name="samples_match_playback_rate_description" xml:space="preserve">
-    <value>Se abilitata, tutti i campionamenti audio verranno velocizzati o rallentati quando sono attive mod con modifiche alla velocità.</value>
+    <value>Se abilitato, tutti i suoni verranno velocizzati o rallentati quando sono attive mod con modifiche alla velocità.</value>
   </data>
   <data name="circle_size_description" xml:space="preserve">
     <value>La dimensione di tutti gli oggetti</value>
   </data>
   <data name="drain_rate_description" xml:space="preserve">
-    <value>Il grado di drenaggio passivo della vita durante il tempo giocabile</value>
+    <value>Il livello di drenaggio passivo della vita durante il tempo giocabile</value>
   </data>
   <data name="approach_rate_description" xml:space="preserve">
     <value>La velocità con cui gli oggetti vengono mostrati al giocatore</value>
@@ -125,10 +128,10 @@
     <value>La severità per le soglie di tempo dei colpi e la difficoltà degli spinner</value>
   </data>
   <data name="tick_rate" xml:space="preserve">
-    <value>Rateo dei Tick</value>
+    <value>Frequenza Tick</value>
   </data>
   <data name="tick_rate_description" xml:space="preserve">
-    <value>Determina quanti "tick" sono generati all'interno di oggetti lunghi. Un rateo di tick di 1 genererà un tick su ogni pulsazione, 2 è due volte per pulsazione.</value>
+    <value>Determina quanti "tick" vengono generati all'interno di oggetti lunghi. Una frequenza tick di 1 genererà un tick a ogni battuta, 2 sarebbe due volte per battuta, ecc.</value>
   </data>
   <data name="base_velocity" xml:space="preserve">
     <value>Velocità Base</value>
@@ -140,10 +143,10 @@
     <value>Metadati</value>
   </data>
   <data name="romanised_artist" xml:space="preserve">
-    <value>Artista Romanizzato</value>
+    <value>Artista romanizzato</value>
   </data>
   <data name="romanised_title" xml:space="preserve">
-    <value>Titolo Romanizzato</value>
+    <value>Titolo romanizzato</value>
   </data>
   <data name="creator" xml:space="preserve">
     <value>Autore</value>
@@ -152,16 +155,28 @@
     <value>Origine</value>
   </data>
   <data name="difficulty_name" xml:space="preserve">
-    <value>Nome Difficoltà</value>
+    <value>Nome difficoltà</value>
   </data>
   <data name="resources_header" xml:space="preserve">
     <value>Risorse</value>
   </data>
   <data name="audio_track" xml:space="preserve">
-    <value>Traccia Audio</value>
+    <value>Traccia audio</value>
+  </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>Il video verrà usato al posto dell'immagine di sfondo, se presente. I download delle beatmap sono offerti sia con che senza video, quindi se si aggiunge un video, dovrebbe essere aggiunta anche un'immagine di sfondo corrispondente.</value>
+  </data>
+  <data name="custom_sample_sets" xml:space="preserve">
+    <value>Liste suoni personalizzati</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Clicca per selezionare una traccia</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Clicca per selezionare un video</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Clicca per selezionare un'immagine di sfondo</value>
@@ -174,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Applica solo a questa difficoltà</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Sincronizza i metadati su tutte le difficoltà</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Applica artista, titolo, origine ed etichette su tutte le difficoltà.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Modalità ({0})</value>
@@ -191,6 +212,9 @@
     <value>Difficoltà</value>
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
-    <value>Trascina qui l'immagine per impostare lo sfondo della beatmap!</value>
+    <value>Puoi trascinare qui per applicare lo sfondo!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Trascina qui il video per impostarlo come video della beatmap!</value>
   </data>
 </root>

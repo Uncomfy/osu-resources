@@ -68,10 +68,19 @@
     <value>od {0}</value>
   </data>
   <data name="show.player.by" xml:space="preserve">
-    <value>Hráno</value>
+    <value>Zahrál</value>
+  </data>
+  <data name="show.player.played_on" xml:space="preserve">
+    <value>Odehráno na</value>
   </data>
   <data name="show.player.submitted_on" xml:space="preserve">
     <value>Nahráno</value>
+  </data>
+  <data name="show.player.watched" xml:space="preserve">
+    <value>Zhlédnuto</value>
+  </data>
+  <data name="show.player.watched_count" xml:space="preserve">
+    <value>{0}át|{0}át|{0}át</value>
   </data>
   <data name="show.player.rank.country" xml:space="preserve">
     <value>Státní žebříčky</value>

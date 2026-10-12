@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>ユーザーの読み込み中・・・</value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>ユーザーを検索中…</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>{0}で会話中</value>
   </data>
@@ -127,6 +130,12 @@
   <data name="not_found.title" xml:space="preserve">
     <value>チャンネルが見つかりません</value>
   </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>メッセージを表示するには、チャンネルに参加してください。</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>チャンネルに参加</value>
+  </data>
   <data name="input.create" xml:space="preserve">
     <value>作成</value>
   </data>
@@ -141,15 +150,6 @@
   </data>
   <data name="input.send" xml:space="preserve">
     <value>送信</value>
-  </data>
-  <data name="no-conversations.howto" xml:space="preserve">
-    <value>ユーザープロフィールまたはユーザーカードのポップアップから会話を開始します。</value>
-  </data>
-  <data name="no-conversations.lazer" xml:space="preserve">
-    <value>あなたが&lt;a href="{0}"&gt;osu!lazer&lt;/a&gt;で参加している公開チャンネルもここに表示されます。</value>
-  </data>
-  <data name="no-conversations.title" xml:space="preserve">
-    <value>まだトークはありません</value>
   </data>
   <data name="join_channels.loading" xml:space="preserve">
     <value>チャンネル一覧を読み込んでいます...</value>

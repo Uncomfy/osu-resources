@@ -163,6 +163,9 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Veuillez vérifier votre adresse e-mail principale sur GitHub, puis essayez d'associer votre compte à nouveau.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>recevoir des notifications pour des réponses aux discussions de beatmap auxquels vous participez </value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>recevoir des notifications lorsqu'un nouveau problème est posté sur les beatmaps qualifiées dans les modes suivants</value>
   </data>
@@ -171,6 +174,9 @@
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>recevoir des notifications pour des réponses à vos commentaires</value>
+  </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>recevoir des notifications pour les articles d'actualité</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Notifications</value>
@@ -187,8 +193,14 @@
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
     <value>modding de beatmap</value>
   </data>
+  <data name="notifications.options.channel_mention" xml:space="preserve">
+    <value>mentions du chat</value>
+  </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>messages privés</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>messages d'équipe</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>nouveaux commentaires</value>
@@ -202,8 +214,38 @@
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>créateur de beatmap</value>
   </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>articles d'actualité</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
+  </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>lorsque vous êtes ajouté en tant que participant sur une difficulté de carte</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>lorsque des discussions sur des cartes que vous regardez reçoivent des mises à jour, ou qu'il y a un problème ou une suggestion sur votre propre carte.</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>quand vous êtes mentionné dans un canal public</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>quand vous recevez un nouveau message privé</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>quand votre tchat d'équipe reçoit un nouveau message </value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>quand il y a un nouveau commentaire sur un élément que vous suivez</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>lorsqu’il y a de nouvelles réponses dans les sujets suivis</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>quand un créateur de carte en sort une nouvelle</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>quand il y a de nouvelles publications publiées</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>clients autorisés</value>
@@ -213,6 +255,9 @@
   </data>
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
+    <value>afficher les couvertures de beatmap de style anime</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>masquer les avertissements de contenu explicite dans les beatmaps</value>
@@ -235,6 +280,9 @@
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>sans vidéo</value>
   </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>mode de jeu par défaut</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>clavier</value>
   </data>
@@ -255,6 +303,9 @@
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>masquer votre présence en ligne</value>
+  </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>vous fera apparaître hors-ligne sur osu!lazer si activé</value>
   </data>
   <data name="privacy.title" xml:space="preserve">
     <value>Confidentialité</value>
@@ -282,6 +333,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>mettre à jour</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>Application d'authentification</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>Utiliser une application d'authentification au lieu de la vérification par courriel. La vérification par courriel est toujours disponible en tant qu'option de recours.</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>Retirer</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>Ajouter une application d'authentification</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>statut</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>Non configuré</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>Configuré</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>Vous pouvez désormais fermer cet onglet/cette fenêtre</value>

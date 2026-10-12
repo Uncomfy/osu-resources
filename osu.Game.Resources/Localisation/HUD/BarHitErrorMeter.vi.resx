@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="judgement_line_thickness" xml:space="preserve">
-    <value>Độ dày</value>
+    <value>Độ dày thanh đo lỗi bấm</value>
   </data>
   <data name="judgement_line_thickness_description" xml:space="preserve">
     <value>Chỉnh độ dày của các đường kẻ trên thanh đánh giá.</value>
@@ -77,7 +77,7 @@
     <value>Kiểu đánh dấu ở giữa thanh đánh giá</value>
   </data>
   <data name="centre_marker_style_description" xml:space="preserve">
-    <value>Cách biểu thị vị trí ở giữa thanh đánh giá</value>
+    <value>Cách hiển thị mốc chính giữa thanh đánh giá</value>
   </data>
   <data name="centre_marker_styles_none" xml:space="preserve">
     <value>Không</value>
@@ -89,10 +89,10 @@
     <value>Đường thẳng</value>
   </data>
   <data name="label_style" xml:space="preserve">
-    <value>Kiểu hiển thị thời gian</value>
+    <value>Kiểu hiển thị chữ</value>
   </data>
   <data name="label_style_description" xml:space="preserve">
-    <value>Cách biểu thị mức độ sớm/chậm</value>
+    <value>Cách hiển thị mức độ sớm/chậm</value>
   </data>
   <data name="label_styles_none" xml:space="preserve">
     <value>Không</value>

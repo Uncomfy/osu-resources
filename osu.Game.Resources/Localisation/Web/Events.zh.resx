@@ -68,7 +68,7 @@
     <value>&lt;strong&gt;{0}&lt;/strong&gt; 制作的 {1} 已经 {2} ！</value>
   </data>
   <data name="beatmapset_delete" xml:space="preserve">
-    <value>{0} 已删除。</value>
+    <value>{0} 已被删除。</value>
   </data>
   <data name="beatmapset_revive" xml:space="preserve">
     <value>&lt;strong&gt;{0}&lt;/strong&gt; 已经恢复了 {1}。</value>
@@ -86,7 +86,7 @@
     <value>{0} 在 {1} ({2}) 中取得了{3}</value>
   </data>
   <data name="rank_lost" xml:space="preserve">
-    <value>&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; 失去了 &lt;em&gt;{1}&lt;/em&gt; （{2}）的第一名</value>
+    <value>{0} 失去了 {1} ({2}) 的第一名</value>
   </data>
   <data name="user_support_again" xml:space="preserve">
     <value>&lt;strong&gt;{0}&lt;/strong&gt; 再次支持了 osu!——感谢您的慷慨！</value>

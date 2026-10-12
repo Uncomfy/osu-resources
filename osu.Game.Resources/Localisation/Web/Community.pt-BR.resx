@@ -74,10 +74,10 @@
     <value>Por que eu deveria apoiar osu!? Para onde vai o dinheiro?</value>
   </data>
   <data name="support.why-support.team.title" xml:space="preserve">
-    <value>Apoie a Equipe</value>
+    <value>Apoie a equipe</value>
   </data>
   <data name="support.why-support.team.description" xml:space="preserve">
-    <value>Um pequeno time de desenvolvedores desenvolve e mantém o osu! rodando. Seu apoio vai permitir que eles possam, você sabe... viver.</value>
+    <value>Uma pequena equipe desenvolve e mantém o osu! rodando. Seu apoio vai permitir que eles possam, você sabe... viver.</value>
   </data>
   <data name="support.why-support.infra.title" xml:space="preserve">
     <value>Infraestrutura do Servidor</value>
@@ -131,10 +131,10 @@
     <value>Ranking de Amigos</value>
   </data>
   <data name="support.perks.friend_ranking.description" xml:space="preserve">
-    <value>Veja como você se sai contra seus amigos nas classificações dos beatmaps, tanto in-game quanto pelo website.</value>
+    <value>Veja como você se sai contra seus amigos em placares de beatmaps, tanto no jogo quanto no site.</value>
   </data>
   <data name="support.perks.country_ranking.title" xml:space="preserve">
-    <value>Ranking Nacional</value>
+    <value>Classificação nacional</value>
   </data>
   <data name="support.perks.country_ranking.description" xml:space="preserve">
     <value>Conquiste seu país antes de conquistar o mundo.</value>
@@ -221,13 +221,13 @@
     <value>Mais Amigos</value>
   </data>
   <data name="support.perks.more_friends.description" xml:space="preserve">
-    <value>O número máximo de amigos que pode ter é aumentado de {0} &amp;rarr; {1}</value>
+    <value>O número máximo de amigos que você pode ter é aumentado de {0} &amp;rarr; {1}</value>
   </data>
   <data name="support.perks.more_beatmaps.title" xml:space="preserve">
     <value>Envie Mais Beatmaps</value>
   </data>
   <data name="support.perks.more_beatmaps.description" xml:space="preserve">
-    <value>A quantidade máxima de beatmaps não-ranqueados que você pode ter é calculado com base em um valor padrão (normalmente 4) +1 adicional para cada beatmap ranqueado que você possui (max. 2).&lt;br/&gt;&lt;br/&gt; Com osu!supporter, esse limite é aumentado para 8 + 1 adicional para cada beatmap ranqueado (max. 12).</value>
+    <value>O número de beatmaps pendentes que você pode ter ao mesmo tempo é calculado a partir de um valor base, mais um bônus adicional por cada mapa ranqueado que você tenha (até um limite).&lt;br/&gt;&lt;br/&gt;Normalmente, este valor é {0} mais {1} por mapa classificado (até {2}). Com osu!supporter, esse valor aumenta para {3} mais {4} por mapa ranqueado (até {5}).</value>
   </data>
   <data name="support.perks.friend_filtering.title" xml:space="preserve">
     <value>Placar de amigos</value>
@@ -235,11 +235,8 @@
   <data name="support.perks.friend_filtering.description" xml:space="preserve">
     <value>Dispute com seus amigos e veja como se sai contra eles!* &lt;br/&gt;&lt;br/&gt;&lt;small&gt;* ainda não disponível no novo site, embreve(tm)&lt;/small&gt;</value>
   </data>
-  <data name="support.supporter_status.contribution" xml:space="preserve">
-    <value>Obrigado pelo o seu apoio! Você contribuiu com um total de {0} em {1} compras de tags!</value>
-  </data>
-  <data name="support.supporter_status.gifted" xml:space="preserve">
-    <value>{0} de suas compras de tag foram presenteadas (um total de {1} presenteados), que generoso!</value>
+  <data name="support.supporter_status.contribution_with_duration" xml:space="preserve">
+    <value>Obrigado pelo seu apoio! Até agora, você contribuiu um total de {0}, ganhando a tag de "osu!supporter" por {1}.</value>
   </data>
   <data name="support.supporter_status.not_yet" xml:space="preserve">
     <value>Você ainda não tem uma supporter tag :(</value>
@@ -248,6 +245,12 @@
     <value>Sua supporter tag atual é válida até {0}!</value>
   </data>
   <data name="support.supporter_status.was_valid_until" xml:space="preserve">
-    <value>Sua supporter tag era válida até {0}.</value>
+    <value>Sua tag de osu!supporter era válida até {0}.</value>
+  </data>
+  <data name="support.supporter_status.gifted._" xml:space="preserve">
+    <value>De todas as suas contribuições totais, você presenteou {0} em tags para {1} por {2}. Que generosidade incrível!</value>
+  </data>
+  <data name="support.supporter_status.gifted.users" xml:space="preserve">
+    <value>{0} outro usuário|{0} outros usuários</value>
   </data>
 </root>

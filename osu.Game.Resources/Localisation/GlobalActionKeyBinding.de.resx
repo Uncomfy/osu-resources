@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Nächste Auswahl</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Vorherige Gruppe auswählen</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Vorherige Beatmap</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Nächste Gruppe auswählen</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Nächste Beatmap</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Vorherige Gruppe erweitern</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Nächste Gruppe erweitern</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Die aktuelle Gruppe erweitern/einklappen</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Hauptmenü</value>
@@ -180,6 +189,12 @@
   </data>
   <data name="random_skin" xml:space="preserve">
     <value>Zufälliger Skin</value>
+  </data>
+  <data name="previous_skin" xml:space="preserve">
+    <value>Vorheriger Skin</value>
+  </data>
+  <data name="next_skin" xml:space="preserve">
+    <value>Nächster Skin</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
     <value>Replay pausieren / fortsetzen</value>
@@ -256,6 +271,9 @@
   <data name="step_replay_backward" xml:space="preserve">
     <value>Zum vorherigen Frame springen</value>
   </data>
+  <data name="fast_forward_replay" xml:space="preserve">
+    <value>Replay schnell vorspulen</value>
+  </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>Chat-Fokus umschalten</value>
   </data>
@@ -329,6 +347,6 @@
     <value>Dialog für präzise Positionierung ein-/ausblenden</value>
   </data>
   <data name="editor_discard_unsaved_changes" xml:space="preserve">
-    <value>Ungespeicherte Änderungen verwerfen</value>
+    <value>Ungespeicherte Änderungen verwerfen...</value>
   </data>
 </root>

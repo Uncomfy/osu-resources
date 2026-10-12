@@ -62,7 +62,7 @@
     <value>Riproduci in automatico la traccia successiva</value>
   </data>
   <data name="defaults.page_description" xml:space="preserve">
-    <value>osu! - Il ritmo è a distanza di un *click*!  Con Ouendan/EBA, Taiko e modalità di gioco originali con un editor di livelli dotato di ogni funzionalità.</value>
+    <value>osu! - Il ritmo è a distanza di un *clic*!  Con Ouendan/EBA, Taiko e modalità di gioco originali con un editor di livelli dotato di ogni funzionalità.</value>
   </data>
   <data name="header.admin.beatmapset" xml:space="preserve">
     <value>set di beatmap</value>
@@ -87,6 +87,9 @@
   </data>
   <data name="header.beatmapsets.discussions" xml:space="preserve">
     <value>discussione</value>
+  </data>
+  <data name="header.beatmapsets.versions" xml:space="preserve">
+    <value>cronologia versioni</value>
   </data>
   <data name="header.changelog.index" xml:space="preserve">
     <value>lista</value>
@@ -114,6 +117,9 @@
   </data>
   <data name="header.users.playlists" xml:space="preserve">
     <value>playlist</value>
+  </data>
+  <data name="header.users.ranked-play" xml:space="preserve">
+    <value>ranked play</value>
   </data>
   <data name="header.users.realtime" xml:space="preserve">
     <value>multigiocatore</value>
@@ -179,7 +185,7 @@
     <value>Home</value>
   </data>
   <data name="footer.general.changelog-index" xml:space="preserve">
-    <value>Note di rilascio</value>
+    <value>Changelog</value>
   </data>
   <data name="footer.general.beatmaps" xml:space="preserve">
     <value>Lista Beatmap</value>
@@ -197,7 +203,7 @@
     <value>Forum della Comunità</value>
   </data>
   <data name="footer.help.livestreams" xml:space="preserve">
-    <value>Live</value>
+    <value>Dirette streaming</value>
   </data>
   <data name="footer.help.report" xml:space="preserve">
     <value>Segnala un problema</value>
@@ -213,6 +219,9 @@
   </data>
   <data name="footer.legal.privacy" xml:space="preserve">
     <value>Privacy</value>
+  </data>
+  <data name="footer.legal.rules" xml:space="preserve">
+    <value>Regole</value>
   </data>
   <data name="footer.legal.server_status" xml:space="preserve">
     <value>Stato del Server</value>
@@ -310,6 +319,9 @@
   <data name="popup_user.links.account-edit" xml:space="preserve">
     <value>Impostazioni</value>
   </data>
+  <data name="popup_user.links.create_team" xml:space="preserve">
+    <value>Crea squadra</value>
+  </data>
   <data name="popup_user.links.follows" xml:space="preserve">
     <value>Iscrizioni</value>
   </data>
@@ -332,13 +344,13 @@
     <value>Punteggio classico</value>
   </data>
   <data name="popup_user.links.scoring_mode_toggle_tooltip" xml:space="preserve">
-    <value>Regola i valori del punteggio per farli sembrare come il punteggio classico illimitato</value>
+    <value>Adatta i valori dei punti facendoli assomigliare al punteggio illimitato classico</value>
   </data>
   <data name="popup_user.links.team" xml:space="preserve">
     <value>Squadra</value>
   </data>
   <data name="popup_search.initial" xml:space="preserve">
-    <value>Digita per cercare!</value>
+    <value>Scrivi per cercare!</value>
   </data>
   <data name="popup_search.retry" xml:space="preserve">
     <value>Ricerca fallita. Clicca per riprovare.</value>

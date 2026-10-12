@@ -148,11 +148,17 @@
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Explizit</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Ungültige Bewertung.</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Diskussion</value>
   </data>
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Titelbild in Originalgröße anzeigen</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Admin-Seite anzeigen</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Diese Beatmap wurde gelöscht.</value>
@@ -271,6 +277,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Online-Offset</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Beatmap-Pakete</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Stellen, an denen Spieler gescheitert sind</value>
   </data>
@@ -283,11 +292,26 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Erfolgsrate</value>
   </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} aus {1} Spiel|{0} aus {1} Spielen</value>
+  </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>Nutzertags</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Diese Beatmap enthält ein Video</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Nur Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Aufgrund von bestimmten Spielmechaniken kann diese Beatmap nur mit osu!lazer gespielt werden.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0}, um Scores von dieser Beatmap anzusehen.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Aktiviere den Lazer-Modus</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Diese Beatmap enthält explizite, anstößige oder verstörende Inhalte. Möchtest du sie trotzdem sehen?</value>
@@ -332,7 +356,7 @@
     <value>Punkte-Anzeige</value>
   </data>
   <data name="show.scoreboard.headers.accuracy" xml:space="preserve">
-    <value>Präzision</value>
+    <value>Genauigkeit</value>
   </data>
   <data name="show.scoreboard.headers.combo" xml:space="preserve">
     <value>Maximale Combo</value>
@@ -401,7 +425,7 @@
     <value>HP-Drain</value>
   </data>
   <data name="show.stats.accuracy" xml:space="preserve">
-    <value>Präzision</value>
+    <value>Genauigkeit</value>
   </data>
   <data name="show.stats.ar" xml:space="preserve">
     <value>Approach-Rate</value>
@@ -434,7 +458,13 @@
     <value>Nominierungen</value>
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
-    <value>Playcount</value>
+    <value>Anzahl der Spiele</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Unterstützt von</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Noch keine Unterstützer</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Ranked</value>

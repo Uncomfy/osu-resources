@@ -70,6 +70,12 @@
   <data name="prefer_24_hour_time_display" xml:space="preserve">
     <value>使用 24 小时制时间</value>
   </data>
+  <data name="installation_header" xml:space="preserve">
+    <value>安装设置</value>
+  </data>
+  <data name="quick_actions_header" xml:space="preserve">
+    <value>快捷操作</value>
+  </data>
   <data name="update_header" xml:space="preserve">
     <value>更新</value>
   </data>
@@ -91,6 +97,9 @@
   <data name="change_folder_location" xml:space="preserve">
     <value>更改 osu! 文件夹位置...</value>
   </data>
+  <data name="change_folder_location_tooltip" xml:space="preserve">
+    <value>将当前本地数据移动至新的文件夹，或者为 osu! 指定一个存有先前备份数据的文件夹。</value>
+  </data>
   <data name="run_setup_wizard" xml:space="preserve">
     <value>打开设置向导</value>
   </data>
@@ -99,6 +108,24 @@
   </data>
   <data name="check_out_the_feature_comparison" xml:space="preserve">
     <value>查看功能对比和常见问题</value>
+  </data>
+  <data name="report_issue" xml:space="preserve">
+    <value>报告问题</value>
+  </data>
+  <data name="report_issue_tooltip" xml:space="preserve">
+    <value>向开发者报告游戏问题。</value>
+  </data>
+  <data name="change_release_stream_package_warning" xml:space="preserve">
+    <value>在切换版本流前，请检查您的软件包管理器或提供商。</value>
+  </data>
+  <data name="change_release_stream_confirmation" xml:space="preserve">
+    <value>您确定要运行一个可能不稳定的游戏版本吗？</value>
+  </data>
+  <data name="change_release_stream_confirmation_info" xml:space="preserve">
+    <value>如果您在开始游戏时遇到问题，您可以从官方网站获取安装程序来修复。</value>
+  </data>
+  <data name="release_stream_non_stable_upgrade_information" xml:space="preserve">
+    <value>请注意，即使选择接收非稳定版本的更新，游戏也会更新到相比较新的稳定发布版本。</value>
   </data>
   <data name="running_latest_release" xml:space="preserve">
     <value>你正在运行最新版本 ({0})</value>

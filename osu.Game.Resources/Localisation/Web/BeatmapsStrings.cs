@@ -70,6 +70,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DiscussionsKudosuDenied => new TranslatableString(getKey(@"discussions.kudosu_denied"), @"Denied from obtaining kudosu.");
 
         /// <summary>
+        /// "Include replies"
+        /// </summary>
+        public static LocalisableString DiscussionsIncludeReplies => new TranslatableString(getKey(@"discussions.include_replies"), @"Include replies");
+
+        /// <summary>
         /// "This difficulty has been deleted so it may no longer be discussed."
         /// </summary>
         public static LocalisableString DiscussionsMessagePlaceholderDeletedBeatmap => new TranslatableString(getKey(@"discussions.message_placeholder_deleted_beatmap"), @"This difficulty has been deleted so it may no longer be discussed.");
@@ -125,6 +130,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DiscussionsShowDeleted => new TranslatableString(getKey(@"discussions.show_deleted"), @"Show deleted");
 
         /// <summary>
+        /// "Show other replies"
+        /// </summary>
+        public static LocalisableString DiscussionsShowOtherReplies => new TranslatableString(getKey(@"discussions.show_other_replies"), @"Show other replies");
+
+        /// <summary>
         /// "Discussions"
         /// </summary>
         public static LocalisableString DiscussionsTitle => new TranslatableString(getKey(@"discussions.title"), @"Discussions");
@@ -132,7 +142,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} unresolved issue|{0} unresolved issues"
         /// </summary>
-        public static LocalisableString DiscussionsUnresolvedCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"discussions.unresolved_count"), @"{0} unresolved issue|{0} unresolved issues", countDelimited);
+        public static LocalisableString DiscussionsUnresolvedCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"discussions.unresolved_count"), @"{0} unresolved issue|{0} unresolved issues", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Collapse all"
@@ -383,6 +393,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "If this post starts with a timestamp, it will be shown under Timeline."
         /// </summary>
         public static LocalisableString DiscussionsReviewEmbedTimestampDiff => new TranslatableString(getKey(@"discussions.review.embed.timestamp.diff"), @"If this post starts with a timestamp, it will be shown under Timeline.");
+
+        /// <summary>
+        /// "insert note"
+        /// </summary>
+        public static LocalisableString DiscussionsReviewInsertBlockMapperNote => new TranslatableString(getKey(@"discussions.review.insert-block.mapper_note"), @"insert note");
 
         /// <summary>
         /// "insert paragraph"
@@ -745,6 +760,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ListingSearchOptions => new TranslatableString(getKey(@"listing.search.options"), @"More Search Options");
 
         /// <summary>
+        /// "Profile top rank counts and results shown on this page are based on your highest &quot;standardised&quot; (aka &quot;lazer&quot;) scores on beatmaps."
+        /// </summary>
+        public static LocalisableString ListingSearchRankFilterNote => new TranslatableString(getKey(@"listing.search.rank_filter_note"), @"Profile top rank counts and results shown on this page are based on your highest ""standardised"" (aka ""lazer"") scores on beatmaps.");
+
+        /// <summary>
         /// "Filtering by {0} requires an active osu!supporter tag"
         /// </summary>
         public static LocalisableString ListingSearchSupporterFilter(LocalisableString filters) => new TranslatableString(getKey(@"listing.search.supporter_filter"), @"Filtering by {0} requires an active osu!supporter tag", filters);
@@ -863,6 +883,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "osu!supporter tag"
         /// </summary>
         public static LocalisableString ListingSearchSupporterFilterQuoteLinkText => new TranslatableString(getKey(@"listing.search.supporter_filter_quote.link_text"), @"osu!supporter tag");
+
+        /// <summary>
+        /// "browse user tags"
+        /// </summary>
+        public static LocalisableString ListingSearchTagPickerTooltip => new TranslatableString(getKey(@"listing.search.tag_picker.tooltip"), @"browse user tags");
+
+        /// <summary>
+        /// "type to search"
+        /// </summary>
+        public static LocalisableString ListingSearchTagPickerPrompt => new TranslatableString(getKey(@"listing.search.tag_picker.prompt"), @"type to search");
 
         /// <summary>
         /// "Include converted beatmaps"

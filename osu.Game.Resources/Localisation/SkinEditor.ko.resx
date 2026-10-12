@@ -62,7 +62,7 @@
     <value>스킨 편집기</value>
   </data>
   <data name="components" xml:space="preserve">
-    <value>구성요소</value>
+    <value>구성 요소</value>
   </data>
   <data name="scene_library" xml:space="preserve">
     <value>장면 라이브러리</value>
@@ -80,7 +80,7 @@
     <value>현재 편집 중</value>
   </data>
   <data name="revert_to_default_description" xml:space="preserve">
-    <value>현재 화면의 레이어에 대한 모든 레이아웃 요소가 기본값으로 재설정됩니다.</value>
+    <value>레이어에 배치하신 모든 레이아웃 요소를 초기 상태로 복원합니다.</value>
   </data>
   <data name="closest" xml:space="preserve">
     <value>가장 가까운 대상</value>
@@ -108,5 +108,14 @@
   </data>
   <data name="current_working_layer" xml:space="preserve">
     <value>현재 작업 중인 레이어</value>
+  </data>
+  <data name="navigate_to_skinnable_screen" xml:space="preserve">
+    <value>씬 라이브러리를 사용하여 스킨을 적용할 수 있는 화면으로 이동하세요.</value>
+  </data>
+  <data name="return_to_game" xml:space="preserve">
+    <value>게임으로 돌아가기</value>
+  </data>
+  <data name="skin_mounted_externally" xml:space="preserve">
+    <value>스킨이 외부에서 마운트 됨</value>
   </data>
 </root>

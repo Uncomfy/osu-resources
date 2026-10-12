@@ -266,7 +266,7 @@
     <value>Chi tiết đơn hàng</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
-    <value>Số lượng</value>
+    <value>số lượng</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} cho {1} ({2})</value>
@@ -290,7 +290,7 @@
     <value>Bạn không thể chỉnh sửa đơn hàng vì nó đã được thanh toán.</value>
   </data>
   <data name="order.not_modifiable_exception.processing" xml:space="preserve">
-    <value>Bạn không thể chỉnh sửa đơn hàng trong khi nó đang được xử lý.</value>
+    <value>Bạn không thể chỉnh sửa đơn hàng của bạn trong khi nó đang được xử lý.</value>
   </data>
   <data name="order.not_modifiable_exception.shipped" xml:space="preserve">
     <value>Bạn không thể chỉnh sửa đơn hàng vì nó đã được vận chuyển.</value>
@@ -340,6 +340,9 @@
   <data name="product.notify" xml:space="preserve">
     <value>Thông báo cho tôi khi có hàng!</value>
   </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>Hết hàng</value>
+  </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>bạn sẽ được thông báo khi chúng tôi có hàng mới. nhấp vào {0} để hủy</value>
   </data>
@@ -356,7 +359,7 @@
     <value>thêm một lời nhắn vào món quà của bạn!( lên tới {0} chữ)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
-    <value>Bạn cần phải {0} để nhận một osu!supporter tag!</value>
+    <value>Bạn cần phải {0} để nhận một thẻ osu!supporter!</value>
   </data>
   <data name="supporter_tag.require_login.link_text" xml:space="preserve">
     <value>đăng nhập</value>

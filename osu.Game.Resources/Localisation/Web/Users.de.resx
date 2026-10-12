@@ -92,7 +92,7 @@
     <value>blockierte Benutzer ({0})</value>
   </data>
   <data name="blocks.hide_profile" xml:space="preserve">
-    <value>Profil verbergen</value>
+    <value>Profil ausblenden</value>
   </data>
   <data name="blocks.hide_comment" xml:space="preserve">
     <value>ausblenden</value>
@@ -101,7 +101,7 @@
     <value>Dieser Beitrag wird ausgeblendet.</value>
   </data>
   <data name="blocks.not_blocked" xml:space="preserve">
-    <value>Dieser Benutzer ist nicht geblockt.</value>
+    <value>Dieser Benutzer ist nicht blockiert.</value>
   </data>
   <data name="blocks.show_profile" xml:space="preserve">
     <value>Profil anzeigen</value>
@@ -164,7 +164,7 @@
     <value>E-Mail</value>
   </data>
   <data name="disabled.reasons.compromised" xml:space="preserve">
-    <value>Dein Konto wurde als gefährdet eingestuft. Es kann vorübergehend deaktiviert werden, während seine Identität bestätigt wird.</value>
+    <value>Dein Konto wurde als gefährdet eingestuft. Es kann vorübergehend deaktiviert werden, während die Identität bestätigt wird.</value>
   </data>
   <data name="disabled.reasons.opening" xml:space="preserve">
     <value>Es gibt eine Reihe von Gründen, die dazu führen können, dass Dein Konto deaktiviert wird:</value>
@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supporter kommen bald dazu)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Beendet</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmaps: {0}</value>
   </data>
@@ -292,8 +298,20 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Bitte melde Urheberrechtsverstöße durch einen DMCA-Antrag an {0} wie in {1} beschrieben.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>der osu!-Urheberrechtsrichtlinie</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Dies betrifft Fälle, in denen Audiospuren, visuelle Inhalte oder Inhalte aus Beatmapleveln ohne korrekte Genehmigung verwendet werden.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Cheating</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Urheberrechtsverletzung</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>Unangemessenes Verhalten im Chat</value>
@@ -368,7 +386,7 @@
     <value>{0} Kommentar|{0} Kommentare</value>
   </data>
   <data name="show.cover.to_0" xml:space="preserve">
-    <value>Cover verbergen</value>
+    <value>Cover ausblenden</value>
   </data>
   <data name="show.cover.to_1" xml:space="preserve">
     <value>Cover anzeigen</value>
@@ -408,6 +426,12 @@
   </data>
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0} W</value>
+  </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Weniger Details anzeigen</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Mehr Details anzeigen</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Profilbanner ändern</value>
@@ -553,6 +577,9 @@
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Replays angeschaut</value>
   </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Meistgesehene Replays</value>
+  </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Kudosu-Verlauf</value>
   </data>
@@ -631,6 +658,9 @@
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>weitere Beiträge anschauen</value>
   </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Ranked-Play-Spiele</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Neulich</value>
   </data>
@@ -695,7 +725,7 @@
     <value>Der Account von {0} hat zurzeit keinen guten Ruf :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
-    <value>{0} kann in {1} wieder sprechen.</value>
+    <value>{0} wird {1} wieder sprechen können.</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
     <value>Neuliche Verstöße</value>
@@ -710,7 +740,7 @@
     <value>Dauer</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.length_indefinite" xml:space="preserve">
-    <value>Unbestimmt</value>
+    <value>Unbefristet</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
     <value>Beschreibung</value>
@@ -722,7 +752,7 @@
     <value>Bann</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
-    <value>Silence</value>
+    <value>Stummschaltung</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
     <value>Turniersperre</value>
@@ -741,6 +771,27 @@
   </data>
   <data name="show.info.website" xml:space="preserve">
     <value>Webseite</value>
+  </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Niederlagen</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>Spiele insgesamt</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Rang</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Wertung</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Stufe</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Ranked Play</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Siege</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Der gesuchte Benutzer könnte seinen Namen geändert haben.</value>
@@ -796,6 +847,15 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Höchster Rang: {0} am {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>Eine neue Sternbewertung / PP-Algorithmus {0}.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>wird bereitgestellt</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>Aktuelle Ergebnisse werden möglicherweise nicht sofort in den Benutzerprofilen angezeigt.</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>Top {0}</value>
   </data>
@@ -804,6 +864,9 @@
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Genauigkeit</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Treffer pro Spiel</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Level {0}</value>

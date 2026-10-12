@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="invalid_ruleset" xml:space="preserve">
-    <value>Regras especificadas inválidas.</value>
+    <value>Modalidade especificada inválida.</value>
   </data>
   <data name="change_owner.too_many" xml:space="preserve">
-    <value>Muitos mapeadores convidados.</value>
+    <value>Muitos mappers convidados.</value>
   </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>Falha ao atualizar votos</value>
@@ -93,6 +93,9 @@
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Impossibilitado de receber kudosu.</value>
+  </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Incluir respostas</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Esta dificuldade foi deletada e uma dicussão não poderá ser aberta.</value>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Mostrar excluídos</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Mostrar outras respostas</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Discussões</value>
@@ -209,7 +215,7 @@
     <value>Enviar Hype!</value>
   </data>
   <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
-    <value>Enviar Nota</value>
+    <value>Enviar nota</value>
   </data>
   <data name="discussions.message_type_title.nomination_reset" xml:space="preserve">
     <value>Remover todas as Nomeações</value>
@@ -236,7 +242,7 @@
     <value>Geral {0}</value>
   </data>
   <data name="discussions.mode.reviews" xml:space="preserve">
-    <value>Revisões</value>
+    <value>Análises</value>
   </data>
   <data name="discussions.mode.timeline" xml:space="preserve">
     <value>Linha do tempo</value>
@@ -278,10 +284,13 @@
     <value>Não salvo</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>As postagens em "Todas as dificuldades" não podem ser temporizadas.</value>
+    <value>As publicações em "Todas as dificuldades" não podem ser temporizadas.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Se este {0} começa com marcação de tempo, será mostrado na Linha do Tempo.</value>
+  </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>inserir nota</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>inserir parágrafo</value>
@@ -494,13 +503,16 @@
     <value>digite em palavras-chave...</value>
   </data>
   <data name="listing.search.login_required" xml:space="preserve">
-    <value>Conecte-se para pesquisar.</value>
+    <value>Entre para pesquisar.</value>
   </data>
   <data name="listing.search.options" xml:space="preserve">
     <value>Mais opções de busca</value>
   </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>A classificação do perfil e os resultados exibidos nesta página são baseados nas suas notas mais altas "padronizadas" (também conhecido como "lazer") em beatmaps.</value>
+  </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
-    <value>Filtrar por {0} requer uma osu!supporter tag ativa</value>
+    <value>Filtrar por {0} requer uma tag de osu!supporter ativa</value>
   </data>
   <data name="listing.search.not-found" xml:space="preserve">
     <value>nenhum resultado</value>
@@ -569,7 +581,13 @@
     <value>Filtrar por {0} requer uma {1}</value>
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
-    <value>osu!supporter tag</value>
+    <value>tag de osu!supporter</value>
+  </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>procurar por tags de usuário</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>digite para pesquisar</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Incluir beatmaps convertidos</value>
@@ -608,7 +626,7 @@
     <value>Cemitério</value>
   </data>
   <data name="status.leaderboard" xml:space="preserve">
-    <value>Possuem Classificações</value>
+    <value>Tem placar</value>
   </data>
   <data name="status.loved" xml:space="preserve">
     <value>Loved</value>

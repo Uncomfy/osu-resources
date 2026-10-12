@@ -80,7 +80,7 @@
     <value>Sedang menyunting</value>
   </data>
   <data name="revert_to_default_description" xml:space="preserve">
-    <value>Seluruh elemen antarmuka pada lapisan di layar saat ini akan dikembalikan ke pengaturan bawaan.</value>
+    <value>Semua elemen antarmuka pada lapisan di layar yang saat ini aktif akan dikembalikan ke setelan asal.</value>
   </data>
   <data name="closest" xml:space="preserve">
     <value>Terdekat</value>
@@ -108,5 +108,14 @@
   </data>
   <data name="current_working_layer" xml:space="preserve">
     <value>Lapisan kerja saat ini</value>
+  </data>
+  <data name="navigate_to_skinnable_screen" xml:space="preserve">
+    <value>Silakan tuju layar yang bisa di-skin dengan menggunakan pustaka layar</value>
+  </data>
+  <data name="return_to_game" xml:space="preserve">
+    <value>Kembali ke permainan</value>
+  </data>
+  <data name="skin_mounted_externally" xml:space="preserve">
+    <value>Skin ini dikaitkan secara eksternal</value>
   </data>
 </root>

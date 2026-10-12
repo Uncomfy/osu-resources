@@ -74,7 +74,7 @@
     <value>Hiệu ứng chiều sâu nền</value>
   </data>
   <data name="hold_to_confirm_activation_time" xml:space="preserve">
-    <value>Thời gian giữ để kích hoạt</value>
+    <value>Thời gian giữ để xác nhận</value>
   </data>
   <data name="main_menu_header" xml:space="preserve">
     <value>Menu chính</value>
@@ -88,6 +88,9 @@
   <data name="intro_sequence" xml:space="preserve">
     <value>Đoạn mở đầu</value>
   </data>
+  <data name="intro_random" xml:space="preserve">
+    <value>Ngẫu nhiên</value>
+  </data>
   <data name="background_source" xml:space="preserve">
     <value>Nguồn hình nền</value>
   </data>
@@ -95,13 +98,16 @@
     <value>Hình nền theo mùa</value>
   </data>
   <data name="not_supporter_note" xml:space="preserve">
-    <value>Các thay đổi cài đặt này chỉ áp dụng với một tag osu!supporter đang hoạt động.</value>
+    <value>Các thay đổi cài đặt này chỉ áp dụng với một thẻ osu!supporter đang hoạt động.</value>
   </data>
   <data name="song_select_header" xml:space="preserve">
     <value>Chọn bài</value>
   </data>
   <data name="right_mouse_scroll" xml:space="preserve">
-    <value>Kéo chuột phải để trượt</value>
+    <value>Kéo chuột phải để cuộn nhanh</value>
+  </data>
+  <data name="show_converts" xml:space="preserve">
+    <value>Hiển thị chuyển đổi</value>
   </data>
   <data name="show_converted_beatmaps" xml:space="preserve">
     <value>Hiện các beatmap đã được chuyển đổi</value>
@@ -137,7 +143,7 @@
     <value>Thỉnh thoảng</value>
   </data>
   <data name="mods_sequential_hotkeys" xml:space="preserve">
-    <value>Chuỗi</value>
+    <value>Tuần tự</value>
   </data>
   <data name="mods_classic_hotkeys" xml:space="preserve">
     <value>Cổ điển</value>
@@ -147,5 +153,26 @@
   </data>
   <data name="true_random" xml:space="preserve">
     <value>Ngẫu nhiên hoàn toàn</value>
+  </data>
+  <data name="selected_mods" xml:space="preserve">
+    <value>Mod đã chọn</value>
+  </data>
+  <data name="hold_for_menu" xml:space="preserve">
+    <value>giữ để mở menu</value>
+  </data>
+  <data name="press_for_menu" xml:space="preserve">
+    <value>nhấn để mở menu</value>
+  </data>
+  <data name="device" xml:space="preserve">
+    <value>Thiết bị</value>
+  </data>
+  <data name="show_hidden" xml:space="preserve">
+    <value>Hiện mục ẩn</value>
+  </data>
+  <data name="currently_online" xml:space="preserve">
+    <value>Hiện đang trực tuyến</value>
+  </data>
+  <data name="user_search" xml:space="preserve">
+    <value>Tìm kiếm người dùng</value>
   </data>
 </root>

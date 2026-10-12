@@ -74,7 +74,7 @@
     <value>Genera onde con il cursore</value>
   </data>
   <data name="playfield_border_style" xml:space="preserve">
-    <value>Stile bordo del campo di gioco</value>
+    <value>Stile bordo dell'area di gioco</value>
   </data>
   <data name="no_borders" xml:space="preserve">
     <value>Nessuno</value>
@@ -95,13 +95,28 @@
     <value>Verso il basso</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
-    <value>Velocità scorrimento</value>
+    <value>Velocità di scorrimento</value>
   </data>
   <data name="Timing_based_colouring" xml:space="preserve">
     <value>Colora note in base al tempo</value>
   </data>
+  <data name="rate_adjusted_hit_animation" xml:space="preserve">
+    <value>Adatta animazioni del colpi al ritmo</value>
+  </data>
+  <data name="rate_adjusted_hit_animation_tooltip" xml:space="preserve">
+    <value>I colpi volano più rapidamente o più lentamente quando il ritmo della beatmap viene regolato dalle mod.</value>
+  </data>
+  <data name="hit_animations" xml:space="preserve">
+    <value>Animazioni sul colpo</value>
+  </data>
+  <data name="hit_animations_taiko_tooltip" xml:space="preserve">
+    <value>Se abilitato, i colpi voleranno fuori dallo schermo. Se disabilitato, i colpi svaniranno immediatamente.</value>
+  </data>
+  <data name="hit_animations_osu_tooltip" xml:space="preserve">
+    <value>Se abilitato, i cerchi riprodurranno un'animazione quando colpiti. Se disabilitato, questi svaniranno subito.</value>
+  </data>
   <data name="ruleset" xml:space="preserve">
-    <value>{0}ms (velocità {1})</value>
+    <value>{0}ms (velocità {1:N1})</value>
   </data>
   <data name="touch_control_scheme" xml:space="preserve">
     <value>Schema di controllo touch</value>
@@ -109,13 +124,16 @@
   <data name="mobile_layout" xml:space="preserve">
     <value>Layout dispositivi mobili</value>
   </data>
-  <data name="portrait_expanded_columns" xml:space="preserve">
-    <value>Verticale (colonne espanse)</value>
+  <data name="portrait" xml:space="preserve">
+    <value>Verticale</value>
+  </data>
+  <data name="landscape" xml:space="preserve">
+    <value>Orizzontale</value>
   </data>
   <data name="landscape_expanded_columns" xml:space="preserve">
     <value>Orizzontale (colonne espanse)</value>
   </data>
-  <data name="landscape_touch_overlay" xml:space="preserve">
-    <value>Orizzontale (overlay tocco)</value>
+  <data name="touch_overlay" xml:space="preserve">
+    <value>Abilita overlay touch</value>
   </data>
 </root>

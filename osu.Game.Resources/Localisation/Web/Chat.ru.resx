@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>загрузка пользователей...</value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>поиск пользователей...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>чат в {0}</value>
   </data>
@@ -80,7 +83,7 @@
     <value>Вы не можете написать этому пользователю на данный момент:</value>
   </data>
   <data name="channels.confirm_part" xml:space="preserve">
-    <value>Вы точно хотите скрыть этот канал? Вы всё ещё будете получать сообщения из него.</value>
+    <value>Вы действительно хотите скрыть этот канал? Вы всё ещё будете получать сообщения из него.</value>
   </data>
   <data name="channels.create" xml:space="preserve">
     <value>создать объявление</value>
@@ -127,6 +130,12 @@
   <data name="not_found.title" xml:space="preserve">
     <value>канал не найден</value>
   </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>Подпишитесь на этот канал, чтобы начать читать сообщения.</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>Подписаться</value>
+  </data>
   <data name="input.create" xml:space="preserve">
     <value>Создать</value>
   </data>
@@ -141,15 +150,6 @@
   </data>
   <data name="input.send" xml:space="preserve">
     <value>Отправить</value>
-  </data>
-  <data name="no-conversations.howto" xml:space="preserve">
-    <value>Начните переписку с профиля игрока или всплывающей карточки.</value>
-  </data>
-  <data name="no-conversations.lazer" xml:space="preserve">
-    <value>Общие каналы, к которым Вы присоединились через &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt;, также видны здесь.</value>
-  </data>
-  <data name="no-conversations.title" xml:space="preserve">
-    <value>диалогов нет</value>
   </data>
   <data name="join_channels.loading" xml:space="preserve">
     <value>Загрузка списка каналов...</value>

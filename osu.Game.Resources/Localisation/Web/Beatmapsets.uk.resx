@@ -154,6 +154,9 @@
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Перегляд зображення повнорозмірної обкладинки</value>
   </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Переглянути сторінку адміністратора</value>
+  </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Ця мапа була видалена.</value>
   </data>
@@ -271,6 +274,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Онлайн офсет</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Збірки бітмап</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Шкала провалів</value>
   </data>
@@ -283,11 +289,26 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Шанс успіху</value>
   </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} з {1} гри|{0} з {1} ігор</value>
+  </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>Теги користувача</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Бітмапа містить відео</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Лише в Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Через наявність деяких нестандартних механік, в цю бітмапу можна зіграти лише в osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} для перегляду рекордів, постановлених на цій мапі.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Увімкніть рекорди Lazer</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Ця бітмапа містить непристойний, образливий або тривожний вміст. Все ще хочете її переглянути?</value>
@@ -435,6 +456,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Кількість ігор</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Вподобані</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Поки немає вподобаних</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Рейтингова</value>

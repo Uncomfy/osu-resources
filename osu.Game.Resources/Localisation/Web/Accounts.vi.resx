@@ -74,7 +74,7 @@
     <value>Hãy chắc rằng ảnh đại diện của bạn tuân thủ {0}.&lt;br/&gt;Điều này có nghĩa rằng ảnh phải &lt;strong&gt;phù hợp với mọi lứa tuổi&lt;/strong&gt;. Ví dụ như không có nội dung khiêu gợi, thô tục hoặc gợi tưởng.</value>
   </data>
   <data name="edit.avatar.rules_link" xml:space="preserve">
-    <value>những tiêu chuẩn cộng đồng</value>
+    <value>những cân nhắc về Nội dung trực quan</value>
   </data>
   <data name="edit.email.new" xml:space="preserve">
     <value>email mới</value>
@@ -143,7 +143,7 @@
     <value>cập nhật</value>
   </data>
   <data name="github_user.info" xml:space="preserve">
-    <value>Nếu bạn là người đóng góp cho kho lưu trữ nguồn mở của osu!, việc liên kết tài khoản GitHub của bạn tại đây sẽ liên kết các mục nhật ký thay đổi với trang cá nhân osu! của bạn. Tài khoản GitHub không có lịch sử đóng góp cho osu! không thể liên kết được.</value>
+    <value>Nếu bạn là người đóng góp cho các kho mã nguồn mở của osu!, việc liên kết tài khoản GitHub của bạn tại đây sẽ liên kết các mục nhật ký thay đổi với trang cá nhân osu! của bạn. Tài khoản GitHub không có lịch sử đóng góp cho osu! không thể liên kết được.</value>
   </data>
   <data name="github_user.link" xml:space="preserve">
     <value>Liên kết tài khoản GitHub</value>
@@ -163,32 +163,44 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Vui lòng xác minh email chính của bạn trên GitHub, sau đó thử liên kết lại tài khoản của bạn.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>nhận thông báo khi có phản hồi đến các cuộc thảo luận beatmap bạn đang theo dõi</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
-    <value>nhận thông báo về vấn đề mới ở các beatmap đủ tiêu chuẩn của chế độ này</value>
+    <value>nhận thông báo về các vấn đề mới trên các beatmap đủ điều kiện thuộc các chế độ sau</value>
   </data>
   <data name="notifications.beatmapset_disqualify" xml:space="preserve">
-    <value>nhận thông báo khi beatmap ở các chế độ sau bị từ chối</value>
+    <value>nhận thông báo khi beatmap ở các chế độ sau bị hủy trạng thái đủ điều kiện</value>
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>nhận thông báo khi có phản hồi đến bình luận của bạn</value>
+  </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>nhận thông báo về các bài đăng tin tức</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Thông báo</value>
   </data>
   <data name="notifications.topic_auto_subscribe" xml:space="preserve">
-    <value>tự động nhận thông báo cho các chủ đề bạn tạo trong forum</value>
+    <value>tự động nhận thông báo cho các chủ đề trên diễn đàn mà bạn mới tạo hoặc trả lời</value>
   </data>
   <data name="notifications.options._" xml:space="preserve">
-    <value>phương thức giao hàng</value>
+    <value>cách nhận thông báo</value>
   </data>
   <data name="notifications.options.beatmap_owner_change" xml:space="preserve">
     <value>độ khó khách mời</value>
   </data>
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
-    <value>sửa đổi beatmap</value>
+    <value>nhận xét beatmap</value>
+  </data>
+  <data name="notifications.options.channel_mention" xml:space="preserve">
+    <value>nhắc tên trong chat</value>
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>tin nhắn riêng tư</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>tin nhắn đội</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>bình luận mới</value>
@@ -202,8 +214,38 @@
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>người tạo beatmap</value>
   </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>bài đăng tin tức</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>đẩy</value>
+  </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>khi bạn được thêm làm guest mapper cho một độ khó của bài nhạc</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>khi các thảo luận beatmap bạn đang theo dõi có cập nhật, hoặc có lỗi hoặc góp ý xuất hiện trên beatmap của chính bạn.</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>khi bạn được nhắc đến trong một kênh trò chuyện công khai</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>khi bạn nhận được tin nhắn riêng tư</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>khi kênh chat đội của bạn có tin nhắn mới</value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>khi có bình luận mới về một mục bạn đang theo dõi</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>khi các chủ đề diễn đàn bạn đang theo dõi có phản hồi mới</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>khi một mapper bạn đang theo dõi tải lên một beatmap</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>khi có bài đăng tin tức mới</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>client được cấp quyền</value>
@@ -213,6 +255,9 @@
   </data>
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
+    <value>hiện ảnh bìa beatmap phong cách anime</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>ẩn cảnh báo nội dung không lành mạnh trong beatmap</value>
@@ -235,6 +280,9 @@
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>không kèm video</value>
   </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>chế độ chơi mặc định</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>bàn phím</value>
   </data>
@@ -245,7 +293,7 @@
     <value>bảng vẽ</value>
   </data>
   <data name="playstyles.title" xml:space="preserve">
-    <value>Lối Chơi</value>
+    <value>Lối chơi</value>
   </data>
   <data name="playstyles.touch" xml:space="preserve">
     <value>cảm ứng</value>
@@ -254,7 +302,10 @@
     <value>chặn tin nhắn từ những người không có trong danh sách bạn bè của bạn</value>
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
-    <value>ẩn trạng thái của bạn khi bạn online</value>
+    <value>ẩn trạng thái trực tuyến của bạn</value>
+  </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>tính năng này tương ứng với chế độ "xuất hiện ngoại tuyến" trong osu!lazer</value>
   </data>
   <data name="privacy.title" xml:space="preserve">
     <value>Quyền Riêng Tư</value>
@@ -283,13 +334,34 @@
   <data name="update_password.update" xml:space="preserve">
     <value>cập nhật</value>
   </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>Ứng Dụng Xác Thực</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>Xác thực bằng ứng dụng xác thực thay cho email. Email vẫn sẽ được sử dụng như một phương thức dự phòng.</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>Loại bỏ</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>Thêm ứng dụng xác thực</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>trạng thái</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>Chưa được thiết lập</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>Đã thiết lập</value>
+  </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>Bây giờ bạn có thể đóng cửa sổ này</value>
   </data>
   <data name="verification_completed.title" xml:space="preserve">
-    <value>Tài khoản đã được xác minh</value>
+    <value>Quá trình xác minh đã hoàn tất</value>
   </data>
   <data name="verification_invalid.title" xml:space="preserve">
-    <value>Đường dẫn xác minh tài khoản không hợp lệ hoặc hết hạn</value>
+    <value>Đường dẫn xác minh không hợp lệ hoặc đã hết hạn</value>
   </data>
 </root>

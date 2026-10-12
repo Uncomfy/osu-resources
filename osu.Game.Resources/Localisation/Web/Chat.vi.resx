@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>đang chờ người dùng...</value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>đang tìm kiếm người dùng...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>đang trò chuyện ở {0}</value>
   </data>
@@ -74,10 +77,10 @@
     <value>tin nhắn chưa đọc</value>
   </data>
   <data name="cannot_send.channel" xml:space="preserve">
-    <value>Hiện bạn không thế gửi tin nhắn vào kênh này. Điều này có thể vì những lí do sau:</value>
+    <value>Hiện bạn không thế gửi tin nhắn vào kênh này.</value>
   </data>
   <data name="cannot_send.user" xml:space="preserve">
-    <value>Hiện bạn không thế gửi tin nhắn cho người dùng này. Điều này có thể vì những lí do sau:</value>
+    <value>Hiện bạn không thế gửi tin nhắn cho người dùng này.</value>
   </data>
   <data name="channels.confirm_part" xml:space="preserve">
     <value>Bạn có muốn ẩn kênh này không? Bạn vẫn sẽ nhận được tin nhắn từ kênh này.</value>
@@ -127,6 +130,12 @@
   <data name="not_found.title" xml:space="preserve">
     <value>không tìm thấy kênh</value>
   </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>Tham gia kênh để hiển thị tin nhắn</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>Tham gia kênh</value>
+  </data>
   <data name="input.create" xml:space="preserve">
     <value>Tạo</value>
   </data>
@@ -141,15 +150,6 @@
   </data>
   <data name="input.send" xml:space="preserve">
     <value>Gửi</value>
-  </data>
-  <data name="no-conversations.howto" xml:space="preserve">
-    <value>Bắt đầu cuộc trò chuyện từ trang cá nhân hoặc usercard của họ.</value>
-  </data>
-  <data name="no-conversations.lazer" xml:space="preserve">
-    <value>Những kênh công khai bạn tham gia qua &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; cũng sẽ hiển thị tại đây.</value>
-  </data>
-  <data name="no-conversations.title" xml:space="preserve">
-    <value>chưa có cuộc trò chuyện nào</value>
   </data>
   <data name="join_channels.loading" xml:space="preserve">
     <value>Đang tải danh sách kênh...</value>

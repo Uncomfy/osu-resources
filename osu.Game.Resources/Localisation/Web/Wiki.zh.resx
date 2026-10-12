@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="show.fallback_translation" xml:space="preserve">
-    <value>当前页面尚未支持所选语言（{0}），已显示英文版本。</value>
+    <value>请求的页面还没有没有被翻译为您的语言（{0}）。 正在显示其英文版本。</value>
   </data>
   <data name="show.incomplete_or_outdated" xml:space="preserve">
     <value>此页内容尚不完整或已过时。如果你能协助完善，欢迎对本文内容进行修缮！</value>
@@ -68,7 +68,7 @@
     <value>请求访问的页面“{0}”无法找到。</value>
   </data>
   <data name="show.missing_title" xml:space="preserve">
-    <value>内容不存在</value>
+    <value>未找到</value>
   </data>
   <data name="show.missing_translation" xml:space="preserve">
     <value>请求的页面没有当前语言的版本。</value>
@@ -77,7 +77,7 @@
     <value>此页面不符合 osu! wiki 标准，需进行清理或重新编写。如果你能协助完善，欢迎对本文内容进行修缮！</value>
   </data>
   <data name="show.search" xml:space="preserve">
-    <value>在 wiki 中搜索 {0} 。</value>
+    <value>在现存页面中搜索 {0} 。</value>
   </data>
   <data name="show.stub" xml:space="preserve">
     <value>这篇文章不完整，需要他人来补充。</value>

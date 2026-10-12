@@ -65,7 +65,7 @@
     <value>Aparecer offline</value>
   </data>
   <data name="signed_in" xml:space="preserve">
-    <value>Sessão iniciada</value>
+    <value>Conectado</value>
   </data>
   <data name="sign_out" xml:space="preserve">
     <value>Encerrar sessão</value>
@@ -81,5 +81,11 @@
   </data>
   <data name="register" xml:space="preserve">
     <value>Registrar</value>
+  </data>
+  <data name="code_sent" xml:space="preserve">
+    <value>Foi enviado um código de verificação em seu email. Insira o código.</value>
+  </data>
+  <data name="enter_code" xml:space="preserve">
+    <value>Inserir código</value>
   </data>
 </root>

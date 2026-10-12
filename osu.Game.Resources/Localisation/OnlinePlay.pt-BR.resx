@@ -67,4 +67,34 @@
   <data name="cant_invite_this_user_as1" xml:space="preserve">
     <value>Não é possível convidar este usuário, pois ele optou por ser um Jogador solitário.</value>
   </data>
+  <data name="footer_button_playlist_add" xml:space="preserve">
+    <value>Adicionar à playlist</value>
+  </data>
+  <data name="footer_button_freemods" xml:space="preserve">
+    <value>Mods livres</value>
+  </data>
+  <data name="footer_button_freestyle" xml:space="preserve">
+    <value>Freestyle</value>
+  </data>
+  <data name="playlist_tray_description" xml:space="preserve">
+    <value>Gerenciar itens na tela anterior</value>
+  </data>
+  <data name="multiplayer_beatmap_queue" xml:space="preserve">
+    <value>Fila de beatmaps</value>
+  </data>
+  <data name="playlist_progress" xml:space="preserve">
+    <value>Progresso</value>
+  </data>
+  <data name="playlist_leaderboard" xml:space="preserve">
+    <value>Placar</value>
+  </data>
+  <data name="difficulty" xml:space="preserve">
+    <value>Dificuldade</value>
+  </data>
+  <data name="chat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="close_playlist" xml:space="preserve">
+    <value>Fechar playlist</value>
+  </data>
 </root>

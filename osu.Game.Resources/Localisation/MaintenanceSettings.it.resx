@@ -77,10 +77,7 @@
     <value>Seleziona un nuovo percorso</value>
   </data>
   <data name="target_directory_already_installed_osu" xml:space="preserve">
-    <value>Il percorso selezionato sembra avere già un'installazione di osu!. Vuoi utilizzare quei dati?</value>
-  </data>
-  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
-    <value>Per completare l'operazione, osu! verrà chiuso. Riaprilo nuovamente per utilizzare il nuovo percorso dei dati.</value>
+    <value>Il percorso selezionato sembra avere già un'installazione di osu!. Vuoi utilizzare quei dati? osu! verrà riavviato.</value>
   </data>
   <data name="delete_all_beatmaps" xml:space="preserve">
     <value>Elimina TUTTE le beatmap</value>
@@ -89,7 +86,7 @@
     <value>Elimina TUTTI i video delle beatmap</value>
   </data>
   <data name="reset_all_offsets" xml:space="preserve">
-    <value>Ripristina TUTTI gli offset delle beatmap</value>
+    <value>Azzera TUTTI gli offset delle beatmap</value>
   </data>
   <data name="delete_all_scores" xml:space="preserve">
     <value>Elimina TUTTI i punteggi</value>
@@ -132,5 +129,11 @@
   </data>
   <data name="stable_directory_select_header" xml:space="preserve">
     <value>Seleziona il percorso d'installazione di osu!stable</value>
+  </data>
+  <data name="all_offsets_reset" xml:space="preserve">
+    <value>Tutti gli offset sono stati azzerati!</value>
+  </data>
+  <data name="no_videos_found_to_delete" xml:space="preserve">
+    <value>Nessun video trovato da eliminare!</value>
   </data>
 </root>

@@ -247,6 +247,9 @@
   <data name="order.total" xml:space="preserve">
     <value>Total</value>
   </data>
+  <data name="order.unavailable" xml:space="preserve">
+    <value>Aucune information supplémentaire n'est disponible pour cette commande.</value>
+  </data>
   <data name="order.details.order_number" xml:space="preserve">
     <value>Commande #</value>
   </data>
@@ -339,6 +342,9 @@
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>Prévenez-moi quand cet article sera disponible !</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>Rupture de stock</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>vous serez prévenu quand cet article sera de nouveau en stock. cliquez {0} pour annuler</value>

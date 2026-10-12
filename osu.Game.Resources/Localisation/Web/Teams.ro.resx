@@ -70,6 +70,9 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>Alăturarea în echipa a fost solicitată.</value>
   </data>
+  <data name="card.members" xml:space="preserve">
+    <value>un membru|{0} membrii|{0} de membrii</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
     <value>Creează Echipă</value>
   </data>
@@ -244,11 +247,20 @@
   <data name="show.sections.members" xml:space="preserve">
     <value>Membri</value>
   </data>
-  <data name="show.statistics.rank" xml:space="preserve">
-    <value>Rang</value>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>{0} slot disponibil|{0} sloturi disponibile|{0} de sloturi disponibile</value>
+  </data>
+  <data name="show.statistics.first_places" xml:space="preserve">
+    <value>Primul loc</value>
   </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>Liderul Echipei</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Rang</value>
+  </data>
+  <data name="show.statistics.ranked_beatmapsets" xml:space="preserve">
+    <value>Beatmap-uri clasate</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Echipă creată.</value>

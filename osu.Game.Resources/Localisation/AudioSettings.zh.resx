@@ -95,15 +95,28 @@
     <value>玩一些谱面来让游戏计算一个合适的偏移！</value>
   </data>
   <data name="suggested_offset_correct" xml:space="preserve">
-    <value>基于最近的 {0} 次游玩，你的偏移值已经精确设定好了！</value>
+    <value>基于你最近的 {0} 次游玩，你的偏移量已经正确设定好了！</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>基于你最近的 {0} 场游戏，游戏推荐的偏移量是 {1} ms。</value>
+    <value>基于你最近的 {0} 次游玩，游戏推荐的偏移量是 {1} ms。</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
     <value>使用推荐偏移</value>
   </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>偏移设置向导</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>自动调整谱面偏移</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>启用后，将自动应用上次游玩谱面的建议偏移量。</value>
+  </data>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>使用旧版音频引擎</value>
+  </data>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>游玩过程中遇到音频问题时，请开启此选项。
+注意：该选项会增加音频延迟。</value>
   </data>
 </root>

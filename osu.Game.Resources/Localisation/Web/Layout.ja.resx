@@ -88,6 +88,9 @@
   <data name="header.beatmapsets.discussions" xml:space="preserve">
     <value>ディスカッション</value>
   </data>
+  <data name="header.beatmapsets.versions" xml:space="preserve">
+    <value>バージョン履歴</value>
+  </data>
   <data name="header.changelog.index" xml:space="preserve">
     <value>一覧</value>
   </data>
@@ -114,6 +117,9 @@
   </data>
   <data name="header.users.playlists" xml:space="preserve">
     <value>プレイリスト</value>
+  </data>
+  <data name="header.users.ranked-play" xml:space="preserve">
+    <value>ランクマッチ</value>
   </data>
   <data name="header.users.realtime" xml:space="preserve">
     <value>マルチプレイヤー</value>
@@ -217,6 +223,9 @@
   <data name="footer.legal.privacy" xml:space="preserve">
     <value>プライバシー</value>
   </data>
+  <data name="footer.legal.rules" xml:space="preserve">
+    <value>ルール</value>
+  </data>
   <data name="footer.legal.server_status" xml:space="preserve">
     <value>サーバー状態</value>
   </data>
@@ -312,6 +321,9 @@
   </data>
   <data name="popup_user.links.account-edit" xml:space="preserve">
     <value>設定</value>
+  </data>
+  <data name="popup_user.links.create_team" xml:space="preserve">
+    <value>チームを作成</value>
   </data>
   <data name="popup_user.links.follows" xml:space="preserve">
     <value>ウォッチリスト</value>

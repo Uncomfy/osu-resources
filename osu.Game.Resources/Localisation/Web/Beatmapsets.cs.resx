@@ -148,11 +148,17 @@
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Explicitní</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Neplatné hodnocení.</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Diskuze</value>
   </data>
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Zobrazit plnou velikost úvodního obrázku</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Zobrazit administrátorskou stránku</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Tato beatmapa byla odstraněna.</value>
@@ -203,7 +209,7 @@
     <value>schváleno {0}</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>oblíbeno {0}</value>
+    <value>oblíbeno komunitou {0}</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
     <value>kvalifikováno {0}</value>
@@ -221,7 +227,7 @@
     <value>Máte příliš map v oblibených! Než to budete zkoušet znova, nějakou odstraňte.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>Podpoř tuto mapu, pokud sis užili její hraní, a pomoz jí postoupit do &lt;strong&gt;Schváleného&lt;/strong&gt; stavu.</value>
+    <value>Podpoř tuto mapu, pokud sis užili její hraní, a pomoz jí postoupit do &lt;strong&gt;Hodnoceného&lt;/strong&gt; stavu.</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>Tato mapa je právě {0}.</value>
@@ -230,10 +236,10 @@
     <value>čekající</value>
   </data>
   <data name="show.hype.current.status.qualified" xml:space="preserve">
-    <value>kvalifikované</value>
+    <value>kvalifikovaná</value>
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
-    <value>rozpracované</value>
+    <value>rozdělaná</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
     <value>Pokud najdete problém s touto mapou, diskvalifikujte ji prosím {0}.</value>
@@ -271,6 +277,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Online offset</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Balíčky beatmap</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Body neúspěchů</value>
   </data>
@@ -283,11 +292,26 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Úspěšnost</value>
   </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} z {1} zahrání|{0} ze {1} zahrání|{0} z {1} zahrání</value>
+  </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>Označení od uživatelů</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Tato beatmapa obsahuje video</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Pouze Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Kvůli specifickým mechanikám lze tuto beatmapu hrát pouze na osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} pro zobrazení skóre zahraných na této beatmapě.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Povol lazer režim</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Tato beatmapa obsahuje explicitní, urážlivý nebo rušivý obsah. Chcete ji přesto zobrazit?</value>
@@ -335,7 +359,7 @@
     <value>Přesnost</value>
   </data>
   <data name="show.scoreboard.headers.combo" xml:space="preserve">
-    <value>Maximální Kombo</value>
+    <value>Maximální kombo</value>
   </data>
   <data name="show.scoreboard.headers.miss" xml:space="preserve">
     <value>Minuto</value>
@@ -377,13 +401,13 @@
     <value>Nikdo z tvého týmu na této mapě zatím žádné skóre nenahrál!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>Neschválená beatmapa.</value>
+    <value>Nehodnocená beatmapa.</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>V čele</value>
   </data>
   <data name="show.scoreboard.score.own" xml:space="preserve">
-    <value>Vaše nejlepší</value>
+    <value>Tvoje nejlepší</value>
   </data>
   <data name="show.scoreboard.supporter_link._" xml:space="preserve">
     <value>Klikni {0} pro zobrazení všech výhod, které dostaneš!</value>
@@ -404,7 +428,7 @@
     <value>Přesnost</value>
   </data>
   <data name="show.stats.ar" xml:space="preserve">
-    <value>Rychlost zjevování koleček</value>
+    <value>Rychlost zjevování</value>
   </data>
   <data name="show.stats.stars" xml:space="preserve">
     <value>Počet hvězd</value>
@@ -436,28 +460,34 @@
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Počet zahrání</value>
   </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>V oblíbených</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Nikdo ještě nepřidal do oblíbených</value>
+  </data>
   <data name="show.status.ranked" xml:space="preserve">
-    <value>Schválené</value>
+    <value>Hodnocená</value>
   </data>
   <data name="show.status.approved" xml:space="preserve">
-    <value>Schválené</value>
+    <value>Schválená</value>
   </data>
   <data name="show.status.loved" xml:space="preserve">
-    <value>Oblíbené</value>
+    <value>Oblíbená komunitou</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
-    <value>Kvalifikované</value>
+    <value>Kvalifikovaná</value>
   </data>
   <data name="show.status.wip" xml:space="preserve">
-    <value>Nedodělané</value>
+    <value>Rozdělaná</value>
   </data>
   <data name="show.status.pending" xml:space="preserve">
-    <value>Nevyřízené</value>
+    <value>Čekající</value>
   </data>
   <data name="show.status.graveyard" xml:space="preserve">
     <value>Hřbitov</value>
   </data>
   <data name="spotlight_badge.label" xml:space="preserve">
-    <value>Zvýraznění</value>
+    <value>Zvýrazněná</value>
   </data>
 </root>

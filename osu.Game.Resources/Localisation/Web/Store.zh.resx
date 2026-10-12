@@ -247,6 +247,9 @@
   <data name="order.total" xml:space="preserve">
     <value>总计</value>
   </data>
+  <data name="order.unavailable" xml:space="preserve">
+    <value>此订单没有更多信息。</value>
+  </data>
   <data name="order.details.order_number" xml:space="preserve">
     <value>订单 #</value>
   </data>
@@ -340,6 +343,9 @@
   <data name="product.notify" xml:space="preserve">
     <value>当可以购买时提醒我！</value>
   </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>售罄</value>
+  </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>当商品有货时会收到提醒，点击 {0} 以取消该提醒</value>
   </data>
@@ -377,7 +383,7 @@
     <value>您现在的玩家名是 "{0}"。</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
-    <value>需要 {0} 才能改变玩家名！</value>
+    <value>需要 {0} 才能更改用户名！</value>
   </data>
   <data name="username_change.require_login.link_text" xml:space="preserve">
     <value>登录</value>

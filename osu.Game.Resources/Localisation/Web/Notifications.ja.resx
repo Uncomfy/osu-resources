@@ -286,6 +286,30 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>{0} より</value>
   </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>チャットのメンション</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} が {1} の "{2}" であなたにメンションしました</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>{0} でメンション</value>
+  </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>新しいチームメッセージ</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0}が"{1}"で発言</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0}が"{1}"で発言</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0}が"{1}"で発言</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>更新履歴</value>
   </data>
@@ -322,6 +346,15 @@
   <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
     <value>{0}が「{1}」に返信しました</value>
   </data>
+  <data name="item.news_post.news_post._" xml:space="preserve">
+    <value>ニュース ({0})</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>フォーラムトピック</value>
   </data>
@@ -343,11 +376,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>あなたは既にチーム {0} に参加しています</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>チーム参加リクエストの更新</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
     <value>チーム {0} への参加リクエストが却下されました</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
     <value>チーム {0} への参加リクエストが却下されました</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} があなたのチームへの参加をリクエストしました</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} があなたのチームへの参加をリクエストしました</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>新しいビートマップ</value>
@@ -381,6 +423,9 @@
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>メダルのロックが解除されました！</value>
+  </data>
+  <data name="mail.news" xml:space="preserve">
+    <value>ニュース</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
     <value>ビートマップ"{0}"のゲストになりました</value>
@@ -421,6 +466,18 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>ビートマップ「{0}」に新しいコメントがあります</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>"{0}" で新しいお知らせがあります</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>{0}から新しいメッセージが届きました</value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} が {1} の "{2}" であなたにメンションしました</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>チーム "{0}" に新しいメッセージがあります</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>更新履歴「{0}」に新しいコメントがあります</value>
   </data>
@@ -435,6 +492,9 @@
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>チーム {0} への参加リクエストが却下されました</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} があなたのチームへの参加をリクエストしました</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0}がビートマップを作成しました</value>

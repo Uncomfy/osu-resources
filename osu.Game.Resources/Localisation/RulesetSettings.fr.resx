@@ -100,6 +100,21 @@
   <data name="Timing_based_colouring" xml:space="preserve">
     <value>Coloration des notes en fonction du timing</value>
   </data>
+  <data name="rate_adjusted_hit_animation" xml:space="preserve">
+    <value>Animations de notes ajustées à la vitesse</value>
+  </data>
+  <data name="rate_adjusted_hit_animation_tooltip" xml:space="preserve">
+    <value>Les notes s'envoleront plus rapidement ou plus lentement quand la vitesse de la beatmap est ajustée via des mods.</value>
+  </data>
+  <data name="hit_animations" xml:space="preserve">
+    <value>Animation des notes touchées</value>
+  </data>
+  <data name="hit_animations_taiko_tooltip" xml:space="preserve">
+    <value>Lorsque activé, les notes touchées s'envolent en dehors de l'écran. Lorsque désactivé, les notes disparaissent immédiatement.</value>
+  </data>
+  <data name="hit_animations_osu_tooltip" xml:space="preserve">
+    <value>Lorsque activé, les cercles joueront une animation quand ils sont touchés. Lorsque désactivé, ils disparaîtront presque immédiatement.</value>
+  </data>
   <data name="ruleset" xml:space="preserve">
     <value>{0} ms (vitesse {1:N1})</value>
   </data>
@@ -109,13 +124,16 @@
   <data name="mobile_layout" xml:space="preserve">
     <value>Affichage sur mobile</value>
   </data>
-  <data name="portrait_expanded_columns" xml:space="preserve">
-    <value>Portrait (Colonnes étendues)</value>
+  <data name="portrait" xml:space="preserve">
+    <value>Portrait</value>
+  </data>
+  <data name="landscape" xml:space="preserve">
+    <value>Paysage</value>
   </data>
   <data name="landscape_expanded_columns" xml:space="preserve">
     <value>Paysage (Colonnes étendues)</value>
   </data>
-  <data name="landscape_touch_overlay" xml:space="preserve">
-    <value>Paysage (Affichage tactile)</value>
+  <data name="touch_overlay" xml:space="preserve">
+    <value>Affichage en mode tactile</value>
   </data>
 </root>

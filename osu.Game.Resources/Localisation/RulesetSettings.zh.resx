@@ -100,8 +100,24 @@
   <data name="Timing_based_colouring" xml:space="preserve">
     <value>根据节拍给物件上色</value>
   </data>
+  <data name="rate_adjusted_hit_animation" xml:space="preserve">
+    <value>调整命中动画速度</value>
+  </data>
+  <data name="rate_adjusted_hit_animation_tooltip" xml:space="preserve">
+    <value>开启变速模组时，命中动画会变快或变慢。
+</value>
+  </data>
+  <data name="hit_animations" xml:space="preserve">
+    <value>击打动画</value>
+  </data>
+  <data name="hit_animations_taiko_tooltip" xml:space="preserve">
+    <value>启用时，物件会从屏幕中飞出。禁用时，物件会立刻消失。</value>
+  </data>
+  <data name="hit_animations_osu_tooltip" xml:space="preserve">
+    <value>启用时，打击圈会在击打时播放动画。禁用时，打击圈会近乎立刻消失。</value>
+  </data>
   <data name="ruleset" xml:space="preserve">
-    <value>{0} 毫秒 ({1} 速)</value>
+    <value>{0} 毫秒 ({1:N1} 速)</value>
   </data>
   <data name="touch_control_scheme" xml:space="preserve">
     <value>触摸控制方案</value>
@@ -109,13 +125,16 @@
   <data name="mobile_layout" xml:space="preserve">
     <value>移动端布局</value>
   </data>
-  <data name="portrait_expanded_columns" xml:space="preserve">
-    <value>竖屏（扩宽轨道）</value>
+  <data name="portrait" xml:space="preserve">
+    <value>竖屏模式</value>
+  </data>
+  <data name="landscape" xml:space="preserve">
+    <value>横屏模式</value>
   </data>
   <data name="landscape_expanded_columns" xml:space="preserve">
-    <value>横屏（扩宽轨道）</value>
+    <value>横屏模式（扩宽轨道）</value>
   </data>
-  <data name="landscape_touch_overlay" xml:space="preserve">
-    <value>横屏（虚拟按键）</value>
+  <data name="touch_overlay" xml:space="preserve">
+    <value>启用虚拟按键</value>
   </data>
 </root>

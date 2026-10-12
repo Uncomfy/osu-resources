@@ -92,7 +92,7 @@
     <value>Obtenha mais detalhes, esconda ou exclua um beatmap clicando com o botão direito no seu painel na seleção de músicas!</value>
   </data>
   <data name="discover_playlists" xml:space="preserve">
-    <value>Confira o sistema de "playlists", que permite aos usuários que criem seus próprios placares personalizados e permanentes!</value>
+    <value>Confira o sistema de "playlists", que permite que usuários criem seus próprios placares personalizados e permanentes!</value>
   </data>
   <data name="toggle_advanced_fps_counter" xml:space="preserve">
     <value>Alternar estatísticas de quadro avançado / thread com Ctrl-F11!</value>
@@ -119,7 +119,7 @@
     <value>Enquanto estiver assistindo um replay, pressione Ctrl-H para alternar as configurações de replay!</value>
   </data>
   <data name="copy_mods_from_score" xml:space="preserve">
-    <value>Você pode copiar os mods de pontuações num placar facilmente clicando com o botão direito neles!</value>
+    <value>Você pode copiar os mods de pontuações num placar clicando com o botão direito neles!</value>
   </data>
   <data name="autoplay_beatmap_shortcut" xml:space="preserve">
     <value>Ctrl-Enter na seleção de música irá começar um beatmap em modo autoplay!</value>
@@ -128,7 +128,7 @@
     <value>"Lazer" não é uma palavra em Inglês. A ortografia correta para a luz brilhante é "laser".</value>
   </data>
   <data name="multithreading_support" xml:space="preserve">
-    <value>Suporte Multithreading significa que mesmo com pouco "FPS" a detecção de entrada será precisa!</value>
+    <value>O suporte a multithreading garante que mesmo com poucos "FPS", sua entrada e julgamentos continuem precisos!</value>
   </data>
   <data name="temporary_delete_operations" xml:space="preserve">
     <value>Qualquer operação de deletar será temporária até sair. Restaure acidentalmente conteúdo deletado através das configurações de manutenção!</value>
@@ -141,6 +141,12 @@
   </data>
   <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
     <value>Segure e arraste qualquer imagem no editor de skins para carregar mais rápido!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Tente segurar o botão direito do mouse perto do carrossel do beatmap para rolar rapidamente para uma posição absoluta!</value>
+  </data>
+  <data name="shift_click_in_beatmap_overlay" xml:space="preserve">
+    <value>Aperte SHIFT em um painel de beatmap da lista de beatmaps para rapidamente baixá-lo ou visualizá-lo na seleção de música!</value>
   </data>
   <data name="menu_tip_title" xml:space="preserve">
     <value>uma dica para você:</value>

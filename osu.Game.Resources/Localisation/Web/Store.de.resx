@@ -247,6 +247,9 @@
   <data name="order.total" xml:space="preserve">
     <value>Summe</value>
   </data>
+  <data name="order.unavailable" xml:space="preserve">
+    <value>Für diese Bestellung sind keine weiteren Informationen verfügbar.</value>
+  </data>
   <data name="order.details.order_number" xml:space="preserve">
     <value>Bestellung #</value>
   </data>
@@ -339,6 +342,9 @@
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>Benachrichtige mich, sobald der Artikel wieder verfügbar ist!</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>Ausverkauft</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>du erhältst eine benachrichtigung, sobald neuer bestand vorhanden ist. klick {0} zum abbrechen</value>

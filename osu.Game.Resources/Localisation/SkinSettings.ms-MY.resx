@@ -64,6 +64,9 @@
   <data name="current_skin" xml:space="preserve">
     <value>Rupa semasa</value>
   </data>
+  <data name="skin_name" xml:space="preserve">
+    <value>Nama kulit</value>
+  </data>
   <data name="skin_layout_editor" xml:space="preserve">
     <value>Penyunting bentangan rupa</value>
   </data>
@@ -71,7 +74,7 @@
     <value>Ukuran kursor permainan</value>
   </data>
   <data name="auto_cursor_size" xml:space="preserve">
-    <value>Laraskan ukuran kursor permainan mengikut peta rentak semasa</value>
+    <value>Laraskan ukuran kursor permainan berpangkalkan peta rentak semasa</value>
   </data>
   <data name="gameplay_cursor_during_touch" xml:space="preserve">
     <value>Tunjuk kursor permainan semasa masukan sentuhan</value>

@@ -148,11 +148,17 @@
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Explícito</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Avaliação inválida.</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Discussão</value>
   </data>
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Ver a imagem da capa em tamanho real</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Visualizar página do administrador</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Este beatmap foi deletado.</value>
@@ -167,7 +173,7 @@
     <value>Favoritar este beatmap</value>
   </data>
   <data name="show.details.favourite_login" xml:space="preserve">
-    <value>Inicie a sessão favoritar este beatmap</value>
+    <value>entre para favoritar este beatmap</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Você precisa conectar-se antes de baixar qualquer beatmap!</value>
@@ -197,7 +203,7 @@
     <value>para acessar mais funcionalidades</value>
   </data>
   <data name="show.details.login_required.top" xml:space="preserve">
-    <value>Conectar-se</value>
+    <value>Entrar</value>
   </data>
   <data name="show.details_date.approved" xml:space="preserve">
     <value>aprovado {0}</value>
@@ -257,7 +263,7 @@
     <value>Idioma</value>
   </data>
   <data name="show.info.mapper_tags" xml:space="preserve">
-    <value>Tags de Mapeadores</value>
+    <value>Etiquetas de criador</value>
   </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Dados ainda sendo calculados...</value>
@@ -271,6 +277,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Atraso de áudio online</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Pacotes de beatmap</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Pontos de Falha</value>
   </data>
@@ -283,14 +292,29 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Taxa de Sucesso</value>
   </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} de {1} jogada|{0} de {1} jogadas</value>
+  </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>Tags de Usuários</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Esse beatmap contém vídeo</value>
   </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Apenas Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Devido a mecânicas específicas, este beatmap somente pode ser jogado no osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} para ver as pontuações deste beatmap.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Ativar Modo Lazer</value>
+  </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Este beatmap contém conteúdo explícito, ofensivo ou perturbador. Você gostaria de visualizá-lo mesmo assim?</value>
+    <value>Este beatmap contém conteúdo explícito, ofensivo ou perturbador. Você gostaria de vê-lo mesmo assim?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Conteúdo explícito</value>
@@ -326,7 +350,7 @@
     <value>Você precisa ser um osu!supporter para acessar rankings de amigos e de países!</value>
   </data>
   <data name="show.scoreboard.team" xml:space="preserve">
-    <value>Classificação dos equipes</value>
+    <value>Classificação da equipe</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Placar</value>
@@ -435,6 +459,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Vezes Jogadas</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Sem favoritos até o momento</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Ranqueado</value>

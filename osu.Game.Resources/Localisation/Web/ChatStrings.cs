@@ -15,6 +15,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString LoadingUsers => new TranslatableString(getKey(@"loading_users"), @"loading users...");
 
         /// <summary>
+        /// "searching for users..."
+        /// </summary>
+        public static LocalisableString SearchingUsers => new TranslatableString(getKey(@"searching_users"), @"searching for users...");
+
+        /// <summary>
         /// "talking in {0}"
         /// </summary>
         public static LocalisableString TalkingIn(LocalisableString channel) => new TranslatableString(getKey(@"talking_in"), @"talking in {0}", channel);
@@ -125,6 +130,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NotFoundTitle => new TranslatableString(getKey(@"not_found.title"), @"channel not found");
 
         /// <summary>
+        /// "Join the channel to view its messages."
+        /// </summary>
+        public static LocalisableString NotJoinedMessage => new TranslatableString(getKey(@"not_joined.message"), @"Join the channel to view its messages.");
+
+        /// <summary>
+        /// "Join Channel"
+        /// </summary>
+        public static LocalisableString NotJoinedJoin => new TranslatableString(getKey(@"not_joined.join"), @"Join Channel");
+
+        /// <summary>
         /// "Create"
         /// </summary>
         public static LocalisableString InputCreate => new TranslatableString(getKey(@"input.create"), @"Create");
@@ -148,21 +163,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Send"
         /// </summary>
         public static LocalisableString InputSend => new TranslatableString(getKey(@"input.send"), @"Send");
-
-        /// <summary>
-        /// "Start conversations from a user&#39;s profile or a usercard popup."
-        /// </summary>
-        public static LocalisableString NoConversationsHowto => new TranslatableString(getKey(@"no-conversations.howto"), @"Start conversations from a user's profile or a usercard popup.");
-
-        /// <summary>
-        /// "Public channels you join via &lt;a href=&quot;{0}&quot;&gt;osu!lazer&lt;/a&gt; will also be visible here."
-        /// </summary>
-        public static LocalisableString NoConversationsLazer(LocalisableString link) => new TranslatableString(getKey(@"no-conversations.lazer"), @"Public channels you join via <a href=""{0}"">osu!lazer</a> will also be visible here.", link);
-
-        /// <summary>
-        /// "no conversations yet"
-        /// </summary>
-        public static LocalisableString NoConversationsTitle => new TranslatableString(getKey(@"no-conversations.title"), @"no conversations yet");
 
         /// <summary>
         /// "Loading channel list..."

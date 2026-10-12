@@ -70,8 +70,17 @@
   <data name="show.player.by" xml:space="preserve">
     <value>玩家</value>
   </data>
+  <data name="show.player.played_on" xml:space="preserve">
+    <value>游玩于</value>
+  </data>
   <data name="show.player.submitted_on" xml:space="preserve">
     <value>达成时间</value>
+  </data>
+  <data name="show.player.watched" xml:space="preserve">
+    <value>观看次数</value>
+  </data>
+  <data name="show.player.watched_count" xml:space="preserve">
+    <value>{0} 次</value>
   </data>
   <data name="show.player.rank.country" xml:space="preserve">
     <value>地区排名</value>
@@ -83,7 +92,7 @@
     <value>只有个人最好成绩才能获取到表现分（PP）</value>
   </data>
   <data name="status.no_pp" xml:space="preserve">
-    <value>该分数没有表现分（PP）</value>
+    <value>该分数没有表现分 (PP)</value>
   </data>
   <data name="status.processing" xml:space="preserve">
     <value>该成绩仍在计算中，即将显示</value>

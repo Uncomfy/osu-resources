@@ -100,6 +100,21 @@
   <data name="Timing_based_colouring" xml:space="preserve">
     <value>Zeitbasierte Färbung von Noten</value>
   </data>
+  <data name="rate_adjusted_hit_animation" xml:space="preserve">
+    <value>An die Geschwindigkeit angepasste Trefferanimationen</value>
+  </data>
+  <data name="rate_adjusted_hit_animation_tooltip" xml:space="preserve">
+    <value>Hit-Objekte fliegen durch die von Mods angepasste Beatmap-Geschwindigkeit schneller oder langsamer.</value>
+  </data>
+  <data name="hit_animations" xml:space="preserve">
+    <value>Trefferanimationen</value>
+  </data>
+  <data name="hit_animations_taiko_tooltip" xml:space="preserve">
+    <value>Wenn aktiviert, fliegen Hits nach oben. Wenn deaktiviert, verschwinden sie sofort.</value>
+  </data>
+  <data name="hit_animations_osu_tooltip" xml:space="preserve">
+    <value>Wenn aktiviert, wird beim Treffen eines Hit-Circles eine Animation abgespielt. Wenn deaktiviert, verschwinden sie fast sofort.</value>
+  </data>
   <data name="ruleset" xml:space="preserve">
     <value>{0} ms (Geschwindigkeit {1:N1})</value>
   </data>
@@ -109,13 +124,16 @@
   <data name="mobile_layout" xml:space="preserve">
     <value>Smartphone-Layout</value>
   </data>
-  <data name="portrait_expanded_columns" xml:space="preserve">
-    <value>Portrait-Modus (erweiterte Spalten)</value>
+  <data name="portrait" xml:space="preserve">
+    <value>Hochformat</value>
+  </data>
+  <data name="landscape" xml:space="preserve">
+    <value>Querformat</value>
   </data>
   <data name="landscape_expanded_columns" xml:space="preserve">
-    <value>Landschaftsmodus (erweiterte Spalten)</value>
+    <value>Querformat (erweiterte Spalten)</value>
   </data>
-  <data name="landscape_touch_overlay" xml:space="preserve">
-    <value>Landschaftsmodus (Touch-Overlay)</value>
+  <data name="touch_overlay" xml:space="preserve">
+    <value>Touch-Overlay</value>
   </data>
 </root>

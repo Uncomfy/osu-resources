@@ -70,6 +70,9 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>Запрос на вступление отправлен.</value>
   </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} участник|{0} участника|{0} участников</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
     <value>Создать команду!</value>
   </data>
@@ -83,7 +86,10 @@
     <value>Приступим к созданию новой команды</value>
   </data>
   <data name="create.intro.description" xml:space="preserve">
-    <value>Играйте вместе с друзьями, создав свою команду или заводите новых, вступая в существующие! Сейчас вы не состоите в команде.</value>
+    <value>Играйте вместе с друзьями, создав свою команду или заводите новых, вступая в существующие! Сейчас вы не состоите в команде. Вступайте в {0} на её странице или создайте новую здесь.</value>
+  </data>
+  <data name="create.intro.search_link" xml:space="preserve">
+    <value>существующую команду</value>
   </data>
   <data name="create.intro.title" xml:space="preserve">
     <value>Команда!</value>
@@ -170,7 +176,7 @@
     <value>Свободных мест</value>
   </data>
   <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
-    <value>переполнена на {0} игрока|переполнена на {0} игроков</value>
+    <value>переполнена на {0} игрока|переполнена на {0} игроков|переполнена на {0} игроков</value>
   </data>
   <data name="members.index.applications.reject_confirm" xml:space="preserve">
     <value>Отклонить запрос на вступление игрока {0}?</value>
@@ -244,11 +250,20 @@
   <data name="show.sections.members" xml:space="preserve">
     <value>Участники</value>
   </data>
-  <data name="show.statistics.rank" xml:space="preserve">
-    <value>Рейтинг в мире</value>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>доступно {0} место|доступно {0} места|доступно {0} мест</value>
+  </data>
+  <data name="show.statistics.first_places" xml:space="preserve">
+    <value>Первые места</value>
   </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>Капитан команды</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Рейтинг в мире</value>
+  </data>
+  <data name="show.statistics.ranked_beatmapsets" xml:space="preserve">
+    <value>Рейтинговые карты</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Команда создана.</value>

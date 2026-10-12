@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>kudosu 획득이 불가능합니다.</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>답글 포함</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>제거된 난이도이므로 더 이상의 토론이 불가능합니다.</value>
   </data>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>삭제된 내용 표시</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>다른 답글 보기</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>토론</value>
@@ -283,6 +289,9 @@
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>만약 이 게시글이 타임스탬프로 시작한다면, 타임라인 아래에 표시됩니다.</value>
   </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>노트 삽입</value>
+  </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>단락 삽입</value>
   </data>
@@ -332,7 +341,7 @@
     <value>이 비트맵은 {0}에 Approved 상태가 되었습니다!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
-    <value>이 비트맵은 {0} 이후로 업데이트되지 않았고, 제작자에게 버려진 것 같습니다..</value>
+    <value>본 비트맵이 {0} 이후로 업데이트되지 않은 걸 보니 버려진 것 같네요...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
     <value>이 비트맵은 {0}에 Loved 되었습니다!</value>
@@ -499,6 +508,9 @@
   <data name="listing.search.options" xml:space="preserve">
     <value>검색 옵션 더 보기</value>
   </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>이 페이지에 표시된 프로필 상위 순위 수와 결과는 비트맵에서 가장 높은 "표준화"(일명 "lazer") 점수를 기반으로 해요.</value>
+  </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>{0}로 검색하려면 osu! 서포터 태그가 필요합니다.</value>
   </data>
@@ -570,6 +582,12 @@
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>osu! 서포터</value>
+  </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>사용자 태그 탐색</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>검색어를 입력해주세요</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>변환된 비트맵 포함</value>

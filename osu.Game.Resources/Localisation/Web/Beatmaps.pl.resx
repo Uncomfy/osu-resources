@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Odmówiono przyznania kudosu.</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Uwzględnij odpowiedzi</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Nie możesz zamieszczać dyskusji dla usuniętego poziomu trudności.</value>
   </data>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Pokaż usunięte</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Pokaż inne odpowiedzi</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Dyskusje</value>
@@ -282,6 +288,9 @@
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Jeżeli ten post rozpoczyna się od znacznika czasu, zostanie on wyświetlony w zakładce osi czasu.</value>
+  </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>wstaw note'a</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>wstaw akapit</value>
@@ -499,6 +508,9 @@
   <data name="listing.search.options" xml:space="preserve">
     <value>Więcej opcji wyszukiwania</value>
   </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>Liczniki ocen na profilach oraz wyniki wyszukiwania wyświetlane na tej stronie są oparte o wyniki wykorzystujące nowy system punktacji (tryb „lazer”).</value>
+  </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>Użycie wybranych filtrów ({0}) wymaga aktywnego statusu donatora osu!</value>
   </data>
@@ -570,6 +582,12 @@
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>statusu donatora osu!</value>
+  </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>przeglądaj tagi użytkowników</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>napisz, aby wyszukać</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Uwzględnij przekonwertowane beatmapy</value>

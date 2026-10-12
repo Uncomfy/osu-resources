@@ -95,15 +95,27 @@
     <value>Spiele zur Empfehlung eines Offsets ein paar Beatmaps!</value>
   </data>
   <data name="suggested_offset_correct" xml:space="preserve">
-    <value>Basierend auf den letzten {0} Play(s) ist dein Offset richtig gesetzt!</value>
+    <value>Basierend auf dem letzten Spiel ist dein Offset richtig gesetzt!|Basierend auf den letzten {0} Spielen ist dein Offset richtig gesetzt!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>Basierend auf den letzten {0} Spielen ist der empfohlene Offset {1} ms.</value>
+    <value>Basierend auf dem letzten Spiel ist der empfohlene Offset {1} ms.|Basierend auf den letzten {0} Spielen ist der empfohlene Offset {1} ms.</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
     <value>Empfohlenes Offset anwenden</value>
   </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>Offset-Assistent</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Beatmap-Offset automatisch anpassen</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Wenn aktiviert, wird der vom letzten Durchlauf vorgeschlagene Versatz auf einer Beatmap automatisch angewendet.</value>
+  </data>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Veralteten Audio-Modus verwenden</value>
+  </data>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Verwende dies, wenn du Probleme mit der Audio hast. Beachte, dass die Audiolatenz mit diesem Modus höher ist.</value>
   </data>
 </root>

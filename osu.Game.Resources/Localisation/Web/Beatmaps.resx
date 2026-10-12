@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Denied from obtaining kudosu.</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Include replies</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>This difficulty has been deleted so it may no longer be discussed.</value>
   </data>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Show deleted</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Show other replies</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Discussions</value>
@@ -282,6 +288,9 @@
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>If this post starts with a timestamp, it will be shown under Timeline.</value>
+  </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>insert note</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>insert paragraph</value>
@@ -499,6 +508,9 @@
   <data name="listing.search.options" xml:space="preserve">
     <value>More Search Options</value>
   </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>Profile top rank counts and results shown on this page are based on your highest "standardised" (aka "lazer") scores on beatmaps.</value>
+  </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>Filtering by {0} requires an active osu!supporter tag</value>
   </data>
@@ -570,6 +582,12 @@
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>osu!supporter tag</value>
+  </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>browse user tags</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>type to search</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Include converted beatmaps</value>

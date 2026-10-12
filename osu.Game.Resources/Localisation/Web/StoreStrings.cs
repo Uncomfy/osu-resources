@@ -325,6 +325,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString OrderTotal => new TranslatableString(getKey(@"order.total"), @"Total");
 
         /// <summary>
+        /// "No additional information available for this order."
+        /// </summary>
+        public static LocalisableString OrderUnavailable => new TranslatableString(getKey(@"order.unavailable"), @"No additional information available for this order.");
+
+        /// <summary>
         /// "Order #"
         /// </summary>
         public static LocalisableString OrderDetailsOrderNumber => new TranslatableString(getKey(@"order.details.order_number"), @"Order #");
@@ -478,6 +483,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Notify me when available!"
         /// </summary>
         public static LocalisableString ProductNotify => new TranslatableString(getKey(@"product.notify"), @"Notify me when available!");
+
+        /// <summary>
+        /// "Out of stock"
+        /// </summary>
+        public static LocalisableString ProductOutOfStock => new TranslatableString(getKey(@"product.out_of_stock"), @"Out of stock");
 
         /// <summary>
         /// "you will be notified when we have new stock. click {0} to cancel"

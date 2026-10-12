@@ -140,6 +140,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BeatmapsetMetadataNominated => new TranslatableString(getKey(@"beatmapset.metadata.nominated"), @"You cannot change metadata of a nominated map. Contact a BN or NAT member if you think it is set incorrectly.");
 
         /// <summary>
+        /// "You cannot rate a beatmap set you are involved with."
+        /// </summary>
+        public static LocalisableString BeatmapsetRateOwner => new TranslatableString(getKey(@"beatmapset.rate.owner"), @"You cannot rate a beatmap set you are involved with.");
+
+        /// <summary>
+        /// "You cannot rate a beatmap set with this status."
+        /// </summary>
+        public static LocalisableString BeatmapsetRateStatus => new TranslatableString(getKey(@"beatmapset.rate.status"), @"You cannot rate a beatmap set with this status.");
+
+        /// <summary>
         /// "You must set a score on a beatmap to add a tag."
         /// </summary>
         public static LocalisableString BeatmapTagStoreNoScore => new TranslatableString(getKey(@"beatmap_tag.store.no_score"), @"You must set a score on a beatmap to add a tag.");
@@ -253,6 +263,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Access to requested forum is required."
         /// </summary>
         public static LocalisableString ForumPostEditNoForumAccess => new TranslatableString(getKey(@"forum.post.edit.no_forum_access"), @"Access to requested forum is required.");
+
+        /// <summary>
+        /// "No permission to edit."
+        /// </summary>
+        public static LocalisableString ForumPostEditNoPermission => new TranslatableString(getKey(@"forum.post.edit.no_permission"), @"No permission to edit.");
 
         /// <summary>
         /// "Only poster can edit the post."

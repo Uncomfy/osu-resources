@@ -124,6 +124,18 @@
   <data name="forum_topics.new" xml:space="preserve">
     <value>Letzte Antwort</value>
   </data>
+  <data name="teams.created" xml:space="preserve">
+    <value>Erstelldatum</value>
+  </data>
+  <data name="teams.relevance" xml:space="preserve">
+    <value>Relevanz</value>
+  </data>
+  <data name="teams.name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="teams.short-name" xml:space="preserve">
+    <value>Kürzel</value>
+  </data>
   <data name="users.relevance" xml:space="preserve">
     <value>Relevanz</value>
   </data>

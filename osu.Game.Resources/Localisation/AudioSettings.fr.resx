@@ -106,4 +106,16 @@
   <data name="offset_wizard" xml:space="preserve">
     <value>Assistant de décalage</value>
   </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Ajuster automatiquement le décalage audio</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Si activé, le décalage audio suggéré lors de la dernière partie sera automatiquement appliqué.</value>
+  </data>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Utiliser l'ancien mode audio</value>
+  </data>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Utilisez ceci si vous rencontrez des problèmes audio. Notez que la latence audio sera plus élevée lorsque cette option sera activée.</value>
+  </data>
 </root>

@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>正在載入使用者... </value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>搜尋用戶……</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>在 {0} 聊天</value>
   </data>
@@ -127,6 +130,12 @@
   <data name="not_found.title" xml:space="preserve">
     <value>找不到頻道</value>
   </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>請加入頻道來閱讀訊息。</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>加入頻道</value>
+  </data>
   <data name="input.create" xml:space="preserve">
     <value>建立</value>
   </data>
@@ -141,15 +150,6 @@
   </data>
   <data name="input.send" xml:space="preserve">
     <value>發送</value>
-  </data>
-  <data name="no-conversations.howto" xml:space="preserve">
-    <value>在使用者個人資料或卡片的彈出方塊上點擊信封圖案以開始聊天。</value>
-  </data>
-  <data name="no-conversations.lazer" xml:space="preserve">
-    <value>您通過 &lt;a href="{0}"&gt;osu! lazer&lt;/a&gt; 加入的公開頻道也會顯示在這裡。</value>
-  </data>
-  <data name="no-conversations.title" xml:space="preserve">
-    <value>還沒有聊天過</value>
   </data>
   <data name="join_channels.loading" xml:space="preserve">
     <value>正在載入頻道清單...</value>

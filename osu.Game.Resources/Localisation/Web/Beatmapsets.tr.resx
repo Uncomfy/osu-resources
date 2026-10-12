@@ -148,11 +148,17 @@
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Müstehcen</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Geçersiz puan.</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Tartışma</value>
   </data>
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Kapak resmini tam boyutlu görüntüle</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Yönetici sayfasını görüntüle</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Bu beatmap silindi.</value>
@@ -271,6 +277,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Çevrimiçi ofset</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Beatmap Paketleri</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Başarısız Olunan Kısımlar</value>
   </data>
@@ -283,11 +292,26 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Başarı Oranı</value>
   </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} oyunun {1} kadarı” | “{0} oyunun {1} kadarı</value>
+  </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>Kullanıcı Etiketleri</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Bu beatmap video içeriyor</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Sadece Lazer İçin</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Belirli mekaniklerden dolayı bu beatmap sadece osu!lazer'de oynanabilir.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>Skorları görebilmek için {0}</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Lazer modunu etkinleştir</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Bu beatmap müstehcen, ofansif, veya rahatsız edici içerik içermektedir. Yine de görüntülemek istiyor musunuz?</value>
@@ -435,6 +459,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Oynama sayısı</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Favoriler</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Henüz favori yok</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Dereceli</value>

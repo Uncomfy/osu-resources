@@ -110,13 +110,13 @@
     <value>Označuju jako přečtené...</value>
   </data>
   <data name="post.confirm_destroy" xml:space="preserve">
-    <value>Opravdu chcete příspěvek odstranit?</value>
+    <value>Opravdu chceš tento příspěvek odstranit?</value>
   </data>
   <data name="post.confirm_restore" xml:space="preserve">
-    <value>Opravdu chcete příspěvek obnovit?</value>
+    <value>Opravdu chceš tento příspěvek obnovit?</value>
   </data>
   <data name="post.edited" xml:space="preserve">
-    <value>Naposledy upravil {0} {1}, upraveno celkem {2} krát.</value>
+    <value>Naposledy upravil {0} {1}, upraveno celkem {2}át.|Naposledy upravil {0} {1}, upraveno celkem {2}át.|Naposledy upravil {0} {1}, upraveno celkem {2}át.</value>
   </data>
   <data name="post.posted_at" xml:space="preserve">
     <value>publikováno {0}</value>
@@ -149,16 +149,16 @@
     <value>Přejít na příspěvek</value>
   </data>
   <data name="search.post_number_input" xml:space="preserve">
-    <value>zadejte číslo příspěvku</value>
+    <value>zadej číslo příspěvku</value>
   </data>
   <data name="search.total_posts" xml:space="preserve">
     <value>{0} příspěvků celkem</value>
   </data>
   <data name="topic.confirm_destroy" xml:space="preserve">
-    <value>Opravdu odstranit téma?</value>
+    <value>Opravdu chceš toto téma odstranit?</value>
   </data>
   <data name="topic.confirm_restore" xml:space="preserve">
-    <value>Opravdu checeš obnovit téma?</value>
+    <value>Opravdu chceš toto téma obnovit?</value>
   </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>odstraněné téma</value>
@@ -221,7 +221,7 @@
     <value>Odeslat</value>
   </data>
   <data name="topic.create.necropost.default" xml:space="preserve">
-    <value>Tohle téma bylo neaktivní už nějakou dobu. Napište pouze jesli k tomu máš důvod.</value>
+    <value>Tohle téma je neaktivní už nějakou dobu. Napiš sem pouze, jesli k tomu máš určitý důvod.</value>
   </data>
   <data name="topic.create.necropost.new_topic._" xml:space="preserve">
     <value>Toto téma je už nějakou dobu neaktivní. Pokud nemáš specifický důvod k postnutí zde, prosím {0}.</value>
@@ -460,114 +460,6 @@
   <data name="topics.index.views" xml:space="preserve">
     <value>zobrazení</value>
   </data>
-  <data name="topics.issue_tag_added.to_0" xml:space="preserve">
-    <value>Odebrat označení "přidáno"</value>
-  </data>
-  <data name="topics.issue_tag_added.to_0_done" xml:space="preserve">
-    <value>Odebráno označení "přidáno"</value>
-  </data>
-  <data name="topics.issue_tag_added.to_1" xml:space="preserve">
-    <value>Přidat označení "přidáno"</value>
-  </data>
-  <data name="topics.issue_tag_added.to_1_done" xml:space="preserve">
-    <value>Přidáno označení "přidáno"</value>
-  </data>
-  <data name="topics.issue_tag_assigned.to_0" xml:space="preserve">
-    <value>Odebrat označení "přiděleno"</value>
-  </data>
-  <data name="topics.issue_tag_assigned.to_0_done" xml:space="preserve">
-    <value>Odebráno označení "přiděleno"</value>
-  </data>
-  <data name="topics.issue_tag_assigned.to_1" xml:space="preserve">
-    <value>Přidat označení "přiděleno"</value>
-  </data>
-  <data name="topics.issue_tag_assigned.to_1_done" xml:space="preserve">
-    <value>Přidáno označení "přiděleno"</value>
-  </data>
-  <data name="topics.issue_tag_confirmed.to_0" xml:space="preserve">
-    <value>Odebrat označení "potvrzeno"</value>
-  </data>
-  <data name="topics.issue_tag_confirmed.to_0_done" xml:space="preserve">
-    <value>Odebráno označení "potvrzeno"</value>
-  </data>
-  <data name="topics.issue_tag_confirmed.to_1" xml:space="preserve">
-    <value>Přidat označení "potvrzeno"</value>
-  </data>
-  <data name="topics.issue_tag_confirmed.to_1_done" xml:space="preserve">
-    <value>Přidáno označení "potrvrzeno"</value>
-  </data>
-  <data name="topics.issue_tag_duplicate.to_0" xml:space="preserve">
-    <value>Odebrat označení "duplicitní"</value>
-  </data>
-  <data name="topics.issue_tag_duplicate.to_0_done" xml:space="preserve">
-    <value>Odebráno označení "duplicitní"</value>
-  </data>
-  <data name="topics.issue_tag_duplicate.to_1" xml:space="preserve">
-    <value>Přidat označení "duplicitní"</value>
-  </data>
-  <data name="topics.issue_tag_duplicate.to_1_done" xml:space="preserve">
-    <value>Přidáno označení "duplicitní"</value>
-  </data>
-  <data name="topics.issue_tag_invalid.to_0" xml:space="preserve">
-    <value>Odebrat označení "neplatný"</value>
-  </data>
-  <data name="topics.issue_tag_invalid.to_0_done" xml:space="preserve">
-    <value>Odebráno označení "neplatný"</value>
-  </data>
-  <data name="topics.issue_tag_invalid.to_1" xml:space="preserve">
-    <value>Přidat označení "neplatný"</value>
-  </data>
-  <data name="topics.issue_tag_invalid.to_1_done" xml:space="preserve">
-    <value>Přidáno označení "neplatný"</value>
-  </data>
-  <data name="topics.issue_tag_resolved.to_0" xml:space="preserve">
-    <value>Odebrat označení "vyřešeno"</value>
-  </data>
-  <data name="topics.issue_tag_resolved.to_0_done" xml:space="preserve">
-    <value>Odebráno označení "vyřešeno"</value>
-  </data>
-  <data name="topics.issue_tag_resolved.to_1" xml:space="preserve">
-    <value>Přidat oznaění "vyřešeno"</value>
-  </data>
-  <data name="topics.issue_tag_resolved.to_1_done" xml:space="preserve">
-    <value>Přidáno označení "vyřešeno"</value>
-  </data>
-  <data name="topics.issue_tag_osulazer.to_0" xml:space="preserve">
-    <value>Odebrat označení "osu!lazer"</value>
-  </data>
-  <data name="topics.issue_tag_osulazer.to_0_done" xml:space="preserve">
-    <value>Odebráno označení "osu!lazer"</value>
-  </data>
-  <data name="topics.issue_tag_osulazer.to_1" xml:space="preserve">
-    <value>Přidat označení "osu!lazer"</value>
-  </data>
-  <data name="topics.issue_tag_osulazer.to_1_done" xml:space="preserve">
-    <value>Přidáno označení "osu!lazer"</value>
-  </data>
-  <data name="topics.issue_tag_osustable.to_0" xml:space="preserve">
-    <value>Odebrat označení "osu!stable"</value>
-  </data>
-  <data name="topics.issue_tag_osustable.to_0_done" xml:space="preserve">
-    <value>Odebráno označení "osu!stable"</value>
-  </data>
-  <data name="topics.issue_tag_osustable.to_1" xml:space="preserve">
-    <value>Přidat označení "osu!stable"</value>
-  </data>
-  <data name="topics.issue_tag_osustable.to_1_done" xml:space="preserve">
-    <value>Přidáno označení "osu!stable"</value>
-  </data>
-  <data name="topics.issue_tag_osuweb.to_0" xml:space="preserve">
-    <value>Odebrat označení "osu!web"</value>
-  </data>
-  <data name="topics.issue_tag_osuweb.to_0_done" xml:space="preserve">
-    <value>Odebráno označení "osu!web"</value>
-  </data>
-  <data name="topics.issue_tag_osuweb.to_1" xml:space="preserve">
-    <value>Přidat označení "osu!web"</value>
-  </data>
-  <data name="topics.issue_tag_osuweb.to_1_done" xml:space="preserve">
-    <value>Přidáno označení "osu!web"</value>
-  </data>
   <data name="topics.lock.is_locked" xml:space="preserve">
     <value>Toto téma je uzamčené a nelze na něj odpovědět</value>
   </data>
@@ -630,6 +522,9 @@
   </data>
   <data name="topics.show.total_posts" xml:space="preserve">
     <value>Celkem příspěvků</value>
+  </data>
+  <data name="topics.show.total_watches" xml:space="preserve">
+    <value>Celkem odběratelů</value>
   </data>
   <data name="topics.show.feature_vote.current" xml:space="preserve">
     <value>Aktuální priorita: +{0}</value>

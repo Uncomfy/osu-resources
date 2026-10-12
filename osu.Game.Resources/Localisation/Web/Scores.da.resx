@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="show.non_preserved" xml:space="preserve">
+    <value>Denne score er markeret til sletning og vil snart forsvinde.</value>
+  </data>
   <data name="show.title" xml:space="preserve">
     <value>{0} på {1} [{2}]</value>
   </data>
@@ -67,8 +70,17 @@
   <data name="show.player.by" xml:space="preserve">
     <value>Spillet af</value>
   </data>
+  <data name="show.player.played_on" xml:space="preserve">
+    <value>Spillet på</value>
+  </data>
   <data name="show.player.submitted_on" xml:space="preserve">
     <value>Indsendt den</value>
+  </data>
+  <data name="show.player.watched" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="show.player.watched_count" xml:space="preserve">
+    <value>{0} gang|{0} gange</value>
   </data>
   <data name="show.player.rank.country" xml:space="preserve">
     <value>Lande Rang</value>
@@ -79,7 +91,13 @@
   <data name="status.non_best" xml:space="preserve">
     <value>Kun personlige bedste scorer giver pp</value>
   </data>
+  <data name="status.no_pp" xml:space="preserve">
+    <value>pp er ikke tildelt for denne score</value>
+  </data>
   <data name="status.processing" xml:space="preserve">
     <value>Denne score bliver stadig beregnet og vil snart blive vist</value>
+  </data>
+  <data name="status.no_rank" xml:space="preserve">
+    <value>Denne score har ingen rang eftersom det ikke er rangeret eller markeret til sletning</value>
   </data>
 </root>

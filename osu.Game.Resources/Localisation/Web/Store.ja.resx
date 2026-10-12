@@ -247,6 +247,9 @@
   <data name="order.total" xml:space="preserve">
     <value>合計</value>
   </data>
+  <data name="order.unavailable" xml:space="preserve">
+    <value>この注文に関する追加情報はありません。</value>
+  </data>
   <data name="order.details.order_number" xml:space="preserve">
     <value>注文 #</value>
   </data>
@@ -339,6 +342,9 @@
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>入荷したら通知する</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>在庫切れ</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>入荷されたら通知を受け取ることができます。{0}からキャンセルできます</value>

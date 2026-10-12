@@ -148,11 +148,17 @@
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Explicit</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Voto non valido.</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Discussione</value>
   </data>
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Mostra copertina a grandezza intera</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Visualizza la pagina amministratore</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Questa beatmap è stata eliminata.</value>
@@ -176,7 +182,7 @@
     <value>mappata da {0}</value>
   </data>
   <data name="show.details.mapped_by_guest" xml:space="preserve">
-    <value>difficoltà guest di {0}</value>
+    <value>difficoltà ospite di {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
     <value>Non mi piace questa beatmap</value>
@@ -212,7 +218,7 @@
     <value>classificata {0}</value>
   </data>
   <data name="show.details_date.submitted" xml:space="preserve">
-    <value>inviata {0}</value>
+    <value>caricata {0}</value>
   </data>
   <data name="show.details_date.updated" xml:space="preserve">
     <value>ultimo aggiornamento {0}</value>
@@ -271,23 +277,41 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Offset online</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Pacchetti beatmap</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
-    <value>Punti di Fallimento</value>
+    <value>Punti di fallimento</value>
   </data>
   <data name="show.info.source" xml:space="preserve">
-    <value>Sorgente</value>
+    <value>Origine</value>
   </data>
   <data name="show.info.storyboard" xml:space="preserve">
     <value>Questa beatmap contiene storyboard</value>
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
-    <value>Rateo di Successo</value>
+    <value>Percentuale di successo</value>
+  </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} su {1} partita|{0} su {1} partite</value>
   </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>Etichette degli utenti</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Questa beatmap contiene video</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Esclusiva lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>A cause di meccaniche specifiche, questa beatmap può essere giocata solo su osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} per vedere i punteggi di questa beatmap.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Attiva la modalità lazer</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Questa beatmap ha contenuti espliciti, offensivi o disturbanti. Vuoi vederla comunque?</value>
@@ -323,7 +347,7 @@
     <value>Clicca &lt;a href="{0}"&gt;qui&lt;/a&gt; per vedere tutte le fantastiche funzionalità che otterrai!</value>
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
-    <value>Devi essere un osu!supporter per vedere la classifica nazionale, degli amici, o con mod specifiche!</value>
+    <value>Devi essere un osu!supporter per vedere le classifiche di amici e nazione, oppure con mod specifiche!</value>
   </data>
   <data name="show.scoreboard.team" xml:space="preserve">
     <value>Classifica Squadra</value>
@@ -350,7 +374,7 @@
     <value>Giocatore</value>
   </data>
   <data name="show.scoreboard.headers.rank" xml:space="preserve">
-    <value>Posto</value>
+    <value>Rango</value>
   </data>
   <data name="show.scoreboard.headers.score" xml:space="preserve">
     <value>Punteggio</value>
@@ -392,25 +416,25 @@
     <value>qui</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
-    <value>Dimensione Cerchi</value>
+    <value>Dimensione (CS)</value>
   </data>
   <data name="show.stats.cs-mania" xml:space="preserve">
-    <value>Numero di Tasti</value>
+    <value>Num. tasti (KC)</value>
   </data>
   <data name="show.stats.drain" xml:space="preserve">
-    <value>Perdita HP</value>
+    <value>Drenaggio (HP)</value>
   </data>
   <data name="show.stats.accuracy" xml:space="preserve">
-    <value>Precisione</value>
+    <value>Precisione (OD)</value>
   </data>
   <data name="show.stats.ar" xml:space="preserve">
-    <value>Velocità Approccio</value>
+    <value>Velocità (AR)</value>
   </data>
   <data name="show.stats.stars" xml:space="preserve">
     <value>Difficoltà</value>
   </data>
   <data name="show.stats.total_length" xml:space="preserve">
-    <value>Durata (Lunghezza drenaggio: {0})</value>
+    <value>Durata (Tempo di gioco: {0})</value>
   </data>
   <data name="show.stats.bpm" xml:space="preserve">
     <value>BPM</value>
@@ -425,16 +449,22 @@
     <value>Offset online: {0}</value>
   </data>
   <data name="show.stats.user-rating" xml:space="preserve">
-    <value>Voto degli Utenti</value>
+    <value>Valutazione degli utenti</value>
   </data>
   <data name="show.stats.rating-spread" xml:space="preserve">
-    <value>Diffusione della Valutazione</value>
+    <value>Andamento della valutazione</value>
   </data>
   <data name="show.stats.nominations" xml:space="preserve">
     <value>Nomine</value>
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Volte giocata</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Preferiti</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Nessun preferito per ora</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Classificata</value>

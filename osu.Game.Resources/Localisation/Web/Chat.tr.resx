@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>kullanıcılar yükleniyor...</value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>kullanıcılar aranıyor...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>{0} kanalında konuşuyorsunuz</value>
   </data>
@@ -127,6 +130,12 @@
   <data name="not_found.title" xml:space="preserve">
     <value>kanal bulunamadı</value>
   </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>Kanaldaki mesajları görebilmek için kanala katıl.</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>Kanala Katıl</value>
+  </data>
   <data name="input.create" xml:space="preserve">
     <value>Oluştur</value>
   </data>
@@ -141,15 +150,6 @@
   </data>
   <data name="input.send" xml:space="preserve">
     <value>Gönder</value>
-  </data>
-  <data name="no-conversations.howto" xml:space="preserve">
-    <value>Kullanıcının profilinden veya kullanıcı kartı popup'ından konuşma başlatın.</value>
-  </data>
-  <data name="no-conversations.lazer" xml:space="preserve">
-    <value>&lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; aracılığıyla katıldığınız herkese açık kanallar burada da görünür olacak.</value>
-  </data>
-  <data name="no-conversations.title" xml:space="preserve">
-    <value>henüz konuşma yok</value>
   </data>
   <data name="join_channels.loading" xml:space="preserve">
     <value>Kanal listesi yükleniyor...</value>

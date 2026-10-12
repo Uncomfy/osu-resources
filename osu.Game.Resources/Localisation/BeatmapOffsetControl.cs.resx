@@ -68,12 +68,15 @@
     <value>Předchozí hra je příliš krátká pro použití ke kalibraci</value>
   </data>
   <data name="calibrate_using_last_play" xml:space="preserve">
-    <value>Kalibrovat</value>
+    <value>Kalibrovat dle předchozí</value>
   </data>
   <data name="hit_objects_appear_later" xml:space="preserve">
     <value>(hit objekty se objeví později)</value>
   </data>
   <data name="hit_objects_appear_earlier" xml:space="preserve">
     <value>(hit objekty se objeví dříve)</value>
+  </data>
+  <data name="beatmap_offset_was_adjusted_to" xml:space="preserve">
+    <value>Offset beatmapy byl upraven na {0} ms.</value>
   </data>
 </root>

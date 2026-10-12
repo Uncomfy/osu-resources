@@ -79,9 +79,6 @@
   <data name="badges.new" xml:space="preserve">
     <value>MỚI</value>
   </data>
-  <data name="buttons.admin" xml:space="preserve">
-    <value>Admin</value>
-  </data>
   <data name="buttons.authorise" xml:space="preserve">
     <value>Cho phép</value>
   </data>
@@ -210,37 +207,40 @@
     <value>Theo dõi</value>
   </data>
   <data name="count.badges" xml:space="preserve">
-    <value>{0} huy hiệu</value>
+    <value>{0} đơn vị|{0} đơn vị</value>
   </data>
   <data name="count.days" xml:space="preserve">
-    <value>{0} ngày</value>
+    <value>{0} ngày|{0} ngày</value>
   </data>
   <data name="count.hour_short_unit" xml:space="preserve">
     <value>giờ</value>
   </data>
   <data name="count.hours" xml:space="preserve">
-    <value>{0} giờ</value>
+    <value>{0} giờ|{0} giờ</value>
   </data>
   <data name="count.item" xml:space="preserve">
-    <value>{0} đơn vị</value>
+    <value>{0} đơn vị|{0} đơn vị</value>
   </data>
   <data name="count.minute_short_unit" xml:space="preserve">
     <value>phút</value>
   </data>
   <data name="count.minutes" xml:space="preserve">
-    <value>{0} phút</value>
+    <value>{0} phút|{0} phút</value>
   </data>
   <data name="count.months" xml:space="preserve">
-    <value>{0} tháng</value>
+    <value>{0} tháng|{0} tháng</value>
   </data>
   <data name="count.notifications" xml:space="preserve">
     <value>{0} thông báo|{0} thông báo</value>
   </data>
+  <data name="count.player" xml:space="preserve">
+    <value>{0} người chơi|{0} người chơi</value>
+  </data>
   <data name="count.plus_others" xml:space="preserve">
-    <value>+ {0} khác!</value>
+    <value>+ {0} khác!|+ {0} khác!</value>
   </data>
   <data name="count.post" xml:space="preserve">
-    <value>{0} bài viết</value>
+    <value>{0} bài đăng|{0} bài đăng</value>
   </data>
   <data name="count.second_short_unit" xml:space="preserve">
     <value>giây</value>
@@ -250,13 +250,13 @@
 ưu tiên sao</value>
   </data>
   <data name="count.update" xml:space="preserve">
-    <value>{0} cập nhật</value>
+    <value>{0} cập nhật|{0} cập nhật</value>
   </data>
   <data name="count.view" xml:space="preserve">
-    <value>{0} lượt xem</value>
+    <value>{0} lượt xem|{0} lượt xem</value>
   </data>
   <data name="count.years" xml:space="preserve">
-    <value>{0} năm</value>
+    <value>{0} năm trước|{0} năm trước</value>
   </data>
   <data name="countdown.days" xml:space="preserve">
     <value>ngày</value>
@@ -269,6 +269,12 @@
   </data>
   <data name="countdown.seconds" xml:space="preserve">
     <value>giây</value>
+  </data>
+  <data name="datetime.month.php" xml:space="preserve">
+    <value>tháng</value>
+  </data>
+  <data name="datetime.year.php" xml:space="preserve">
+    <value>năm</value>
   </data>
   <data name="datetime.year_month.moment" xml:space="preserve">
     <value>MMMM YYYY</value>
@@ -352,10 +358,10 @@
     <value>%dy</value>
   </data>
   <data name="time.days_ago" xml:space="preserve">
-    <value>{0} ngày trước</value>
+    <value>{0} ngày trước|{0} ngày trước</value>
   </data>
   <data name="time.hours_ago" xml:space="preserve">
-    <value>{0} giờ trước</value>
+    <value>{0} giờ trước|{0} giờ trước</value>
   </data>
   <data name="time.now" xml:space="preserve">
     <value>bây giờ</value>

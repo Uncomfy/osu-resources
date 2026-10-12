@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>다음 항목</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>이전 그룹 항목</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>이전 설정을 활성화</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>다음 그룹 항목</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>다음 설정을 활성화</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>이전 그룹을 확장</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>다음 그룹을 확장</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>현재 그룹을 확장 또는 축소</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>메인</value>
@@ -180,6 +189,12 @@
   </data>
   <data name="random_skin" xml:space="preserve">
     <value>무작위 스킨</value>
+  </data>
+  <data name="previous_skin" xml:space="preserve">
+    <value>이전 스킨</value>
+  </data>
+  <data name="next_skin" xml:space="preserve">
+    <value>다음 스킨</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
     <value>다시 보기 일시 정지 / 재생</value>
@@ -255,6 +270,9 @@
   </data>
   <data name="step_replay_backward" xml:space="preserve">
     <value>한 프레임 뒤로 리플레이 이동</value>
+  </data>
+  <data name="fast_forward_replay" xml:space="preserve">
+    <value>리플레이 빨리 감기</value>
   </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>채팅 포커스 켬/끔</value>

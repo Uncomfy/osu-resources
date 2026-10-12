@@ -86,13 +86,13 @@
     <value>Cuba tatal ke kanan dalam pemilih penyesuai untuk menemui pelbagai penyesuai baharu!</value>
   </data>
   <data name="embedded_web_content" xml:space="preserve">
-    <value>Kebanyakan kandungan sesawang (profil, kedudukan dsb.) tersedia secara tempatan dalam mainan dari arca pada palang bar!</value>
+    <value>Kebanyakan kandungan sesawang (profil, pangkat dsb.) tersedia secara tempatan dalam mainan dari arca pada palang bar!</value>
   </data>
   <data name="beatmap_right_click" xml:space="preserve">
     <value>Sorok, padam atau dapatkan butiran lanjut peta rentak dengan mengklik kanan panel peta rentak di pemilih lagu!</value>
   </data>
   <data name="discover_playlists" xml:space="preserve">
-    <value>Lihat tatanan "senarai main" yang membenarkan pengguna mencipta carta kedudukan sendiri yang tersuai dan kekal!</value>
+    <value>Lihat tatanan "senarai main" yang membenarkan pengguna mencipta papan pendahulu sendiri yang tersuai dan kekal!</value>
   </data>
   <data name="toggle_advanced_fps_counter" xml:space="preserve">
     <value>Togol statistik bingkai / bebenang lanjutan dengan Ctrl-F11!</value>
@@ -119,13 +119,13 @@
     <value>Tekan Ctrl-H untuk mentogol tetapan ulangan sambil menonton ulangan!</value>
   </data>
   <data name="copy_mods_from_score" xml:space="preserve">
-    <value>Anda boleh menyalin penyesuai dengan mudah dari markah pada carta kedudukan dengan mengklik kanan!</value>
+    <value>Anda boleh menyalin penyesuai dengan mudah dari markah pada papan pendahulu dengan mengklik kanan!</value>
   </data>
   <data name="autoplay_beatmap_shortcut" xml:space="preserve">
     <value>Ctrl-Enter di pemilih lagu akan memulakan peta rentak dalam mod automain!</value>
   </data>
   <data name="lazer_is_not_a_word" xml:space="preserve">
-    <value>"Lazer" tidak wujud dalam Kamus Dewan. Perkataan bagi pemancar cahaya dieja "laser".</value>
+    <value>"Lazer" tidak wujud dalam Kamus Dewan. Perkataan untuk pemancar cahaya dieja "laser".</value>
   </data>
   <data name="multithreading_support" xml:space="preserve">
     <value>Sokongan multipembenangan bermakna penilaian dan masukan anda akan jitu dengan "FPS" rendah sekalipun!</value>
@@ -141,6 +141,12 @@
   </data>
   <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
     <value>Tarik dan lepas gambar ke dalam penyunting rupa untuk muat masuk dengan cepat!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Cuba tahan kanan tetikus pada roda peta rentak untuk tatal laju ke sebuah kedudukan mutlak!</value>
+  </data>
+  <data name="shift_click_in_beatmap_overlay" xml:space="preserve">
+    <value>Klik anjak pada panel peta rentak dalam tindanan senarai peta rentak untuk muat turun secara pintas atau lihat peta rentak tersebut pada pilihan lagu!</value>
   </data>
   <data name="menu_tip_title" xml:space="preserve">
     <value>petua untuk anda:</value>

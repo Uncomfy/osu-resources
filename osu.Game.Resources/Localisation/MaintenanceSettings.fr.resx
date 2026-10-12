@@ -79,9 +79,6 @@
   <data name="target_directory_already_installed_osu" xml:space="preserve">
     <value>Le répertoire sélectionné semble déjà avoir une installation d'osu!. Utiliser ces données à la place ?</value>
   </data>
-  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
-    <value>Afin de terminer cette opération, osu! se fermera. Veuillez l'ouvrir à nouveau pour utiliser le nouvel emplacement des données.</value>
-  </data>
   <data name="delete_all_beatmaps" xml:space="preserve">
     <value>Supprimer TOUTES les beatmaps</value>
   </data>
@@ -132,5 +129,11 @@
   </data>
   <data name="stable_directory_select_header" xml:space="preserve">
     <value>Veuillez sélectionner l'emplacement de votre installation d'osu!stable</value>
+  </data>
+  <data name="all_offsets_reset" xml:space="preserve">
+    <value>Tous les décalages audio ont été réinitialisés !</value>
+  </data>
+  <data name="no_videos_found_to_delete" xml:space="preserve">
+    <value>Aucune vidéo trouvée à supprimer !</value>
   </data>
 </root>

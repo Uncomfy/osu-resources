@@ -148,11 +148,17 @@
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Explicite</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Note invalide.</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Discussion</value>
   </data>
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Afficher la taille réelle de l'image de couverture</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Voir la page admin</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Cette beatmap a été supprimée.</value>
@@ -179,7 +185,7 @@
     <value>guest difficulty par {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
-    <value>Retirer ce beatmapset des favoris</value>
+    <value>Retirer cette beatmap des favoris</value>
   </data>
   <data name="show.details.updated_timeago" xml:space="preserve">
     <value>dernière mise à jour le {0}</value>
@@ -271,6 +277,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Décalage en ligne</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Packs de Beatmaps</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Répartition des échecs</value>
   </data>
@@ -283,11 +292,26 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Taux de réussite</value>
   </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} sur {1} partie|{0} sur {1} parties</value>
+  </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>Tags des joueurs</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Cette beatmap contient une vidéo</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Lazer Uniquement</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Dû à des mécaniques spécifiques, cette beatmap ne peut être jouée que sur osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} pour voir les scores réalisés sur cette beatmap.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Activer le mode lazer</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Cette beatmap contient du contenu explicite, offensant ou perturbant. Souhaitez-vous l'afficher malgré tout ?</value>
@@ -404,7 +428,7 @@
     <value>Précision</value>
   </data>
   <data name="show.stats.ar" xml:space="preserve">
-    <value>Taux d'approche</value>
+    <value>Vitesse d'approche</value>
   </data>
   <data name="show.stats.stars" xml:space="preserve">
     <value>Difficulté en étoiles</value>
@@ -435,6 +459,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Nombre de parties</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Favoris</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Aucun favori pour le moment</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Classée</value>

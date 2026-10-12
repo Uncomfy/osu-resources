@@ -148,11 +148,17 @@
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Dla pełnoletnich</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Niewłaściwa ocena.</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Dyskusja</value>
   </data>
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Wyświetl tło w pełnej rozdzielczości</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Pokaż stronę administratora</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Ta beatmapa została usunięta.</value>
@@ -271,6 +277,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Opóźnienie</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Paczki beatmap</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Wykres porażek</value>
   </data>
@@ -283,11 +292,26 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Wskaźnik ukończonych zagrań</value>
   </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} z {1} zagrań|{0} z {1} zagrań|{0} z {1} zagrań</value>
+  </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>Tagi użytkowników</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Ta beatmapa zawiera wideo w tle</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Tylko na osu!lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Ta beatmapa wykorzystuje niekompatybilne mechaniki i może zostać zagrana wyłącznie na osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0}, aby wyświetlić wyniki ustanowione na tej beatmapie.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Włącz tryb „lazer”</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Ta beatmapa zawiera niedwuznaczne, obraźliwe lub niepokojące treści. Czy chcesz ją zobaczyć mimo to?</value>
@@ -435,6 +459,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Liczba zagrań</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Polubienia</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Brak polubień</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Rankingowa</value>

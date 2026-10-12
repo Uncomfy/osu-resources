@@ -79,14 +79,14 @@
   <data name="badges.new" xml:space="preserve">
     <value>جديد</value>
   </data>
-  <data name="buttons.admin" xml:space="preserve">
-    <value>المشرف</value>
-  </data>
   <data name="buttons.authorise" xml:space="preserve">
-    <value>استأِذان</value>
+    <value>سماح</value>
   </data>
   <data name="buttons.authorising" xml:space="preserve">
-    <value>استأِذان...</value>
+    <value>جارٍ التحقق...</value>
+  </data>
+  <data name="buttons.back" xml:space="preserve">
+    <value>رجوع</value>
   </data>
   <data name="buttons.back_to_previous" xml:space="preserve">
     <value>العودة إلى الحالة السابقة</value>
@@ -231,6 +231,9 @@
   </data>
   <data name="count.notifications" xml:space="preserve">
     <value>{0} أِشعار|{0} أِشعارات</value>
+  </data>
+  <data name="count.player" xml:space="preserve">
+    <value>{0} لاعب|{0} لاعبين</value>
   </data>
   <data name="count.plus_others" xml:space="preserve">
     <value>+ {0} اخر!|+ {0} اخرون!</value>

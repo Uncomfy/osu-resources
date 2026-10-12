@@ -88,6 +88,9 @@
   <data name="intro_sequence" xml:space="preserve">
     <value>Alkuanimaatio</value>
   </data>
+  <data name="intro_random" xml:space="preserve">
+    <value>Satunnainen</value>
+  </data>
   <data name="background_source" xml:space="preserve">
     <value>Taustan lähde</value>
   </data>
@@ -102,6 +105,9 @@
   </data>
   <data name="right_mouse_scroll" xml:space="preserve">
     <value>Käytä hiiren oikeaa näppäintä absoluuttiseen vieritykseen</value>
+  </data>
+  <data name="show_converts" xml:space="preserve">
+    <value>Näytä konversiot</value>
   </data>
   <data name="show_converted_beatmaps" xml:space="preserve">
     <value>Näytä automaattisesti muunnetut rytmikartat</value>
@@ -147,5 +153,26 @@
   </data>
   <data name="true_random" xml:space="preserve">
     <value>Aidosti satunnainen</value>
+  </data>
+  <data name="selected_mods" xml:space="preserve">
+    <value>Valitut Muunnelmat</value>
+  </data>
+  <data name="hold_for_menu" xml:space="preserve">
+    <value>avaa valikko pitämällä pohjassa</value>
+  </data>
+  <data name="press_for_menu" xml:space="preserve">
+    <value>avaa valikko painamalla</value>
+  </data>
+  <data name="device" xml:space="preserve">
+    <value>Laite</value>
+  </data>
+  <data name="show_hidden" xml:space="preserve">
+    <value>Näytä piilotetut</value>
+  </data>
+  <data name="currently_online" xml:space="preserve">
+    <value>Paikalla</value>
+  </data>
+  <data name="user_search" xml:space="preserve">
+    <value>Käyttäjähaku</value>
   </data>
 </root>

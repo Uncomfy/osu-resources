@@ -127,6 +127,9 @@
   <data name="main.beatmapsets_controller.show" xml:space="preserve">
     <value>información del mapa</value>
   </data>
+  <data name="main.beatmapsets_controller.versions" xml:space="preserve">
+    <value>historial de las versiones del mapa</value>
+  </data>
   <data name="main.changelog_controller._" xml:space="preserve">
     <value>registro de cambios</value>
   </data>
@@ -145,6 +148,9 @@
   <data name="main.contests_controller.judge" xml:space="preserve">
     <value>evaluación del concurso</value>
   </data>
+  <data name="main.group_history_controller._" xml:space="preserve">
+    <value>historial de grupos</value>
+  </data>
   <data name="main.groups_controller.show" xml:space="preserve">
     <value>grupos</value>
   </data>
@@ -162,6 +168,9 @@
   </data>
   <data name="main.home_controller.testflight" xml:space="preserve">
     <value>testflight</value>
+  </data>
+  <data name="main.legacy_matches_controller._" xml:space="preserve">
+    <value>partidos</value>
   </data>
   <data name="main.legal_controller._" xml:space="preserve">
     <value>información</value>
@@ -208,6 +217,9 @@
   <data name="main.user_cover_presets_controller._" xml:space="preserve">
     <value>portadas preestablecidas</value>
   </data>
+  <data name="main.user_totp_controller._" xml:space="preserve">
+    <value>aplicación de autenticación</value>
+  </data>
   <data name="main.users_controller._" xml:space="preserve">
     <value>información del jugador</value>
   </data>
@@ -219,6 +231,9 @@
   </data>
   <data name="main.wiki_controller._" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="multiplayer.rooms_controller.events" xml:space="preserve">
+    <value>historial de la sala</value>
   </data>
   <data name="passport.authorization_controller._" xml:space="preserve">
     <value>autorizar aplicación</value>

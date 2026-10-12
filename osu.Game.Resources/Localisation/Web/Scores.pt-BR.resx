@@ -70,11 +70,20 @@
   <data name="show.player.by" xml:space="preserve">
     <value>Jogado por</value>
   </data>
+  <data name="show.player.played_on" xml:space="preserve">
+    <value>Jogado no</value>
+  </data>
   <data name="show.player.submitted_on" xml:space="preserve">
     <value>Enviado em</value>
   </data>
+  <data name="show.player.watched" xml:space="preserve">
+    <value>Assistido</value>
+  </data>
+  <data name="show.player.watched_count" xml:space="preserve">
+    <value>{0} vez|{0} vezes</value>
+  </data>
   <data name="show.player.rank.country" xml:space="preserve">
-    <value>Ranking Nacional</value>
+    <value>Classificação nacional</value>
   </data>
   <data name="show.player.rank.global" xml:space="preserve">
     <value>Ranking Global</value>
@@ -89,6 +98,6 @@
     <value>Esta pontuação ainda está sendo calculada e será exibida em breve</value>
   </data>
   <data name="status.no_rank" xml:space="preserve">
-    <value>Esta pontuação não tem nenhum ranque, pois não é ranqueada ou é marcada para exclusão</value>
+    <value>Esta pontuação não tem classificação por não ser ranqueada ou ter sido marcada para exclusão</value>
   </data>
 </root>

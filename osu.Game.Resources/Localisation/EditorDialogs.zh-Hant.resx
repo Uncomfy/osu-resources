@@ -88,4 +88,37 @@
   <data name="discard_unsaved_changes_dialog_header" xml:space="preserve">
     <value>確定要捨棄所有未儲存的變更？此動作無法復原。</value>
   </data>
+  <data name="save_required_dialog_header" xml:space="preserve">
+    <value>圖譜會因為此行動而存檔。</value>
+  </data>
+  <data name="sounds_good" xml:space="preserve">
+    <value>聽起來不錯，來吧！</value>
+  </data>
+  <data name="delete_difficulty_details" xml:space="preserve">
+    <value>難度「{0}」中的 {1} 個物件</value>
+  </data>
+  <data name="sync_metadata_confirmation_body" xml:space="preserve">
+    <value>這會覆蓋所有難度的藝術家、標題、來源以及標籤。此動作無法復原。</value>
+  </data>
+  <data name="all_bookmarks" xml:space="preserve">
+    <value>所有書籤</value>
+  </data>
+  <data name="snap_all_notes_confirmation_header" xml:space="preserve">
+    <value>將所有物件對齊到目前的拍點分割？</value>
+  </data>
+  <data name="snap_all_notes_confirmation_body" xml:space="preserve">
+    <value>此難度中的每個物件都會移動到最接近的拍點分割。滑條與長按的持續時間可能會改變。你可以在編輯器歷史中撤銷此操作。</value>
+  </data>
+  <data name="sync_timing_confirmation_header" xml:space="preserve">
+    <value>同步時機屬性？</value>
+  </data>
+  <data name="sync_timing_confirmation_body" xml:space="preserve">
+    <value>選擇該難度下的時機屬性並同步至其他難度。此動作無法復原。</value>
+  </data>
+  <data name="sync_timing_option_bookmarks" xml:space="preserve">
+    <value>書籤</value>
+  </data>
+  <data name="sync_timing_option_preview_point" xml:space="preserve">
+    <value>預覽時間點</value>
+  </data>
 </root>

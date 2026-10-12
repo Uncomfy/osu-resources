@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="beatmap_offset" xml:space="preserve">
-    <value>Compensació d'àudio (aquest beatmap)</value>
+    <value>Compensació d'àudio (aquest mapa)</value>
   </data>
   <data name="previous_play" xml:space="preserve">
     <value>Reproducció anterior:</value>
@@ -75,5 +75,8 @@
   </data>
   <data name="hit_objects_appear_earlier" xml:space="preserve">
     <value>(els objectes apareixen abans)</value>
+  </data>
+  <data name="beatmap_offset_was_adjusted_to" xml:space="preserve">
+    <value>Compensació del mapa ajustada a {0} ms.</value>
   </data>
 </root>

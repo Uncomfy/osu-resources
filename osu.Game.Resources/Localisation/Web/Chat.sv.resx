@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>laddar användare...</value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>söker efter användare...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>pratar i {0}</value>
   </data>
@@ -141,15 +144,6 @@
   </data>
   <data name="input.send" xml:space="preserve">
     <value>Skicka</value>
-  </data>
-  <data name="no-conversations.howto" xml:space="preserve">
-    <value>Starta konversationer från en användares profil eller en usercard popup.</value>
-  </data>
-  <data name="no-conversations.lazer" xml:space="preserve">
-    <value>Offentliga kanaler du går med i via &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; kommer också att synas här.</value>
-  </data>
-  <data name="no-conversations.title" xml:space="preserve">
-    <value>inga konversationer ännu</value>
   </data>
   <data name="join_channels.loading" xml:space="preserve">
     <value>Laddar kanallista...</value>

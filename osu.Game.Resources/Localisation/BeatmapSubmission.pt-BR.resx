@@ -68,7 +68,7 @@
     <value>Permissões de conteúdo</value>
   </data>
   <data name="content_permissions_acknowledgement" xml:space="preserve">
-    <value>Eu entendo</value>
+    <value>Eu compreendo</value>
   </data>
   <data name="frequently_asked_questions" xml:space="preserve">
     <value>Perguntas Frequentes</value>
@@ -89,7 +89,7 @@
     <value>Enviando conteúdo de beatmap...</value>
   </data>
   <data name="finishing" xml:space="preserve">
-    <value>Concluindo ...</value>
+    <value>Concluindo...</value>
   </data>
   <data name="content_permissions_disclaimer" xml:space="preserve">
     <value>Antes de continuar, pedimos que verifique se o conteúdo que você está enviando foi limpo para envio. Por favor, entenda que você é responsável pelo conteúdo que você carrega na plataforma e, em caso de dúvida, deve pedir permissão aos criadores antes de fazer o upload!</value>
@@ -146,6 +146,6 @@
     <value>Atualize o beatmap!</value>
   </data>
   <data name="upload_new_beatmap" xml:space="preserve">
-    <value>Envie NOVO Beatmap!</value>
+    <value>Enviar NOVO beatmap!</value>
   </data>
 </root>

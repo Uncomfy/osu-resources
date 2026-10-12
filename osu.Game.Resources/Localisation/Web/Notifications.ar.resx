@@ -65,16 +65,16 @@
     <value>حذف {0}</value>
   </data>
   <data name="loading" xml:space="preserve">
-    <value>تحميل الإشعارات الغير مقروءة...</value>
+    <value>جاري تحميل الإشعارات غير المقروءة...</value>
   </data>
   <data name="mark_read" xml:space="preserve">
     <value>مَحو {0}</value>
   </data>
   <data name="none" xml:space="preserve">
-    <value>لا إشعارات</value>
+    <value>لا توجد إشعارات</value>
   </data>
   <data name="see_all" xml:space="preserve">
-    <value>أِظهار جميع الإشعارات</value>
+    <value>عرض جميع الإشعارات</value>
   </data>
   <data name="see_channel" xml:space="preserve">
     <value>انتقل للمُحادثة</value>
@@ -100,6 +100,9 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>الأخبار</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>الفريق</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>الملف الشخصي</value>
   </data>
@@ -121,6 +124,9 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>الأخبار</value>
   </data>
+  <data name="filters.team" xml:space="preserve">
+    <value>الفريق</value>
+  </data>
   <data name="filters.user" xml:space="preserve">
     <value>الملف الشخصي</value>
   </data>
@@ -140,7 +146,7 @@
     <value>مناقشة الخريطة</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
-    <value>تم اقفال مناقشة على "{0}"</value>
+    <value>تم إغلاق المناقشة حول ”{0}“</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
     <value>المناقشة مقفلة</value>
@@ -188,7 +194,8 @@
     <value>ابلغ عنه بواسطة {0} على "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact" xml:space="preserve">
-    <value>ابلغ عنه بواسطة {0} على "{1}"</value>
+    <value>تم الإبلاغ بواسطة {0}: "{1}"
+</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty" xml:space="preserve">
     <value>ابلغ عنه بواسطة {0}</value>
@@ -280,6 +287,30 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>من {0}</value>
   </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>ذكر في الدردشة</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>قام {0} بذكرك في {1} "{2}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>تم ذكرك في {0}</value>
+  </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>رسالة فريق جديدة</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} يقول: "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} يقول: "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} يقول: "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>سِجل التغييرات</value>
   </data>
@@ -316,6 +347,15 @@
   <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
     <value>{0} رد "{1}"</value>
   </data>
+  <data name="item.news_post.news_post._" xml:space="preserve">
+    <value>الأخبار ({0})</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>موضوع المنتدى</value>
   </data>
@@ -327,6 +367,30 @@
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} قام بالرد</value>
+  </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>طلب الانضمام للفريق</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>لقد أصبحت الآن عضواً في فريق {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>لقد أصبحت الآن عضواً في فريق {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>تحديثات طلب الانضمام إلى الفريق</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>تم رفض طلبك للانضمام إلى الفريق {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>تم رفض طلبك للانضمام إلى الفريق {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} طلب الانضمام إلى فريقك</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} طلب الانضمام إلى فريقك</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>خريطة جديدة</value>
@@ -360,6 +424,9 @@
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>قمت بفتح الأوسِمة!</value>
+  </data>
+  <data name="mail.news" xml:space="preserve">
+    <value>الأخبار</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
     <value>أنت الآن ضيف خريطة "{0}"</value>
@@ -400,6 +467,18 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value> الخريطة "{0}" تحتوي على تعليقات جديدة</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>هناك إعلان جديد في "{0}"</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>لقد تلقيت رسالة جديدة من {0}</value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>قام {0} بذكرك في {1} "{2}"</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>هناك رسالة جديدة في فريق "{0}"</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>سجل التحديثات "{0}" يحتوي على تعليقات جديدة</value>
   </data>
@@ -408,6 +487,15 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>هناك ردود جديدة في "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>لقد أصبحت الآن عضواً في فريق {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>تم رفض طلبك للانضمام إلى فريق {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>طلب {0} الانضمام إلى فريقك</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>قام {0} بإنشاء خرائط جديدة</value>

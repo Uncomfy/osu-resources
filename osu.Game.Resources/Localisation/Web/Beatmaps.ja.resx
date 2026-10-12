@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>kudosuの入手を拒否されました。</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>返信を含める</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>この難易度は削除された為これ以上ディスカッションに投稿できません。</value>
   </data>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>削除済みを表示</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>他の返信を表示</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>ディスカッション</value>
@@ -283,6 +289,9 @@
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>この{0}がタイムスタンプで始まる場合、タイムラインの下に表示されます。</value>
   </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>メモを挿入</value>
+  </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>段落の挿入</value>
   </data>
@@ -311,13 +320,13 @@
     <value>削除済み</value>
   </data>
   <data name="discussions.stats.mapper_notes" xml:space="preserve">
-    <value>注意</value>
+    <value>メモ</value>
   </data>
   <data name="discussions.stats.mine" xml:space="preserve">
     <value>自分</value>
   </data>
   <data name="discussions.stats.pending" xml:space="preserve">
-    <value>Pending</value>
+    <value>未解決</value>
   </data>
   <data name="discussions.stats.praises" xml:space="preserve">
     <value>称賛</value>
@@ -499,6 +508,9 @@
   <data name="listing.search.options" xml:space="preserve">
     <value>検索の詳細設定</value>
   </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>このページに表示されているプロフィールのトップランク数および実績は、各譜面におけるあなたの最高「標準化」（別名 "lazer"）スコアに基づいています。</value>
+  </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>{0} による絞り込みにはosu!サポータータグが必要です</value>
   </data>
@@ -571,6 +583,12 @@
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>osu!サポータータグ</value>
   </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>ユーザータグで検索する</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>入力して検索</value>
+  </data>
   <data name="general.converts" xml:space="preserve">
     <value>コンバートビートマップを含める</value>
   </data>
@@ -617,7 +635,7 @@
     <value>マイマップ</value>
   </data>
   <data name="status.pending" xml:space="preserve">
-    <value>Pending &amp; WIP</value>
+    <value>Pending</value>
   </data>
   <data name="status.wip" xml:space="preserve">
     <value>WIP</value>

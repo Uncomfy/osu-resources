@@ -106,4 +106,16 @@
   <data name="offset_wizard" xml:space="preserve">
     <value>Förskjutningsguide</value>
   </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Justera Slagkarta förskjutning automatiskt</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Om aktiverad, tillämpas den offset som föreslagits från senaste uppspelning på en slagkarta automatiskt.</value>
+  </data>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Använd äldre ljudläge</value>
+  </data>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Använd detta om du upplever ljudproblem. Observera att ljudets latens kommer att vara högre när detta är aktiverat.</value>
+  </data>
 </root>

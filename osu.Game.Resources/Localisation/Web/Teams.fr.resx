@@ -70,6 +70,9 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>Candidature envoyée.</value>
   </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} membre|{0} membres</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
     <value>Créer une équipe</value>
   </data>
@@ -84,6 +87,9 @@
   </data>
   <data name="create.intro.description" xml:space="preserve">
     <value>Jouez avec des amis, qu'ils soient nouveaux ou plus anciens. Vous n'avez pas encore rejoint d'équipe. Vous pouvez rejoindre une équipe existante en visitant leur page d'équipe, ou créer votre propre équipe à partir de cette page.</value>
+  </data>
+  <data name="create.intro.search_link" xml:space="preserve">
+    <value>équipe existante</value>
   </data>
   <data name="create.intro.title" xml:space="preserve">
     <value>Équipe !</value>
@@ -244,11 +250,20 @@
   <data name="show.sections.members" xml:space="preserve">
     <value>Membres</value>
   </data>
-  <data name="show.statistics.rank" xml:space="preserve">
-    <value>Classement</value>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>{0} place disponible|{0} places disponibles</value>
+  </data>
+  <data name="show.statistics.first_places" xml:space="preserve">
+    <value>Premières positions</value>
   </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>Chef d'équipe</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Classement</value>
+  </data>
+  <data name="show.statistics.ranked_beatmapsets" xml:space="preserve">
+    <value>Beatmaps classées</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Équipe créée.</value>

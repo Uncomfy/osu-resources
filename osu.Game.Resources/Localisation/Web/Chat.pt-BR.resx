@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>carregando usuários...</value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>buscando usuários...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>conversando em {0}</value>
   </data>
@@ -127,6 +130,12 @@
   <data name="not_found.title" xml:space="preserve">
     <value>canal não encontrado</value>
   </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>Junte-se ao canal para ver suas mensagens.</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>Juntar-se ao canal</value>
+  </data>
   <data name="input.create" xml:space="preserve">
     <value>Criar</value>
   </data>
@@ -141,15 +150,6 @@
   </data>
   <data name="input.send" xml:space="preserve">
     <value>Enviar</value>
-  </data>
-  <data name="no-conversations.howto" xml:space="preserve">
-    <value>Comece uma conversa através do perfil ou pelo cartão do usuário.</value>
-  </data>
-  <data name="no-conversations.lazer" xml:space="preserve">
-    <value>Canais públicos que você entrar via &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; também serão visíveis aqui.</value>
-  </data>
-  <data name="no-conversations.title" xml:space="preserve">
-    <value>sem conversas no momento</value>
   </data>
   <data name="join_channels.loading" xml:space="preserve">
     <value>Carregando lista de canais...</value>

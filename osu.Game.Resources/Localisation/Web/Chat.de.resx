@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>User laden...</value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>Suche nach Benutzern...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>in {0} reden</value>
   </data>
@@ -127,6 +130,12 @@
   <data name="not_found.title" xml:space="preserve">
     <value>Channel nicht gefunden</value>
   </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>Betrete diesen Channel, um dessen Nachrichten zu sehen.</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>Channel betreten</value>
+  </data>
   <data name="input.create" xml:space="preserve">
     <value>Erstellen</value>
   </data>
@@ -141,15 +150,6 @@
   </data>
   <data name="input.send" xml:space="preserve">
     <value>Senden</value>
-  </data>
-  <data name="no-conversations.howto" xml:space="preserve">
-    <value>Starte eine Unterhaltung von einem User-Profil oder einem Usercard-Pop-up.</value>
-  </data>
-  <data name="no-conversations.lazer" xml:space="preserve">
-    <value>Öffentliche Channel, welche du mit &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; betrittst, werden hier auch sichtbar sein.</value>
-  </data>
-  <data name="no-conversations.title" xml:space="preserve">
-    <value>noch keine Unterhaltungen</value>
   </data>
   <data name="join_channels.loading" xml:space="preserve">
     <value>Channel werden geladen...</value>

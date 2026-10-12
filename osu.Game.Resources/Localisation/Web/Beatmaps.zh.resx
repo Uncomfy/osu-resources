@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>kudosu 已收回</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>包括回复</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>该难度已被删除，无法继续讨论。</value>
   </data>
@@ -107,7 +110,7 @@
     <value>选择回复类型</value>
   </data>
   <data name="discussions.reply_notice" xml:space="preserve">
-    <value>按下回车以提交</value>
+    <value>按下回车以提交。</value>
   </data>
   <data name="discussions.reply_resolve_notice" xml:space="preserve">
     <value>按 Enter 键回复。按 Ctrl+Enter 回复并标记为已解决。</value>
@@ -122,10 +125,13 @@
     <value>已解决</value>
   </data>
   <data name="discussions.restore" xml:space="preserve">
-    <value>已修复</value>
+    <value>恢复</value>
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>显示已删除的消息</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>显示其他回复</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>讨论</value>
@@ -283,6 +289,9 @@
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>如果此帖子以时间戳开头，则会显示在时间轴下方。</value>
   </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>插入备注</value>
+  </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>插入段落</value>
   </data>
@@ -293,7 +302,7 @@
     <value>插入问题</value>
   </data>
   <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
-    <value>加入建议</value>
+    <value>插入建议</value>
   </data>
   <data name="discussions.show.title" xml:space="preserve">
     <value>{0} 制作的 {1}</value>
@@ -425,7 +434,7 @@
     <value>选择要移入社区喜爱 (Loved) 状态的难度</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
-    <value>喜欢这张谱面吗？</value>
+    <value>将这张谱面移入社区喜爱 (Loved) 状态吗？</value>
   </data>
   <data name="nominations.nominate" xml:space="preserve">
     <value>提名</value>
@@ -499,6 +508,9 @@
   <data name="listing.search.options" xml:space="preserve">
     <value>更多搜索选项</value>
   </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>本页面显示的个人资料最高排名计数和结果，基于你在谱面中获得的最高“标准化”分数（即 “lazer” 分数）。</value>
+  </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>需要成为支持者才能按 {0} 筛选</value>
   </data>
@@ -570,6 +582,12 @@
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>支持者</value>
+  </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>浏览玩家标签</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>输入以搜索</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>包括转谱</value>

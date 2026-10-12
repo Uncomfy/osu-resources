@@ -65,7 +65,7 @@
     <value>使用者名稱</value>
   </data>
   <data name="edit.avatar.title" xml:space="preserve">
-    <value>編輯頭像</value>
+    <value>頭像</value>
   </data>
   <data name="edit.avatar.reset" xml:space="preserve">
     <value>重設</value>
@@ -80,13 +80,13 @@
     <value>新電子郵件地址</value>
   </data>
   <data name="edit.email.new_confirmation" xml:space="preserve">
-    <value>確認電子郵件地址</value>
+    <value>再次輸入電子郵件地址</value>
   </data>
   <data name="edit.email.title" xml:space="preserve">
     <value>電子郵件</value>
   </data>
   <data name="edit.email.locked._" xml:space="preserve">
-    <value>如果您需要更新您的電子郵件地址，請聯絡 {0}。</value>
+    <value>如果您需要更新您的電子郵件地址，請聯絡{0}。</value>
   </data>
   <data name="edit.email.locked.accounts" xml:space="preserve">
     <value>帳號支援團隊</value>
@@ -143,7 +143,7 @@
     <value>更新</value>
   </data>
   <data name="github_user.info" xml:space="preserve">
-    <value>如果您是 osu! 開源儲存庫的貢獻者，在這裡連結您的 GitHub 帳號將使您的更新日誌條目與您的 osu! 個人資料產生關聯。沒有 osu! 貢獻紀錄的 GitHub 帳號無法連結。</value>
+    <value>如果你是 osu! 開源專案的貢獻者，在這裡連結你的 GitHub 帳號即可將你的更新日誌紀錄關聯至你的 osu! 個人檔案。無 osu! 貢獻紀錄的 GitHub 帳號將無法連結。</value>
   </data>
   <data name="github_user.link" xml:space="preserve">
     <value>連結 GitHub 帳號</value>
@@ -163,6 +163,9 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>請先在 GitHub 上驗證您的主要電子郵件地址，然後再嘗試連結您的帳號。</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>接收您參與的圖譜討論區被回覆的通知</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>接收以下模式的合格圖譜新問題通知</value>
   </data>
@@ -171,6 +174,9 @@
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>接收您留言被回覆的通知</value>
+  </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>接收新貼文的消息貼文</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
     <value>通知</value>
@@ -187,8 +193,14 @@
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
     <value>圖譜製作</value>
   </data>
+  <data name="notifications.options.channel_mention" xml:space="preserve">
+    <value>聊天室提及</value>
+  </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>私訊</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>團隊聊天訊息</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>新評論</value>
@@ -202,8 +214,38 @@
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>譜師</value>
   </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>新聞貼文</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>推送</value>
+  </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>當你以客串譜師的身分新增至一個圖譜難度</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>當你正在關注的圖譜討論區有任何更動，或者你的圖譜被提出問題或建議。</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>當你在公開頻道裡被提及</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>當你收到新的私人訊息</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>當你的團隊聊天室頻道有新的訊息</value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>當你追蹤的項目有新的留言</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>當你正在關注的論壇主題有新的回覆</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>當你追蹤的譜師發布新的圖譜</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>當有新的貼文被發佈</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>已授權客戶端</value>
@@ -213,6 +255,9 @@
   </data>
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
+    <value>顯示動漫風格的圖譜封面</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>隱藏成人內容圖譜的警告</value>
@@ -230,10 +275,13 @@
     <value>包含影片</value>
   </data>
   <data name="options.beatmapset_download.direct" xml:space="preserve">
-    <value>在 osu!direct 中查看</value>
+    <value>在 osu!direct 中開啟</value>
   </data>
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>不包含影片</value>
+  </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>預設遊戲模式</value>
   </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>鍵盤</value>
@@ -256,6 +304,9 @@
   <data name="privacy.hide_online" xml:space="preserve">
     <value>隱藏線上狀態</value>
   </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>這會使你的帳號在 osu!lazer 中處於離線狀態</value>
+  </data>
   <data name="privacy.title" xml:space="preserve">
     <value>隱私權政策</value>
   </data>
@@ -263,10 +314,10 @@
     <value>目前</value>
   </data>
   <data name="security.end_session" xml:space="preserve">
-    <value>終止工作階段</value>
+    <value>結束工作階段</value>
   </data>
   <data name="security.end_session_confirmation" xml:space="preserve">
-    <value>這將立即結束這個裝置上的工作階段。您確定嗎？</value>
+    <value>這將立即結束您在該裝置上的工作階段。您確定嗎？</value>
   </data>
   <data name="security.last_active" xml:space="preserve">
     <value>上次使用：</value>
@@ -282,6 +333,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>更新</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>驗證應用程式</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>使用驗證器應用程式取代電子郵件進行驗證。電子郵件驗證仍可作為備援方案使用。</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>新增驗證應用程式</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>已設定</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>您現在可以關閉此分頁/視窗</value>

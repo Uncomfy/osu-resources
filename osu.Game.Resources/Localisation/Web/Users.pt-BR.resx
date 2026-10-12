@@ -119,7 +119,7 @@
     <value>Desbloquear</value>
   </data>
   <data name="card.gift_supporter" xml:space="preserve">
-    <value>Presentear supporter tag</value>
+    <value>Presentear tag de osu!supporter</value>
   </data>
   <data name="card.loading" xml:space="preserve">
     <value>Carregando...</value>
@@ -197,7 +197,7 @@
     <value>Conectando...</value>
   </data>
   <data name="login.email_login_disabled" xml:space="preserve">
-    <value>O login com email está desativado no momento. Por favor use o nome de usuário.</value>
+    <value>O login com email está desativado no momento. Por favor, utilize seu nome de usuário.</value>
   </data>
   <data name="login.failed" xml:space="preserve">
     <value>Login incorreto</value>
@@ -206,7 +206,7 @@
     <value>Esqueceu sua senha?</value>
   </data>
   <data name="login.info" xml:space="preserve">
-    <value>Por favor, conecte-se para continuar</value>
+    <value>Entre para continuar</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
     <value>Captcha inválido, atualize a página e tente novamente.</value>
@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supporters terão acesso em breve)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Encerrado</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmaps: {0}</value>
   </data>
@@ -254,10 +260,10 @@
     <value>postagens de {0}</value>
   </data>
   <data name="anonymous.login_link" xml:space="preserve">
-    <value>clique para conectar-se</value>
+    <value>clique para entrar</value>
   </data>
   <data name="anonymous.login_text" xml:space="preserve">
-    <value>conectar-se</value>
+    <value>entrar</value>
   </data>
   <data name="anonymous.username" xml:space="preserve">
     <value>Visitante</value>
@@ -292,8 +298,20 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Cancelar</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Por favor, denuncie a violação de direitos autorais através de uma reivindicação DMCA para {0} como {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>A política de direitos autorais do osu!</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Isso se aplica a casos onde conteúdos de faixas de áudio, visual ou nível de beatmap são usados sem permissão correta.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Jogando sujo / Trapaceando</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Violação de direitos autorais</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>Comportamento inadequado em conversa</value>
@@ -362,7 +380,7 @@
     <value>Joga com {0}</value>
   </data>
   <data name="show.comments_count._" xml:space="preserve">
-    <value>Publicado {0}</value>
+    <value>Publicou {0}</value>
   </data>
   <data name="show.comments_count.count" xml:space="preserve">
     <value>{0} comentário|{0} comentários</value>
@@ -389,10 +407,10 @@
     <value>Desafio\ndiário</value>
   </data>
   <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
-    <value>Melhores 10% nos colocados</value>
+    <value>Colocações nos melhores 10%</value>
   </data>
   <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
-    <value>Melhores 50% nos colocados</value>
+    <value>Colocações nos melhores 50%</value>
   </data>
   <data name="show.daily_challenge.weekly" xml:space="preserve">
     <value>Sequência semanal</value>
@@ -408,6 +426,12 @@
   </data>
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
+  </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Mostrar menos detalhes</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Mostrar mais detalhes</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Mudar Capa de Perfil</value>
@@ -455,7 +479,7 @@
     <value>definir {0} como modo de jogo padrão</value>
   </data>
   <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
-    <value>Redefinir cor para padrão? A etiqueta de apoiador será necessário para alterar a cor.</value>
+    <value>Redefinir a cor para o padrão? Uma tag de osu!supporter será necessária para alterá-la para uma cor diferente.</value>
   </data>
   <data name="show.edit.hue.title" xml:space="preserve">
     <value>Cor</value>
@@ -488,13 +512,13 @@
     <value>Beatmaps</value>
   </data>
   <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
-    <value>Beatmaps Favoritos</value>
+    <value>Beatmaps favoritos</value>
   </data>
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
-    <value>Beatmaps no Cemitério</value>
+    <value>Beatmaps no cemitério</value>
   </data>
   <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
-    <value>Beatmaps de Participação de Visitantes</value>
+    <value>Beatmaps com participação de convidado</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Beatmaps Loved</value>
@@ -553,6 +577,9 @@
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Replays Assistidos</value>
   </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Replays mais assistidos</value>
+  </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Histórico de kudosu recente</value>
   </data>
@@ -575,7 +602,7 @@
     <value>Negou {0} na publicação {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.delete.reset" xml:space="preserve">
-    <value>Perdeu {0} por postagem deletada em {1}</value>
+    <value>Perdeu {0} pela publicação deletada em {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.restore.give" xml:space="preserve">
     <value>Recebeu {0} pela publicação restaurada em {1}</value>
@@ -596,13 +623,13 @@
     <value>Recebeu {0} de {1} por uma publicação em {2}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
-    <value>Kudosu reiniciado por {0} na publicação {1}</value>
+    <value>Kudosu reiniciado por {0} pela publicação {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
-    <value>Kudosu negado por {0} na publicação {1}</value>
+    <value>Kudosu negado por {0} pela publicação {1}</value>
   </data>
   <data name="show.extra.kudosu.total_info._" xml:space="preserve">
-    <value>Baseado na quantidade de contribuições realizadas pelo usuário em moderações de beatmaps. Veja {0} para mais informações.</value>
+    <value>Baseado no quanto o usuário contribuiu à moderação de beatmaps. Veja {0} para mais informações.</value>
   </data>
   <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
     <value>esta página</value>
@@ -620,7 +647,7 @@
     <value>Medalhas</value>
   </data>
   <data name="show.extra.playlists.title" xml:space="preserve">
-    <value>Jogos da Seleção de Música</value>
+    <value>Partidas da playlist</value>
   </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>Publicações</value>
@@ -630,6 +657,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>ver mais publicações</value>
+  </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Partidas competitivas</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Recente</value>
@@ -742,6 +772,30 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Website</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Derrotas</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>Total de partidas</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Classificação</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Avaliação</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>Histórico da última partida</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Nível</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Competitivo</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Vitórias</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Talvez o usuário tenha mudado seu nome.</value>
   </data>
@@ -785,25 +839,40 @@
     <value>Ranking nacional de {0}</value>
   </data>
   <data name="show.rank.country_simple" xml:space="preserve">
-    <value>Ranking Nacional</value>
+    <value>Classificação nacional</value>
   </data>
   <data name="show.rank.global" xml:space="preserve">
     <value>Ranking global de {0}</value>
   </data>
   <data name="show.rank.global_simple" xml:space="preserve">
-    <value>Ranking Global</value>
+    <value>Classificação global</value>
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Maior classificação: {0} em {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>Um novo algoritmo de dificuldade / PP está {0}.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>sendo lançado</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>Pontuações recentes podem não ser refletidas imediatamente nos perfis de usuário.</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>Destaques</value>
   </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>Pontuação total</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Precisão</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Acertos por Jogadas</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Nível {0}</value>

@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>завантаження користувачів...</value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>пошук користувачів...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>чат в {0}</value>
   </data>
@@ -127,6 +130,12 @@
   <data name="not_found.title" xml:space="preserve">
     <value>канал не знайдено</value>
   </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>Приєднайтеся до цього каналу, щоб побачити його повідомлення.</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>Приєднатися до каналу</value>
+  </data>
   <data name="input.create" xml:space="preserve">
     <value>Створити</value>
   </data>
@@ -141,15 +150,6 @@
   </data>
   <data name="input.send" xml:space="preserve">
     <value>Відправити</value>
-  </data>
-  <data name="no-conversations.howto" xml:space="preserve">
-    <value>Почніть розмову з картки або сторінки користувача.</value>
-  </data>
-  <data name="no-conversations.lazer" xml:space="preserve">
-    <value>Публічні канали до яких ви долучилися через &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; також будуть видимі тут.</value>
-  </data>
-  <data name="no-conversations.title" xml:space="preserve">
-    <value>немає розмов</value>
   </data>
   <data name="join_channels.loading" xml:space="preserve">
     <value>Завантаження списку каналів...</value>

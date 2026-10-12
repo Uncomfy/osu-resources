@@ -80,7 +80,7 @@
     <value>Сейчас редактируется</value>
   </data>
   <data name="revert_to_default_description" xml:space="preserve">
-    <value>Настройки всех слоёв текущей сцены? Все компоненты будут возвращены к изначальному состоянию.</value>
+    <value>Все компоненты всех слоёв текущей сцены будут возвращены к изначальному состоянию.</value>
   </data>
   <data name="closest" xml:space="preserve">
     <value>Ближайшая</value>
@@ -108,5 +108,14 @@
   </data>
   <data name="current_working_layer" xml:space="preserve">
     <value>Текущий рабочий слой</value>
+  </data>
+  <data name="navigate_to_skinnable_screen" xml:space="preserve">
+    <value>Пожалуйста, выберите доступный для изменения скином экран в библиотеке сцен</value>
+  </data>
+  <data name="return_to_game" xml:space="preserve">
+    <value>Вернуться в игру</value>
+  </data>
+  <data name="skin_mounted_externally" xml:space="preserve">
+    <value>Файлы скина извлечены в систему</value>
   </data>
 </root>

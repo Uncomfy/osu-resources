@@ -100,6 +100,12 @@
   <data name="Timing_based_colouring" xml:space="preserve">
     <value>Color de notas basado en el tiempo</value>
   </data>
+  <data name="rate_adjusted_hit_animation" xml:space="preserve">
+    <value>Animaciones de golpe ajustadas según la velocidad</value>
+  </data>
+  <data name="rate_adjusted_hit_animation_tooltip" xml:space="preserve">
+    <value>Los golpes serán más rápidos o más lentos cuando se ajuste la velocidad de los mapas mediante mods.</value>
+  </data>
   <data name="ruleset" xml:space="preserve">
     <value>{0} ms (velocidad {1})</value>
   </data>
@@ -109,13 +115,16 @@
   <data name="mobile_layout" xml:space="preserve">
     <value>Diseño para dispositivos móviles</value>
   </data>
-  <data name="portrait_expanded_columns" xml:space="preserve">
-    <value>Vertical (columnas expandidas)</value>
+  <data name="portrait" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="landscape" xml:space="preserve">
+    <value>Horizontal</value>
   </data>
   <data name="landscape_expanded_columns" xml:space="preserve">
     <value>Horizontal (columnas expandidas)</value>
   </data>
-  <data name="landscape_touch_overlay" xml:space="preserve">
-    <value>Horizontal (superposición táctil)</value>
+  <data name="touch_overlay" xml:space="preserve">
+    <value>Superposición táctil</value>
   </data>
 </root>

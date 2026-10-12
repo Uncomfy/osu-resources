@@ -68,13 +68,13 @@
     <value>Avatar</value>
   </data>
   <data name="edit.avatar.reset" xml:space="preserve">
-    <value>set semula</value>
+    <value>tetap semula</value>
   </data>
   <data name="edit.avatar.rules" xml:space="preserve">
-    <value>Sila pastikan avatar anda akur pada {0}.&lt;br/&gt;Hal ini bermakna avatar anda mesti &lt;strong&gt;sesuai bagi penglihatan umum,&lt;/strong&gt; iaitu senonoh serta tidak menyinggung.</value>
+    <value>Sila pastikan avatar anda akur pada {0}.&lt;br/&gt;Hal ini bermakna avatar anda mesti &lt;strong&gt;sesuai untuk penglihatan umum,&lt;/strong&gt; iaitu senonoh serta tidak menyinggung.</value>
   </data>
   <data name="edit.avatar.rules_link" xml:space="preserve">
-    <value>Pertimbangan kandungan visual</value>
+    <value>Pertimbangan kandungan tampak</value>
   </data>
   <data name="edit.email.new" xml:space="preserve">
     <value>e-mel baharu</value>
@@ -176,7 +176,7 @@
     <value>Pemberitahuan</value>
   </data>
   <data name="notifications.topic_auto_subscribe" xml:space="preserve">
-    <value>upayakan pemberitahuan automatik pada tajuk forum baharu yang anda cipta atau balas</value>
+    <value>upayakan pemberitahuan secara automatik pada tajuk forum baharu yang anda cipta atau balas</value>
   </data>
   <data name="notifications.options._" xml:space="preserve">
     <value>hantarkan pemberitahuan melalui</value>
@@ -189,6 +189,9 @@
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>pesanan bualan peribadi</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>pesanan bualan pasukan</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>komen baharu</value>
@@ -218,7 +221,7 @@
     <value>sorok amaran untuk kandungan tidak senonoh dalam peta rentak</value>
   </data>
   <data name="options.beatmapset_title_show_original" xml:space="preserve">
-    <value>paparkan metadata peta rentak dalam bahasa aslinya</value>
+    <value>paparkan metadata peta rentak dalam bahasa asli</value>
   </data>
   <data name="options.title" xml:space="preserve">
     <value>Pilihan</value>
@@ -269,7 +272,7 @@
     <value>Tindakan ini akan langsung menamatkan sesi anda pada peranti itu. Adakah anda pasti?</value>
   </data>
   <data name="security.last_active" xml:space="preserve">
-    <value>Terakhir aktif:</value>
+    <value>Kegiatan terkini:</value>
   </data>
   <data name="security.title" xml:space="preserve">
     <value>Keselamatan</value>

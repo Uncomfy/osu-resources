@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="hidden_replies" xml:space="preserve">
+    <value>{0} resposta amagada|{0} respostes amagades</value>
+  </data>
   <data name="authorizations.update.null_user" xml:space="preserve">
     <value>Has d'iniciar sessió per editar.</value>
   </data>
@@ -77,7 +80,7 @@
     <value>No s'ha trobat cap discussió que coincideixi amb aquests criteris de cerca.</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Discussions del beatmap</value>
+    <value>Discussions del mapa</value>
   </data>
   <data name="index.form._" xml:space="preserve">
     <value>Cerca</value>
@@ -86,7 +89,7 @@
     <value>Incloure discussions eliminades</value>
   </data>
   <data name="index.form.mode" xml:space="preserve">
-    <value>Mode del beatmap</value>
+    <value>Mode del mapa</value>
   </data>
   <data name="index.form.only_unresolved" xml:space="preserve">
     <value>Mostra només discussions no resoltes</value>
@@ -101,7 +104,7 @@
     <value>Nom d'usuari</value>
   </data>
   <data name="index.form.beatmapset_status._" xml:space="preserve">
-    <value>Estat del beatmap</value>
+    <value>Estat del mapa</value>
   </data>
   <data name="index.form.beatmapset_status.all" xml:space="preserve">
     <value>Tots</value>
@@ -225,5 +228,8 @@
   </data>
   <data name="user_filter.label" xml:space="preserve">
     <value>Filtra per usuari</value>
+  </data>
+  <data name="user_filter.multiple" xml:space="preserve">
+    <value>{0} usuari seleccionat|{0} usuaris seleccionats</value>
   </data>
 </root>

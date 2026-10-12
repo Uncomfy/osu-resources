@@ -207,17 +207,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} praise|{0} praises"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountPraises(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.praises"), @"{0} praise|{0} praises", countDelimited);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountPraises(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.praises"), @"{0} praise|{0} praises", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} problem|{0} problems"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountProblems(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.problems"), @"{0} problem|{0} problems", countDelimited);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountProblems(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.problems"), @"{0} problem|{0} problems", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} suggestion|{0} suggestions"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountSuggestions(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.suggestions"), @"{0} suggestion|{0} suggestions", countDelimited);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountSuggestions(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.suggestions"), @"{0} suggestion|{0} suggestions", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Qualified Beatmap problem"
@@ -390,6 +390,26 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ItemChannelChannelPmChannelMessageGroup(LocalisableString username) => new TranslatableString(getKey(@"item.channel.channel.pm.channel_message_group"), @"from {0}", username);
 
         /// <summary>
+        /// "Chat mention"
+        /// </summary>
+        public static LocalisableString ItemChannelChannelMentionDefault => new TranslatableString(getKey(@"item.channel.channel_mention._"), @"Chat mention");
+
+        /// <summary>
+        /// "{0} mentioned you in {1} &quot;{2}&quot;"
+        /// </summary>
+        public static LocalisableString ItemChannelChannelMentionPublicChannelMention(LocalisableString username, LocalisableString name, LocalisableString title) => new TranslatableString(getKey(@"item.channel.channel_mention.public.channel_mention"), @"{0} mentioned you in {1} ""{2}""", username, name, title);
+
+        /// <summary>
+        /// "{0} &quot;{1}&quot;"
+        /// </summary>
+        public static LocalisableString ItemChannelChannelMentionPublicChannelMentionCompact(LocalisableString username, LocalisableString title) => new TranslatableString(getKey(@"item.channel.channel_mention.public.channel_mention_compact"), @"{0} ""{1}""", username, title);
+
+        /// <summary>
+        /// "mentioned in {0}"
+        /// </summary>
+        public static LocalisableString ItemChannelChannelMentionPublicChannelMentionGroup(LocalisableString name) => new TranslatableString(getKey(@"item.channel.channel_mention.public.channel_mention_group"), @"mentioned in {0}", name);
+
+        /// <summary>
         /// "New team message"
         /// </summary>
         public static LocalisableString ItemChannelChannelTeamDefault => new TranslatableString(getKey(@"item.channel.channel_team._"), @"New team message");
@@ -468,6 +488,21 @@ namespace osu.Game.Resources.Localisation.Web
         /// "{0} replied &quot;{1}&quot;"
         /// </summary>
         public static LocalisableString ItemNewsPostCommentCommentReplyCompact(LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.news_post.comment.comment_reply_compact"), @"{0} replied ""{1}""", username, content);
+
+        /// <summary>
+        /// "News ({0})"
+        /// </summary>
+        public static LocalisableString ItemNewsPostNewsPostDefault(LocalisableString series) => new TranslatableString(getKey(@"item.news_post.news_post._"), @"News ({0})", series);
+
+        /// <summary>
+        /// "{0}"
+        /// </summary>
+        public static LocalisableString ItemNewsPostNewsPostNewsPostNew(LocalisableString title) => new TranslatableString(getKey(@"item.news_post.news_post.news_post_new"), @"{0}", title);
+
+        /// <summary>
+        /// "{0}"
+        /// </summary>
+        public static LocalisableString ItemNewsPostNewsPostNewsPostNewCompact(LocalisableString title) => new TranslatableString(getKey(@"item.news_post.news_post.news_post_new_compact"), @"{0}", title);
 
         /// <summary>
         /// "Forum topic"
@@ -585,6 +620,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ItemUserAchievementUserAchievementUnlockUserAchievementUnlockGroup => new TranslatableString(getKey(@"item.user_achievement.user_achievement_unlock.user_achievement_unlock_group"), @"Medals unlocked!");
 
         /// <summary>
+        /// "News"
+        /// </summary>
+        public static LocalisableString MailNews => new TranslatableString(getKey(@"mail.news"), @"News");
+
+        /// <summary>
         /// "You&#39;re now guest of beatmap &quot;{0}&quot;"
         /// </summary>
         public static LocalisableString MailBeatmapsetBeatmapOwnerChangeBeatmapOwnerChange(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmap_owner_change.beatmap_owner_change"), @"You're now guest of beatmap ""{0}""", title);
@@ -658,6 +698,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "You&#39;ve received a new message from {0}"
         /// </summary>
         public static LocalisableString MailChannelChannelChannelMessage(LocalisableString username) => new TranslatableString(getKey(@"mail.channel.channel.channel_message"), @"You've received a new message from {0}", username);
+
+        /// <summary>
+        /// "{0} mentioned you in {1} &quot;{2}&quot;"
+        /// </summary>
+        public static LocalisableString MailChannelChannelMentionChannelMention(LocalisableString username, LocalisableString name, LocalisableString title) => new TranslatableString(getKey(@"mail.channel.channel_mention.channel_mention"), @"{0} mentioned you in {1} ""{2}""", username, name, title);
 
         /// <summary>
         /// "There is a new message in team &quot;{0}&quot;"

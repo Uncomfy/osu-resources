@@ -79,9 +79,6 @@
   <data name="target_directory_already_installed_osu" xml:space="preserve">
     <value>A célmappa már tartalmaz egy osu! telepítést. Használjam azt az adatot inkább?</value>
   </data>
-  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
-    <value>A folyamat befejezéséhez, osu! be fog záródni. Kérlek nyisd meg újra az új adathely használatához.</value>
-  </data>
   <data name="delete_all_beatmaps" xml:space="preserve">
     <value>ÖSSZES beatmap törlése</value>
   </data>
@@ -132,5 +129,11 @@
   </data>
   <data name="stable_directory_select_header" xml:space="preserve">
     <value>Kérlek válaszd ki az osu!stable telepítésed helyét</value>
+  </data>
+  <data name="all_offsets_reset" xml:space="preserve">
+    <value>Minden eltolás visszaállításra került!</value>
+  </data>
+  <data name="no_videos_found_to_delete" xml:space="preserve">
+    <value>Nem találtak törölhető videókat!</value>
   </data>
 </root>

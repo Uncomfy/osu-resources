@@ -100,6 +100,21 @@
   <data name="Timing_based_colouring" xml:space="preserve">
     <value>Zabarvení noty podle času</value>
   </data>
+  <data name="rate_adjusted_hit_animation" xml:space="preserve">
+    <value>Animace úderů dle rychlosti</value>
+  </data>
+  <data name="rate_adjusted_hit_animation_tooltip" xml:space="preserve">
+    <value>Údery budou přilétávat rychleji nebo pomaleji, když je rychlost beatmapy upravena pomocí módů.</value>
+  </data>
+  <data name="hit_animations" xml:space="preserve">
+    <value>Animace úderů</value>
+  </data>
+  <data name="hit_animations_taiko_tooltip" xml:space="preserve">
+    <value>Pokud povoleno, zásahy budou odlétat z obrazovky. Pokud vypnuto, zásahy zmizí okamžitě.</value>
+  </data>
+  <data name="hit_animations_osu_tooltip" xml:space="preserve">
+    <value>Pokud povoleno, hit kolečka přehrají animaci při zásahu. Pokud vypnuto, zmizí téměř okamžitě.</value>
+  </data>
   <data name="ruleset" xml:space="preserve">
     <value>{0}ms (rychlost {1:N1})</value>
   </data>
@@ -109,13 +124,16 @@
   <data name="mobile_layout" xml:space="preserve">
     <value>Mobilní rozložení</value>
   </data>
-  <data name="portrait_expanded_columns" xml:space="preserve">
-    <value>Na výšku (rozšířené sloupce)</value>
+  <data name="portrait" xml:space="preserve">
+    <value>Na výšku</value>
+  </data>
+  <data name="landscape" xml:space="preserve">
+    <value>Na šířku</value>
   </data>
   <data name="landscape_expanded_columns" xml:space="preserve">
     <value>Na šířku (rozšířené sloupce)</value>
   </data>
-  <data name="landscape_touch_overlay" xml:space="preserve">
-    <value>Na šířku (překrytí pro dotyk)</value>
+  <data name="touch_overlay" xml:space="preserve">
+    <value>Překrytí pro dotek</value>
   </data>
 </root>

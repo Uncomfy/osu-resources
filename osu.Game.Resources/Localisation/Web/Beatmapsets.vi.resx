@@ -116,7 +116,7 @@
     <value>Bạn không có sự cho phép để đề cử cho chế độ: {0}</value>
   </data>
   <data name="nominate.invalid_limited_nomination" xml:space="preserve">
-    <value>Beatmap này có những đề cử không hợp lệ và không thể đủ tư cách trong trạng thái này.</value>
+    <value>Beatmap này có những đề cử không hợp lệ và không thể đủ điều kiện trong trạng thái này.</value>
   </data>
   <data name="nominate.invalid_ruleset" xml:space="preserve">
     <value>Đề cử này có các ruleset không hợp lệ.</value>
@@ -131,7 +131,7 @@
     <value>Bạn có chắc chắn muốn đề cử beatmap này không?</value>
   </data>
   <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
-    <value>Việc đủ điều kiện cho beatmap này với các người đề cử khác sẽ làm reset vị trí trong hàng đợi đủ điều kiện của nó.</value>
+    <value>Việc xét đủ điều kiện cho beatmap này với những người đề cử khác sẽ đặt lại vị trí của nó trong hàng chờ xếp hạng.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>Đề cử Beatmap</value>
@@ -146,7 +146,7 @@
     <value>Đề cử cho những chế độ nào?</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
-    <value>18+</value>
+    <value>Không lành mạnh</value>
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Góc Thảo Luận</value>
@@ -154,23 +154,26 @@
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Xem ảnh bìa kích thước đầy đủ</value>
   </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Xem trang quản trị viên</value>
+  </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Beatmap này đã bị xoá.</value>
   </data>
   <data name="show.deleted_banner.message" xml:space="preserve">
-    <value>(chỉ điều phối viên mới có thể thấy cái này)</value>
+    <value>(chỉ điều phối viên mới có thể thấy điều này)</value>
   </data>
   <data name="show.details.by_artist" xml:space="preserve">
     <value>bởi {0}</value>
   </data>
   <data name="show.details.favourite" xml:space="preserve">
-    <value>Yêu thích beatmapset này</value>
+    <value>yêu thích beatmapset này</value>
   </data>
   <data name="show.details.favourite_login" xml:space="preserve">
-    <value>Đăng nhập để yêu thích beatmap này</value>
+    <value>đăng nhập để yêu thích beatmap này</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
-    <value>Bạn cần phải đăng nhập trước khi tải xuống beatmap!</value>
+    <value>bạn cần phải đăng nhập trước khi tải xuống beatmap!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>được tạo bởi {0}</value>
@@ -179,7 +182,7 @@
     <value>độ khó khách bởi {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
-    <value>Bỏ yêu thích beatmapset này</value>
+    <value>bỏ yêu thích beatmapset này</value>
   </data>
   <data name="show.details.updated_timeago" xml:space="preserve">
     <value>cập nhật lần cuối vào {0}</value>
@@ -203,10 +206,10 @@
     <value>được chấp nhận {0}</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>được yêu mến {0}</value>
+    <value>được loved vào {0}</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
-    <value>đủ tư cách {0}</value>
+    <value>đủ điều kiện {0}</value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
     <value>được xếp hạng {0}</value>
@@ -230,13 +233,13 @@
     <value>đang chờ</value>
   </data>
   <data name="show.hype.current.status.qualified" xml:space="preserve">
-    <value>đủ tư cách</value>
+    <value>đủ điều kiện</value>
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
     <value>đang thực hiện</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
-    <value>Nếu bạn thấy có vấn đề với bản beatmap này, vui lòng loại bỏ nó {0}.</value>
+    <value>Nếu bạn thấy có vấn đề với beatmap này, vui lòng hủy trạng thái đủ điều kiện của nó {0}.</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
     <value>Nếu bạn tìm thấy vấn đề với beatmap này, vui lòng báo cáo nó tại {0} để cảnh báo cho chúng tôi.</value>
@@ -256,6 +259,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Ngôn Ngữ</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Thẻ do người tạo thêm</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Vẫn đang tính toán dữ liệu...</value>
   </data>
@@ -266,7 +272,10 @@
     <value>Nội dung không lành mạnh</value>
   </data>
   <data name="show.info.offset" xml:space="preserve">
-    <value>Offset online</value>
+    <value>Offset trực tuyến</value>
+  </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Gói beatmap</value>
   </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Tỉ Lệ Thất Bại</value>
@@ -280,11 +289,29 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Tỉ Lệ Thành Công</value>
   </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} lần vượt qua trên {1} lượt chơi|{0} lần vượt qua trên {1} lượt chơi</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Thẻ do người dùng thêm</value>
+  </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Beatmap này chứa video</value>
   </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Chỉ Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Do cơ chế đặc thù, beatmap này chỉ có thể chơi được trên osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} để xem các điểm số được lập tại beatmap này.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Bật chế độ lazer</value>
+  </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Beatmap này chứa nội dung không lành mạn, phản cảm, hoặc đáng lo ngại. Bạn có muốn xem nó không?</value>
+    <value>Beatmap này chứa nội dung không lành mạnh, phản cảm hoặc gây khó chịu. Bạn có muốn xem nó không?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Nội dung không lành mạnh</value>
@@ -386,13 +413,13 @@
     <value>đây</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
-    <value>Kích Cỡ Nốt</value>
+    <value>Cỡ nốt tròn</value>
   </data>
   <data name="show.stats.cs-mania" xml:space="preserve">
     <value>Số Phím</value>
   </data>
   <data name="show.stats.drain" xml:space="preserve">
-    <value>Độ Giảm HP</value>
+    <value>Độ giảm máu</value>
   </data>
   <data name="show.stats.accuracy" xml:space="preserve">
     <value>Độ Chính Xác</value>
@@ -404,19 +431,19 @@
     <value>Độ Khó</value>
   </data>
   <data name="show.stats.total_length" xml:space="preserve">
-    <value>Độ Dài</value>
+    <value>Độ dài (Độ dài có tương tác: {0})</value>
   </data>
   <data name="show.stats.bpm" xml:space="preserve">
     <value>BPM</value>
   </data>
   <data name="show.stats.count_circles" xml:space="preserve">
-    <value>Số Nốt Bấm</value>
+    <value>Số nốt tròn</value>
   </data>
   <data name="show.stats.count_sliders" xml:space="preserve">
-    <value>Số Nốt Trượt</value>
+    <value>Số nốt trượt</value>
   </data>
   <data name="show.stats.offset" xml:space="preserve">
-    <value>Offset online: {0}</value>
+    <value>Offset trực tuyến: {0}</value>
   </data>
   <data name="show.stats.user-rating" xml:space="preserve">
     <value>Đánh Giá</value>
@@ -430,6 +457,12 @@
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Đã chơi</value>
   </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Mục ưa thích</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Hiện chưa có mục yêu thích</value>
+  </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Đã được xếp hạng</value>
   </data>
@@ -437,10 +470,10 @@
     <value>Được Chấp Nhận</value>
   </data>
   <data name="show.status.loved" xml:space="preserve">
-    <value>Được yêu mến</value>
+    <value>Loved</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
-    <value>Đủ tư cách</value>
+    <value>Đủ điều kiện</value>
   </data>
   <data name="show.status.wip" xml:space="preserve">
     <value>WIP</value>

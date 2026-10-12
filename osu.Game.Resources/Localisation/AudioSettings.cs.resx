@@ -95,15 +95,27 @@
     <value>Zahraj si pár beatmap, abys obdržel doporučený offset!</value>
   </data>
   <data name="suggested_offset_correct" xml:space="preserve">
-    <value>Na základě posledních {0} her je tvůj offset nastaven správně!</value>
+    <value>Na základě poslední {0} hry je tvůj offset nastaven správně!|Na základě posledních {0} her je tvůj offset nastaven správně!|Na základě posledních {0} her je tvůj offset nastaven správně!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>Na základě posledních {0} her je doporučený offset {1} ms.</value>
+    <value>Na základě poslední {0} hry je doporučený offset {1} ms.|Na základě posledních {0} her je doporučený offset {1} ms.|Na základě posledních {0} her je doporučený offset {1} ms.</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
     <value>Použít doporučený offset</value>
   </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>Průvodce offsetem</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Automaticky upravovat offset beatmapy</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Je-li povoleno, automaticky se aplikuje offset navržený dle poslední hry na beatmapě.</value>
+  </data>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Použít starý režim zvuku</value>
+  </data>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Použij tuto možnost, pokud máš problémy se zvukem. Ber na vědomí, že latence zvuku bude vyšší, když je toto zapnuto.</value>
   </data>
 </root>

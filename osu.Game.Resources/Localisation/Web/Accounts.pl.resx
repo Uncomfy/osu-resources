@@ -98,7 +98,7 @@
     <value>irc</value>
   </data>
   <data name="edit.legacy_api.title" xml:space="preserve">
-    <value>Stare API</value>
+    <value>API wersji pierwszej</value>
   </data>
   <data name="edit.password.current" xml:space="preserve">
     <value>obecne hasło</value>
@@ -163,6 +163,9 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Zweryfikuj swój główny adres e-mail na GitHub, a następnie spróbuj połączyć konto ponownie.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>otrzymuj powiadomienia o odpowiedziach w dyskusjach, w których uczestniczysz</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>otrzymuj powiadomienia o nowych problemach z zakwalifikowanymi beatmapami dla następujących trybów</value>
   </data>
@@ -171,6 +174,9 @@
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>otrzymuj powiadomienia o odpowiedziach do twoich komentarzy</value>
+  </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>otrzymuj powiadomienia o aktualnościach</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Powiadomienia</value>
@@ -187,8 +193,14 @@
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
     <value>dyskusje beatmap</value>
   </data>
+  <data name="notifications.options.channel_mention" xml:space="preserve">
+    <value>wzmianka na czacie</value>
+  </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>wiadomości prywatne na czacie</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>wiadomości na czacie zespołu</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>nowe komentarze</value>
@@ -202,8 +214,38 @@
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>twórca</value>
   </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>aktualności</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
+  </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>gdy uzyskasz status gościnnego twórcy poziomu trudności beatmapy</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>gdy w obserwowanych dyskusjach pojawią się nowe aktualizacje lub zostanie zgłoszony problem bądź sugestia dla twojej beatmapy</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>gdy otrzymasz wzmiankę na kanale publicznym</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>gdy otrzymasz nową wiadomość prywatną</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>gdy na czacie twojego zespołu pojawi się nowa wiadomość</value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>gdy w obserwowanej zawartości pojawi się nowy komentarz</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>gdy w obserwowanych wątkach na forum pojawią się nowe odpowiedzi</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>gdy obserwowany twórca utworzy nową beatmapę</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>gdy pojawią się nowe aktualności</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>autoryzowani klienci</value>
@@ -213,6 +255,9 @@
   </data>
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
+    <value>pokaż tła beatmap w stylu anime</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>ukryj ostrzeżenia o treściach dla pełnoletnich w beatmapach</value>
@@ -235,6 +280,9 @@
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>bez wideo</value>
   </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>domyślny tryb gry</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>klawiatura</value>
   </data>
@@ -251,10 +299,13 @@
     <value>ekran dotykowy</value>
   </data>
   <data name="privacy.friends_only" xml:space="preserve">
-    <value>blokuj prywatne wiadomości od osób spoza listy znajomych</value>
+    <value>blokuj wiadomości prywatne od osób spoza listy znajomych</value>
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>ukryj swoją obecność online</value>
+  </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>jednoznaczne ze statusem „Nie przeszkadzać” w osu!lazer</value>
   </data>
   <data name="privacy.title" xml:space="preserve">
     <value>Prywatność</value>
@@ -282,6 +333,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>zaktualizuj</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>Aplikacja uwierzytelniająca</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>Użyj aplikacji uwierzytelniającej jako główną metodę weryfikacji. Weryfikacja poprzez wiadomości e-mail nadal będzie dostępna jako opcja zapasowa.</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>Dodaj aplikację uwierzytelniającą</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>status</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>Nie skonfigurowano</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>Skonfigurowano</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>Możesz zamknąć to okno</value>

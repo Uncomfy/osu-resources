@@ -88,6 +88,9 @@
   <data name="header.beatmapsets.discussions" xml:space="preserve">
     <value>discusión</value>
   </data>
+  <data name="header.beatmapsets.versions" xml:space="preserve">
+    <value>historial de versiones</value>
+  </data>
   <data name="header.changelog.index" xml:space="preserve">
     <value>listado</value>
   </data>
@@ -114,6 +117,9 @@
   </data>
   <data name="header.users.playlists" xml:space="preserve">
     <value>listas de juego</value>
+  </data>
+  <data name="header.users.ranked-play" xml:space="preserve">
+    <value>partidas clasificatorias</value>
   </data>
   <data name="header.users.realtime" xml:space="preserve">
     <value>multijugador</value>
@@ -217,6 +223,9 @@
   <data name="footer.legal.privacy" xml:space="preserve">
     <value>Privacidad</value>
   </data>
+  <data name="footer.legal.rules" xml:space="preserve">
+    <value>Reglas</value>
+  </data>
   <data name="footer.legal.server_status" xml:space="preserve">
     <value>Estado del servidor</value>
   </data>
@@ -312,6 +321,9 @@
   </data>
   <data name="popup_user.links.account-edit" xml:space="preserve">
     <value>Configuración</value>
+  </data>
+  <data name="popup_user.links.create_team" xml:space="preserve">
+    <value>Crear equipo</value>
   </data>
   <data name="popup_user.links.follows" xml:space="preserve">
     <value>Listas de seguimiento</value>

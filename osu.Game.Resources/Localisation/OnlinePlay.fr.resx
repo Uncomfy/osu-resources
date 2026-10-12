@@ -67,4 +67,34 @@
   <data name="cant_invite_this_user_as1" xml:space="preserve">
     <value>Impossible d'inviter cet utilisateur : il n'autorise pas les demandes d'utilisateurs ne faisant pas partie de sa liste d'amis.</value>
   </data>
+  <data name="footer_button_playlist_add" xml:space="preserve">
+    <value>Ajouter à la playlist</value>
+  </data>
+  <data name="footer_button_freemods" xml:space="preserve">
+    <value>Freemods</value>
+  </data>
+  <data name="footer_button_freestyle" xml:space="preserve">
+    <value>Freestyle</value>
+  </data>
+  <data name="playlist_tray_description" xml:space="preserve">
+    <value>Gérez les éléments sur l'écran précédent</value>
+  </data>
+  <data name="multiplayer_beatmap_queue" xml:space="preserve">
+    <value>File d'attente des beatmaps</value>
+  </data>
+  <data name="playlist_progress" xml:space="preserve">
+    <value>Progression</value>
+  </data>
+  <data name="playlist_leaderboard" xml:space="preserve">
+    <value>Classement</value>
+  </data>
+  <data name="difficulty" xml:space="preserve">
+    <value>Difficulté</value>
+  </data>
+  <data name="chat" xml:space="preserve">
+    <value>Tchat</value>
+  </data>
+  <data name="close_playlist" xml:space="preserve">
+    <value>Fermer la playlist</value>
+  </data>
 </root>

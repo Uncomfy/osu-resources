@@ -71,22 +71,25 @@
     <value>Sfaturi în meniu</value>
   </data>
   <data name="parallax" xml:space="preserve">
-    <value>Parallax</value>
+    <value>Paralax</value>
   </data>
   <data name="hold_to_confirm_activation_time" xml:space="preserve">
-    <value>Timp activare ținerea tastă apăsată</value>
+    <value>Timp apăsare pentru activare</value>
   </data>
   <data name="main_menu_header" xml:space="preserve">
-    <value>Meniul Principal</value>
+    <value>Meniu principal</value>
   </data>
   <data name="interface_voices" xml:space="preserve">
-    <value>Voci interfață</value>
+    <value>Voci de interfață</value>
   </data>
   <data name="osu_music_theme" xml:space="preserve">
     <value>Tema muzicală osu!</value>
   </data>
   <data name="intro_sequence" xml:space="preserve">
-    <value>Secvență introductivă</value>
+    <value>Secvența introductivă</value>
+  </data>
+  <data name="intro_random" xml:space="preserve">
+    <value>Aleatoriu</value>
   </data>
   <data name="background_source" xml:space="preserve">
     <value>Sursa imaginii de fundal</value>
@@ -101,22 +104,25 @@
     <value>Selectare melodie</value>
   </data>
   <data name="right_mouse_scroll" xml:space="preserve">
-    <value>Clic mouse dreapta pentru scroll absolut</value>
+    <value>Clic dreapta pentru derulare automată (autoscroll)</value>
+  </data>
+  <data name="show_converts" xml:space="preserve">
+    <value>Afișează convert-uri</value>
   </data>
   <data name="show_converted_beatmaps" xml:space="preserve">
-    <value>Afișează beatmap-uri convertite</value>
+    <value>Afișează mape convertite</value>
   </data>
   <data name="stars_minimum" xml:space="preserve">
-    <value>Afișează beatmap-uri de la</value>
+    <value>Afișează mape de la</value>
   </data>
   <data name="stars_maximum" xml:space="preserve">
     <value>până la</value>
   </data>
   <data name="random_selection_algorithm" xml:space="preserve">
-    <value>Algoritm de selecție aleatoriu</value>
+    <value>Algoritmul de selecție aleatorie</value>
   </data>
   <data name="mod_select_hotkey_style" xml:space="preserve">
-    <value>Stil comenzi rapide selectare mod-uri</value>
+    <value>Stil selecție moduri cu comenzi rapide</value>
   </data>
   <data name="mod_select_text_search_starts_active" xml:space="preserve">
     <value>Focalizează automat caseta de căutare în ecranul de selectare mod-uri</value>
@@ -146,6 +152,27 @@
     <value>Nu repeta niciodată</value>
   </data>
   <data name="true_random" xml:space="preserve">
-    <value>Aleator Adevărat</value>
+    <value>Aleatoriu adevărat</value>
+  </data>
+  <data name="selected_mods" xml:space="preserve">
+    <value>Modificările selectate</value>
+  </data>
+  <data name="hold_for_menu" xml:space="preserve">
+    <value>ține apăsat pentru meniu</value>
+  </data>
+  <data name="press_for_menu" xml:space="preserve">
+    <value>apăsați pentru meniu</value>
+  </data>
+  <data name="device" xml:space="preserve">
+    <value>Dispozitiv</value>
+  </data>
+  <data name="show_hidden" xml:space="preserve">
+    <value>Afișează ascuns</value>
+  </data>
+  <data name="currently_online" xml:space="preserve">
+    <value>Activi acum</value>
+  </data>
+  <data name="user_search" xml:space="preserve">
+    <value>Căutare utilizatori</value>
   </data>
 </root>

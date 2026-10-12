@@ -77,7 +77,7 @@
     <value>Disabilita la modifica del volume in gioco tramite la rotellina del mouse</value>
   </data>
   <data name="disable_mouse_wheel_volume_adjust_tooltip" xml:space="preserve">
-    <value>Il volume può ancora essere regolato usando la rotellina del mouse tenendo premuto "Alt"</value>
+    <value>Il volume si può comunque regolare tramite la rotellina del mouse tenendo premuto "Alt"</value>
   </data>
   <data name="disable_clicks" xml:space="preserve">
     <value>Disabilita i clic in gioco</value>
@@ -99,5 +99,8 @@
   </data>
   <data name="never_confine" xml:space="preserve">
     <value>Mai</value>
+  </data>
+  <data name="cursor_sensitivity_for_tablets_elsewhere" xml:space="preserve">
+    <value>Stai tentando di cambiare la sensibilità per la penna del tuo tablet? Allora devi trovare l'opzione di sensibilità della penna.</value>
   </data>
 </root>

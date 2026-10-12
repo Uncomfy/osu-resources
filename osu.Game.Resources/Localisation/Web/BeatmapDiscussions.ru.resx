@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="hidden_replies" xml:space="preserve">
+    <value>{0} ответ скрыт.|{0} ответа скрыто.|{0} ответов скрыто.</value>
+  </data>
   <data name="authorizations.update.null_user" xml:space="preserve">
     <value>Вы должны войти для редактирования.</value>
   </data>
@@ -225,5 +228,8 @@
   </data>
   <data name="user_filter.label" xml:space="preserve">
     <value>По пользователям</value>
+  </data>
+  <data name="user_filter.multiple" xml:space="preserve">
+    <value>Выбран {0} пользователь|Выбрано {0} пользователя|Выбрано {0} пользователей</value>
   </data>
 </root>

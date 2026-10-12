@@ -100,6 +100,12 @@
   <data name="Timing_based_colouring" xml:space="preserve">
     <value>Coloração de notas com base no tempo</value>
   </data>
+  <data name="rate_adjusted_hit_animation" xml:space="preserve">
+    <value>Animações de acerto ajustadas à velocidade</value>
+  </data>
+  <data name="rate_adjusted_hit_animation_tooltip" xml:space="preserve">
+    <value>Acertos voarão mais rápido ou mais lento quando a velocidade do beatmap for ajustada através de mods.</value>
+  </data>
   <data name="ruleset" xml:space="preserve">
     <value>{0}ms (velocidade {1})</value>
   </data>
@@ -109,13 +115,16 @@
   <data name="mobile_layout" xml:space="preserve">
     <value>Disposição para dispositivos móveis</value>
   </data>
-  <data name="portrait_expanded_columns" xml:space="preserve">
-    <value>Retrato (Colunas expandidas)</value>
+  <data name="portrait" xml:space="preserve">
+    <value>Retrato</value>
+  </data>
+  <data name="landscape" xml:space="preserve">
+    <value>Paisagem</value>
   </data>
   <data name="landscape_expanded_columns" xml:space="preserve">
     <value>Paisagem (Colunas expandidas)</value>
   </data>
-  <data name="landscape_touch_overlay" xml:space="preserve">
-    <value>Paisagem (Controles em toque)</value>
+  <data name="touch_overlay" xml:space="preserve">
+    <value>Sobreposição de toque</value>
   </data>
 </root>

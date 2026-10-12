@@ -70,6 +70,9 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>Požádáno o připojení k týmu.</value>
   </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} člen|{0} členové|{0} členů</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
     <value>Vytvořit tým</value>
   </data>
@@ -83,7 +86,10 @@
     <value>Pojďme vytvořit nový tým</value>
   </data>
   <data name="create.intro.description" xml:space="preserve">
-    <value>Hraj společně s přáteli; existujícími nebo novými. V současné době nejsi v týmu. Připoj se k existujícímu týmu navštívením jejich týmové stránky nebo vytvoř svůj vlastní tým na této stránce.</value>
+    <value>Hraj společně s přáteli; existujícími nebo novými. V současné době nejsi v týmu. Připoj se k {0} navštívením jejich týmové stránky nebo vytvoř svůj vlastní tým na této stránce.</value>
+  </data>
+  <data name="create.intro.search_link" xml:space="preserve">
+    <value>existujícímu týmu</value>
   </data>
   <data name="create.intro.title" xml:space="preserve">
     <value>Tým!</value>
@@ -244,11 +250,20 @@
   <data name="show.sections.members" xml:space="preserve">
     <value>Členové</value>
   </data>
-  <data name="show.statistics.rank" xml:space="preserve">
-    <value>Umístění</value>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>{0} slot k dispozici|{0} sloty k dispozici|{0} slotů k dispozici</value>
+  </data>
+  <data name="show.statistics.first_places" xml:space="preserve">
+    <value>Prvních míst</value>
   </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>Vedoucí týmu</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Umístění</value>
+  </data>
+  <data name="show.statistics.ranked_beatmapsets" xml:space="preserve">
+    <value>Hodnocených beatmap</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Tým vytvořen.</value>

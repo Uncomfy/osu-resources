@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Відмовлено в отриманні кудосу.</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Включно з їх відповідями</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Ця складність була видалена, і більше вона не може бути обговорена.</value>
   </data>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Показати видалені</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Показати відповіді інших користувачів</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Обговорення</value>
@@ -499,6 +505,9 @@
   <data name="listing.search.options" xml:space="preserve">
     <value>Більше параметрів пошуку</value>
   </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>Кількість бітмап та здобуті рейтинги, показані на цій сторінці, базуються на ваших найкращих "стандартизованих" (тобто "lazer") результатах бітмап.</value>
+  </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>Фільтрація по {0} потребує наявності тегу osu!supporter</value>
   </data>
@@ -570,6 +579,12 @@
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>тег osu!supporter</value>
+  </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>перегляд тегів користувача</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>почніть набирати текст</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Показувати конвертовані мапи</value>
@@ -656,7 +671,7 @@
     <value>Хіп-хоп</value>
   </data>
   <data name="genre.electronic" xml:space="preserve">
-    <value>Електро</value>
+    <value>Електронна</value>
   </data>
   <data name="genre.metal" xml:space="preserve">
     <value>Метал</value>

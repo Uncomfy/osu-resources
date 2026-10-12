@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Kudosu-Vergabe abgelehnt.</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Antworten anzeigen</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Diese Difficulty wurde gelöscht und kann nicht mehr diskutiert werden.</value>
   </data>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Gelöschte anzeigen</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Andere Antworten anzeigen</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Diskussionen</value>
@@ -282,6 +288,9 @@
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Falls dieser Beitrag mit einem Zeitstempel beginnt, wird er unter Timeline angezeigt.</value>
+  </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>Notiz hinzufügen</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>Absatz einfügen</value>
@@ -458,7 +467,7 @@
     <value>Es existieren noch Vorschläge/Probleme, die gelöst werden müssen.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Diese Map wird voraussichtlich am {0} ranked. Sie befindet sich aktuell an Position {1} der {2}.</value>
+    <value>Diese Beatmap wird voraussichtlich {0} ranked. Sie befindet sich aktuell an Position {1} der {2}.</value>
   </data>
   <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
     <value>Diese Beatmap verbleibt im Qualified-Abschnitt, bis {0} behoben wurden.</value>
@@ -498,6 +507,9 @@
   </data>
   <data name="listing.search.options" xml:space="preserve">
     <value>Mehr Suchoptionen</value>
+  </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>Die Anzahl der Top-Platzierungen und die Ergebnisse, die auf dieser Seite angezeigt werden, basieren auf Beatmaps mit deinen besten "standardisierten" Scores (also aus lazer).</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>Um nach {0} zu filtern, benötigt es ein aktives osu!supporter-Tag</value>
@@ -570,6 +582,12 @@
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>osu!supporter-Tag</value>
+  </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>Nutzertags durchstöbern</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>Schreibe zum Suchen</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Konvertierte Beatmaps miteinbeziehen</value>

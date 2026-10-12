@@ -62,7 +62,7 @@
     <value>Importer</value>
   </data>
   <data name="description" xml:space="preserve">
-    <value>Hvis du har en installasjon av en tidligere osu! versjon, kan du velge å migrene det eksiterende innholdet. Merk at dette ikke vil påvirke filene til den eksisterende installasjonen på noen måte.</value>
+    <value>Dersom du har en tidligere osu! versjon installert, kan du velge å migrere det eksisterende innholdet ditt. Merk at dette ikke vil påvirke filene til den eksisterende installasjonen på noen måte.</value>
   </data>
   <data name="locate_directory_label" xml:space="preserve">
     <value>forrige osu! installasjon</value>
@@ -78,9 +78,6 @@
   </data>
   <data name="calculating" xml:space="preserve">
     <value>beregner...</value>
-  </data>
-  <data name="items" xml:space="preserve">
-    <value>{0} objekt(er)</value>
   </data>
   <data name="data_migration_no_extra_space" xml:space="preserve">
     <value>Datamigrering vil bruke "harde lenker". Ingen ekstra diskplass vil bli brukt, og du kan slette begge datamappene når som helst uten å påvirke den andre installasjonen.</value>

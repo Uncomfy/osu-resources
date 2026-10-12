@@ -148,11 +148,17 @@
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>過激表現を含む</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>評価が無効です。</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>ディスカッション</value>
   </data>
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>フルサイズのカバー画像を表示</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>管理ページを表示</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>このビートマップは削除されました。</value>
@@ -271,6 +277,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>オンラインオフセット</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>ビートマップパック</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>失敗地点</value>
   </data>
@@ -283,11 +292,26 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>クリア率</value>
   </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0}回中 {1}回クリア|{0}回中 {1}回クリア</value>
+  </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>ユーザータグ</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>このビートマップには動画が含まれています</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Lazerのみ</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>特殊な仕様が含まれているため、このビートマップはosu!lazerでのみプレイ可能です。</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} をクリックして、この譜面で記録されたスコアを表示します。</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Lazer モードの有効化</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>このビートマップには過激な表現、攻撃的、または不穏なコンテンツが含まれています。それでも表示しますか？</value>
@@ -435,6 +459,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>プレイ数</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>お気に入り</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>お気に入りはまだありません</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Ranked</value>

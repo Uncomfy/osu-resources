@@ -106,4 +106,16 @@
   <data name="offset_wizard" xml:space="preserve">
     <value>Asistente de compensación</value>
   </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Ajustar compensación del mapa automáticamente</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Si se activa, la compensación sugerida de la última jugada en un mapa se aplica automáticamente.</value>
+  </data>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Usar modo de audio heredado</value>
+  </data>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Utilice esto si está experimentando problemas de audio. Tenga en cuenta que la latencia de audio será mayor cuando esté activada.</value>
+  </data>
 </root>
