@@ -1,3 +1,6 @@
+#ifndef COLOURED_DIMMABLE_TEXTURE_FS
+#define COLOURED_DIMMABLE_TEXTURE_FS
+
 #include "sh_Utils.h"
 #include "sh_Masking.h"
 #include "sh_TextureWrapping.h"
@@ -22,3 +25,5 @@ void main(void)
     texel.rgb += m_ColourOffset.rgb;
     o_Colour = applyRounding(texel, wrappedCoord);
 }
+
+#endif
